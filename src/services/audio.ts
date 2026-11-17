@@ -1,6 +1,5 @@
 // Lecture des voix. Les fichiers enregistrés sont toujours prioritaires.
-// Brouillon : le français peut être dit par la voix du navigateur. Le derja n'est JAMAIS synthétisé :
-// s'il manque, on le signale seulement à l'accompagnante.
+// Brouillon : le français peut être dit par la voix du navigateur. Le derja n'est JAMAIS synthétisé.
 
 const base = import.meta.env.BASE_URL;
 let fichiers: Record<string, string> = {};
@@ -20,16 +19,13 @@ export function aAudio(id: string): boolean {
   return id in fichiers;
 }
 
-/** Vrai tant qu'aucune voix derja n'a été enregistrée : l'application est alors en mode brouillon. */
 export function modeBrouillon(): boolean {
   return !Object.keys(fichiers).some((k) => k.startsWith('aeb/'));
 }
 
 export interface OptionsLecture {
-  /** Texte français pour la voix de secours (brouillon). */
   texteFr?: string;
   lent?: boolean;
-  /** Intention en français, affichée à l'accompagnante si la voix derja manque. */
   intention?: string;
 }
 
@@ -37,8 +33,10 @@ export type ResultatLecture = 'fichier' | 'synthese' | 'manquant';
 
 let courant: HTMLAudioElement | undefined;
 let finirCourant: (() => void) | undefined;
+let jetonLecture = 0;
 
 export function arreter(): void {
+  jetonLecture += 1;
   courant?.pause();
   courant = undefined;
   if ('speechSynthesis' in window) window.speechSynthesis.cancel();
@@ -48,17 +46,23 @@ export function arreter(): void {
 }
 
 export function jouer(id: string, options: OptionsLecture = {}): Promise<ResultatLecture> {
+  // Une nouvelle lecture remplace systématiquement l'ancienne, quel que soit son support.
+  arreter();
+  const jeton = jetonLecture;
   const chemin = fichiers[id];
   if (chemin) {
     return new Promise((resolve) => {
       const a = new Audio(`${base}${chemin}`);
       courant = a;
+      let termine = false;
       const fin = (r: ResultatLecture) => () => {
+        if (termine) return;
+        termine = true;
         if (courant === a) courant = undefined;
-        finirCourant = undefined;
+        if (jeton === jetonLecture) finirCourant = undefined;
         resolve(r);
       };
-      finirCourant = fin('fichier');
+      finirCourant = fin('manquant');
       a.onended = fin('fichier');
       a.onerror = fin('manquant');
       a.play().catch(fin('manquant'));
@@ -69,8 +73,11 @@ export function jouer(id: string, options: OptionsLecture = {}): Promise<Resulta
       const u = new SpeechSynthesisUtterance(options.texteFr);
       u.lang = 'fr-FR';
       u.rate = options.lent ? 0.6 : 0.95;
+      let termine = false;
       const fin = () => {
-        finirCourant = undefined;
+        if (termine) return;
+        termine = true;
+        if (jeton === jetonLecture) finirCourant = undefined;
         resolve('synthese');
       };
       finirCourant = fin;
@@ -83,9 +90,9 @@ export function jouer(id: string, options: OptionsLecture = {}): Promise<Resulta
   return Promise.resolve('manquant');
 }
 
-/** Joue plusieurs voix l'une après l'autre. S'arrête si la lecture est interrompue. */
 export async function jouerSuite(elements: { id: string; options?: OptionsLecture }[]): Promise<void> {
   for (const e of elements) {
-    await jouer(e.id, e.options);
+    const resultat = await jouer(e.id, e.options);
+    if (resultat === 'manquant') break;
   }
 }
