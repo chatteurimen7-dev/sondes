@@ -171,7 +171,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -180,7 +180,7 @@
           "texte": "Bonjour. Vous allez où ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bus-va-gare"
         },
         {
@@ -188,7 +188,7 @@
           "itemId": "bus-oui-montez"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bus-oui-montez"
         },
         {
@@ -196,7 +196,7 @@
           "itemId": "bus-valider"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bus-valider"
         },
         {
@@ -204,7 +204,7 @@
           "itemId": "bus-prochain-arret"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bus-prochain-arret"
         }
       ]
@@ -224,11 +224,11 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bus-va-gare"
         },
         {
@@ -237,7 +237,7 @@
           "texte": "Non, pas celui-là : pour la gare, il vous faut le numéro douze, il s'arrête à l'arrêt juste en face, de l'autre côté de la rue."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -250,7 +250,7 @@
           "texte": "Pas ce bus. Le bus douze, en face."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "merci"
         },
         {
@@ -258,7 +258,7 @@
           "itemId": "bus-prochain-arret"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bus-prochain-arret"
         }
       ]

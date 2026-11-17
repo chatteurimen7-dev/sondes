@@ -174,7 +174,7 @@
           "texte": "Cabinet du docteur, bonjour, je vous écoute."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "rdv-voudrais-rdv"
         },
         {
@@ -182,7 +182,7 @@
           "itemId": "rdv-quel-jour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "rdv-quel-jour"
         },
         {
@@ -190,7 +190,7 @@
           "itemId": "rdv-quelle-heure"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "rdv-quelle-heure"
         },
         {
@@ -198,7 +198,7 @@
           "itemId": "rdv-nom-rdv"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "rdv-nom-rdv"
         },
         {
@@ -206,7 +206,7 @@
           "itemId": "rdv-confirmation"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "rdv-confirmation"
         }
       ]
@@ -227,7 +227,7 @@
           "texte": "Cabinet du docteur, bonjour, je vous écoute."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "rdv-voudrais-rdv"
         },
         {
@@ -235,7 +235,7 @@
           "itemId": "rdv-quel-jour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "rdv-quel-jour"
         },
         {
@@ -244,7 +244,7 @@
           "texte": "Ah, lundi, c'est complet. Je peux vous proposer mardi à huit heures trente, ou jeudi en fin d'après-midi, vers dix-sept heures."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -256,7 +256,7 @@
           "itemId": "rdv-demain-possible"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "rdv-demain-possible"
         },
         {
@@ -264,7 +264,7 @@
           "itemId": "rdv-confirmation"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "rdv-confirmation"
         }
       ]

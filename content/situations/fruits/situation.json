@@ -179,7 +179,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -187,7 +187,7 @@
           "itemId": "fruits-qu-est-ce"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "fruits-pommes",
             "fruits-bananes",
@@ -201,7 +201,7 @@
           "texte": "Et vous en voulez combien ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "fruits-un-kilo",
             "fruits-demi-kilo"
@@ -212,7 +212,7 @@
           "itemId": "fruits-autre-chose"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "fruits-autre-chose"
         },
         {
@@ -220,7 +220,7 @@
           "itemId": "prix-deux-euros"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "prix-deux-euros"
         }
       ]
@@ -240,7 +240,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -249,7 +249,7 @@
           "texte": "Aujourd'hui, les tomates sont en promotion, deux euros le kilo, mais il n'y a plus de carottes, je suis désolée."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -262,7 +262,7 @@
           "texte": "Des tomates, deux euros le kilo. Vous en voulez ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "fruits-tomates"
         },
         {
@@ -271,7 +271,7 @@
           "texte": "Et vous en voulez combien ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "fruits-un-kilo",
             "fruits-demi-kilo"
@@ -282,7 +282,7 @@
           "itemId": "fruits-autre-chose"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "fruits-autre-chose"
         }
       ]

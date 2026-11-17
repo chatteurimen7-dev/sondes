@@ -151,7 +151,7 @@
           "texte": "Excusez-moi, le bus pour le centre-ville ? Il passe toutes les dix minutes, mais le dimanche, il passe seulement toutes les vingt minutes."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement"
@@ -162,7 +162,7 @@
           "itemId": "conversation-bus-dix"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "conversation-bus-dix"
         },
         {
@@ -170,7 +170,7 @@
           "itemId": "conversation-boulangerie-sept"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "conversation-boulangerie-sept"
         },
         {
@@ -178,7 +178,7 @@
           "itemId": "conversation-ferme-dimanche"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "conversation-ferme-dimanche"
         }
       ]
@@ -199,7 +199,7 @@
           "texte": "Allô ? Oui, le docteur n'est pas là cette semaine, mais le docteur Martin le remplace, du lundi au jeudi, de neuf heures à midi."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -211,7 +211,7 @@
           "itemId": "conversation-medecin-absent"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "conversation-medecin-absent"
         },
         {
@@ -219,7 +219,7 @@
           "itemId": "conversation-reunion-mardi"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "conversation-reunion-mardi"
         },
         {
@@ -227,7 +227,7 @@
           "itemId": "conversation-colis-arrive"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "conversation-colis-arrive"
         }
       ]

@@ -159,7 +159,7 @@
       "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (des appels téléphoniques courts à la maison) en français.",
       "dialogue": [
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "telephone-allo"
         },
         {
@@ -167,7 +167,7 @@
           "itemId": "telephone-de-la-part"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "telephone-de-la-part"
         },
         {
@@ -175,7 +175,7 @@
           "itemId": "telephone-ne-quittez-pas"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "telephone-ne-quittez-pas"
         },
         {
@@ -183,7 +183,7 @@
           "itemId": "telephone-au-revoir-tel"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "telephone-au-revoir-tel"
         }
       ]
@@ -199,7 +199,7 @@
       "missionIntention": "Proposer, sans obligation, une petite mission : répondre à un appel court avec « allô » puis demander à la personne de répéter si besoin.",
       "dialogue": [
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "telephone-allo"
         },
         {
@@ -208,7 +208,7 @@
           "texte": "Bonjour, c'est la mairie, je vous appelle pour le dossier que vous avez déposé, il manque un document, vous pouvez le rapporter avant vendredi ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -220,7 +220,7 @@
           "itemId": "telephone-repeter-tel"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "telephone-repeter-tel"
         },
         {
@@ -228,7 +228,7 @@
           "itemId": "telephone-rappeler"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "telephone-rappeler"
         },
         {
@@ -236,7 +236,7 @@
           "itemId": "telephone-au-revoir-tel"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "telephone-au-revoir-tel"
         }
       ]

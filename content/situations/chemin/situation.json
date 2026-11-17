@@ -162,7 +162,7 @@
       "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (une rue en ville où l'on cherche une adresse) en français.",
       "dialogue": [
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "chemin-excusez-ou"
         },
         {
@@ -170,7 +170,7 @@
           "itemId": "chemin-tout-droit"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "chemin-tout-droit"
         },
         {
@@ -178,7 +178,7 @@
           "itemId": "chemin-a-gauche"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "chemin-a-gauche"
         },
         {
@@ -186,7 +186,7 @@
           "itemId": "chemin-cinq-minutes"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "chemin-cinq-minutes"
         }
       ]
@@ -202,7 +202,7 @@
       "missionIntention": "Proposer, sans obligation, une petite mission : demander son chemin à une personne dans la rue, pour un endroit proche.",
       "dialogue": [
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "chemin-excusez-ou"
         },
         {
@@ -211,7 +211,7 @@
           "texte": "Alors, vous allez tout droit jusqu'au feu, vous tournez à droite, puis vous prenez la deuxième rue à gauche, et la gare est juste après la pharmacie."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -223,7 +223,7 @@
           "itemId": "chemin-tout-droit"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "chemin-tout-droit"
         },
         {
@@ -231,7 +231,7 @@
           "itemId": "chemin-a-droite"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "chemin-a-droite"
         },
         {
@@ -239,7 +239,7 @@
           "itemId": "chemin-en-face"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "chemin-en-face"
         }
       ]

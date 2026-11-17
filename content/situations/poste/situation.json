@@ -166,11 +166,11 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "poste-colis"
         },
         {
@@ -178,7 +178,7 @@
           "itemId": "poste-pour-quel-pays"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "poste-pour-quel-pays"
         },
         {
@@ -186,7 +186,7 @@
           "itemId": "poste-balance"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "poste-balance"
         },
         {
@@ -194,7 +194,7 @@
           "itemId": "poste-combien-colis"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "poste-combien-colis"
         }
       ]
@@ -214,11 +214,11 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "poste-lettre"
         },
         {
@@ -227,7 +227,7 @@
           "texte": "Pour une lettre simple, vous pouvez directement la mettre dans la boîte jaune dehors, mais il faut un timbre, et ici, je peux vous en vendre un, ou un carnet de dix."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -235,7 +235,7 @@
           ]
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "poste-timbre"
         },
         {
@@ -243,7 +243,7 @@
           "itemId": "poste-combien-colis"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "poste-combien-colis"
         },
         {
@@ -251,7 +251,7 @@
           "itemId": "poste-suivi"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "poste-suivi"
         }
       ]

@@ -155,7 +155,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -164,7 +164,7 @@
           "texte": "Bonjour, je peux vous renseigner ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "renseignement-ou-accueil"
         },
         {
@@ -172,7 +172,7 @@
           "itemId": "renseignement-au-guichet"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "renseignement-au-guichet"
         },
         {
@@ -180,7 +180,7 @@
           "itemId": "renseignement-patienter"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "renseignement-patienter"
         }
       ]
@@ -200,11 +200,11 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "renseignement-heure-ouvre"
         },
         {
@@ -213,7 +213,7 @@
           "texte": "Alors, le lundi, nous ouvrons à neuf heures, mais le mercredi, c'est à dix heures, et le samedi, nous sommes ouverts uniquement le matin, jusqu'à midi."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -226,7 +226,7 @@
           "texte": "Lundi, neuf heures. Mercredi, dix heures. Samedi, le matin seulement."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "renseignement-ouvert-samedi"
         },
         {
@@ -234,7 +234,7 @@
           "itemId": "renseignement-patienter"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "renseignement-patienter"
         }
       ]

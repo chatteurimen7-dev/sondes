@@ -147,7 +147,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -156,7 +156,7 @@
           "texte": "Vous cherchez la mairie ? Il faut aller tout droit, puis tourner au deuxième feu."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "comprendre-ne-comprends-pas"
         },
         {
@@ -164,7 +164,7 @@
           "itemId": "comprendre-autrement"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "comprendre-autrement"
         },
         {
@@ -172,7 +172,7 @@
           "itemId": "comprendre-montrer"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "comprendre-montrer"
         },
         {
@@ -180,7 +180,7 @@
           "itemId": "comprendre-pas-grave"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "comprendre-pas-grave"
         }
       ]
@@ -200,7 +200,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -208,7 +208,7 @@
           "itemId": "comprendre-comprends-un-peu"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "comprendre-comprends-un-peu"
         },
         {
@@ -217,7 +217,7 @@
           "texte": "D'accord, alors je vais vous dire : il faut remplir ce formulaire, le signer, et l'amener au guichet numéro deux avant midi."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -229,7 +229,7 @@
           "itemId": "comprendre-appeler"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "comprendre-appeler"
         },
         {
@@ -237,7 +237,7 @@
           "itemId": "comprendre-pas-grave"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "comprendre-pas-grave"
         }
       ]

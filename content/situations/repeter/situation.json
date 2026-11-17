@@ -145,7 +145,7 @@
           "texte": "Excusez-moi, pour aller à la mairie, vous prenez la première à droite, puis la deuxième à gauche, après le feu."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "repetez"
         },
         {
@@ -154,7 +154,7 @@
           "texte": "Je dis : la première à droite, puis la deuxième à gauche."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "plus-lentement"
         },
         {
@@ -162,7 +162,7 @@
           "itemId": "repeter-plus-lent"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "repeter-plus-lent"
         },
         {
@@ -170,7 +170,7 @@
           "itemId": "repeter-vous-comprenez"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "repeter-vous-comprenez"
         }
       ]
@@ -191,7 +191,7 @@
           "texte": "Alors pour le rendez-vous, il faut venir mercredi à neuf heures trente avec votre carte d'identité."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -203,7 +203,7 @@
           "itemId": "repeter-encore-fois"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "repeter-encore-fois"
         },
         {
@@ -211,7 +211,7 @@
           "itemId": "repeter-vous-comprenez"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "repeter-vous-comprenez"
         },
         {
@@ -219,7 +219,7 @@
           "itemId": "repeter-merci-patience"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "repeter-merci-patience"
         }
       ]
