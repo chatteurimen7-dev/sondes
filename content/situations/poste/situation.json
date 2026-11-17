@@ -1,0 +1,260 @@
+{
+  "id": "poste",
+  "ordre": 15,
+  "type": "parcours",
+  "univers": "services",
+  "titreInterne": "Aller à la poste",
+  "contexte": "un bureau de poste",
+  "objectif": "envoyer une lettre ou un colis, acheter un timbre et payer",
+  "mission": "Aller à la poste pour acheter un timbre ou envoyer une lettre.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "poste-timbre",
+      "entend": "Je voudrais un timbre, s'il vous plaît.",
+      "dit": "Je voudrais un timbre, s'il vous plaît",
+      "acceptees": [
+        "je voudrais un timbre s il vous plait",
+        "je voudrais un timbre",
+        "un timbre",
+        "timbre"
+      ],
+      "image": "poste-timbre",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je voudrais un timbre, s'il vous plaît. » : demander un timbre."
+    },
+    {
+      "id": "poste-lettre",
+      "entend": "Je voudrais envoyer cette lettre.",
+      "dit": "Je voudrais envoyer cette lettre",
+      "acceptees": [
+        "je voudrais envoyer cette lettre",
+        "envoyer cette lettre",
+        "cette lettre",
+        "je voudrais envoyer une lettre"
+      ],
+      "image": "poste-lettre",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je voudrais envoyer cette lettre. » : dire que l'on veut envoyer une lettre."
+    },
+    {
+      "id": "poste-colis",
+      "entend": "Je voudrais envoyer ce colis.",
+      "dit": "Je voudrais envoyer ce colis",
+      "acceptees": [
+        "je voudrais envoyer ce colis",
+        "envoyer ce colis",
+        "ce colis",
+        "je voudrais envoyer un colis"
+      ],
+      "image": "poste-colis",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je voudrais envoyer ce colis. » : dire que l'on veut envoyer un colis."
+    },
+    {
+      "id": "poste-pour-quel-pays",
+      "entend": "C'est pour quel pays ?",
+      "dit": "Pour la Tunisie",
+      "acceptees": [
+        "pour la tunisie",
+        "la tunisie",
+        "tunisie",
+        "pour la france",
+        "la france"
+      ],
+      "image": "poste-pour-quel-pays",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est pour quel pays ? » : l'employée demande le pays de destination."
+    },
+    {
+      "id": "poste-balance",
+      "entend": "Posez le colis sur la balance, s'il vous plaît.",
+      "dit": "D'accord",
+      "acceptees": [
+        "d accord",
+        "oui",
+        "ok"
+      ],
+      "image": "poste-balance",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Posez le colis sur la balance, s'il vous plaît. » : l'employée demande de poser le colis sur la balance."
+    },
+    {
+      "id": "poste-combien-colis",
+      "entend": "Ça fait dix-huit euros.",
+      "dit": "D'accord, voilà",
+      "acceptees": [
+        "d accord voila",
+        "d accord",
+        "voila"
+      ],
+      "image": "poste-combien-colis",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ça fait dix-huit euros. » : l'employée annonce le prix de l'envoi."
+    },
+    {
+      "id": "poste-suivi",
+      "entend": "Vous voulez un suivi ?",
+      "dit": "Oui, s'il vous plaît",
+      "acceptees": [
+        "oui s il vous plait",
+        "oui",
+        "non merci",
+        "non"
+      ],
+      "image": "poste-suivi",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous voulez un suivi ? » : l'employée propose un numéro de suivi du colis."
+    },
+    {
+      "id": "poste-ticket-attente",
+      "entend": "Prenez un ticket et attendez votre tour.",
+      "dit": "D'accord, merci",
+      "acceptees": [
+        "d accord merci",
+        "d accord",
+        "merci"
+      ],
+      "image": "poste-ticket-attente",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Prenez un ticket et attendez votre tour. » : l'employée dit de prendre un ticket d'attente."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "poste-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "poste-scene",
+      "items": [
+        "poste-timbre",
+        "poste-lettre",
+        "poste-colis"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un bureau de poste : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un bureau de poste."
+    },
+    {
+      "id": "poste-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "poste-scene",
+      "items": [
+        "poste-pour-quel-pays",
+        "poste-balance",
+        "poste-combien-colis"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un bureau de poste : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un bureau de poste."
+    },
+    {
+      "id": "poste-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "poste-scene",
+      "items": [
+        "poste-suivi",
+        "poste-ticket-attente"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un bureau de poste : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un bureau de poste."
+    },
+    {
+      "id": "poste-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "poste-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour un bureau de poste, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (un bureau de poste) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "poste-colis"
+        },
+        {
+          "qui": "autre",
+          "itemId": "poste-pour-quel-pays"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "poste-pour-quel-pays"
+        },
+        {
+          "qui": "autre",
+          "itemId": "poste-balance"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "poste-balance"
+        },
+        {
+          "qui": "autre",
+          "itemId": "poste-combien-colis"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "poste-combien-colis"
+        }
+      ]
+    },
+    {
+      "id": "poste-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "poste-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (un bureau de poste).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : aller à la poste pour acheter un timbre ou envoyer une lettre.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "poste-lettre"
+        },
+        {
+          "qui": "autre",
+          "id": "poste-poste-longue",
+          "texte": "Pour une lettre simple, vous pouvez directement la mettre dans la boîte jaune dehors, mais il faut un timbre, et ici, je peux vous en vendre un, ou un carnet de dix."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "soundes",
+          "itemId": "poste-timbre"
+        },
+        {
+          "qui": "autre",
+          "itemId": "poste-combien-colis"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "poste-combien-colis"
+        },
+        {
+          "qui": "autre",
+          "itemId": "poste-suivi"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "poste-suivi"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "derja": [
+    {
+      "id": "bienvenue",
+      "intention": "Accueillir Sondes chaleureusement, dire bonjour, et expliquer en deux phrases que l'application parle et écoute."
+    },
+    {
+      "id": "rien-n-est-note",
+      "intention": "Rassurer : rien n'est noté, personne n'écoute ses essais, elle peut recommencer autant de fois qu'elle veut."
+    },
+    {
+      "id": "test-son",
+      "intention": "Demander si elle entend bien le son qui va être joué, et lui dire de toucher « j'entends » ou « je n'entends pas bien »."
+    },
+    {
+      "id": "son-probleme",
+      "intention": "Si elle n'entend pas bien : lui dire d'appeler l'accompagnante pour régler le volume."
+    },
+    {
+      "id": "association-consigne",
+      "intention": "Dire qu'elle va entendre un mot en français, et qu'elle touche l'image qui correspond."
+    },
+    {
+      "id": "connait-consigne",
+      "intention": "Dire qu'elle va entendre un mot, et qu'elle touche « oui » si elle le connaît, « pas encore » sinon. Il n'y a pas de mauvaise réponse."
+    },
+    {
+      "id": "micro-explication",
+      "intention": "Expliquer que le micro ne s'allume que lorsqu'elle appuie sur le bouton, que l'enregistrement n'est pas gardé, et qu'elle peut passer cette étape."
+    },
+    {
+      "id": "essai-oral",
+      "intention": "L'inviter à essayer de dire « bonjour » quand elle veut."
+    },
+    {
+      "id": "situations-consigne",
+      "intention": "Lui demander de toucher les images des situations qui lui servent le plus en ce moment."
+    },
+    {
+      "id": "fin-decouverte",
+      "intention": "La remercier, dire que c'est fini pour aujourd'hui et que la prochaine fois on commence la première situation."
+    },
+    {
+      "id": "ecoute-encore",
+      "intention": "Proposer de réécouter ensemble, sans reproche."
+    },
+    {
+      "id": "presque",
+      "intention": "Dire qu'on y est presque et proposer d'essayer encore."
+    },
+    {
+      "id": "recommence",
+      "intention": "Dire qu'elle peut recommencer autant de fois qu'elle veut."
+    },
+    {
+      "id": "bravo-1",
+      "intention": "Encourager après une réussite, formulation 1, ton d'adulte, sans excès."
+    },
+    {
+      "id": "bravo-2",
+      "intention": "Encourager après une réussite, formulation 2, ton d'adulte, sans excès."
+    },
+    {
+      "id": "bravo-3",
+      "intention": "Encourager après une réussite, formulation 3, ton d'adulte, sans excès."
+    },
+    {
+      "id": "suite",
+      "intention": "Dire qu'on passe à la suite."
+    },
+    {
+      "id": "fin-seance-1",
+      "intention": "Féliciter pour la séance terminée, formulation 1."
+    },
+    {
+      "id": "fin-seance-2",
+      "intention": "Féliciter pour la séance terminée, formulation 2."
+    },
+    {
+      "id": "fin-seance-3",
+      "intention": "Féliciter pour la séance terminée, formulation 3."
+    },
+    {
+      "id": "consigne-revision",
+      "intention": "Dire qu'on va revoir ensemble quelques phrases déjà rencontrées."
+    },
+    {
+      "id": "probleme-explication",
+      "intention": "Expliquer ce qu'elle peut faire si quelque chose ne marche pas et lui dire d'appeler l'accompagnante."
+    },
+    {
+      "id": "probleme-micro",
+      "intention": "Dire que le micro ne répond pas, que ce n'est pas de sa faute, et qu'on continue sans micro."
+    },
+    {
+      "id": "probleme-son",
+      "intention": "Dire qu'on n'entend pas bien et d'appeler l'accompagnante."
+    },
+    {
+      "id": "porte-confirmer",
+      "intention": "Demander si elle veut montrer ses progrès à quelqu'un, et expliquer qu'elle doit maintenir le bouton deux secondes pour dire oui."
+    },
+    {
+      "id": "mission-ressenti",
+      "intention": "Demander comment s'est passée la mission, avec trois images : facile, moyen, difficile."
+    },
+    {
+      "id": "confirmer-suppression",
+      "intention": "Demander si elle veut vraiment effacer toutes ses données, expliquer qu'on ne pourra pas les retrouver sans sauvegarde."
+    },
+    {
+      "id": "donnees-effacees",
+      "intention": "Dire que ses données sont effacées."
+    },
+    {
+      "id": "sauvegarde-restauree",
+      "intention": "Dire que ses progrès ont été retrouvés."
+    },
+    {
+      "id": "lib-ecouter",
+      "intention": "Nom du bouton : écouter."
+    },
+    {
+      "id": "lib-lent",
+      "intention": "Nom du bouton : écouter plus lentement."
+    },
+    {
+      "id": "lib-micro",
+      "intention": "Nom du bouton : parler, appuyer pour dire la phrase."
+    },
+    {
+      "id": "lib-s-entendre",
+      "intention": "Nom du bouton : écouter ma voix."
+    },
+    {
+      "id": "lib-suivant",
+      "intention": "Nom du bouton : continuer, passer à la suite."
+    },
+    {
+      "id": "lib-revoir",
+      "intention": "Nom du bouton : revoir ce que j'ai déjà appris."
+    },
+    {
+      "id": "lib-collection",
+      "intention": "Nom du bouton : mes images, ce que j'ai déjà appris."
+    },
+    {
+      "id": "lib-porte",
+      "intention": "Nom du bouton : montrer mes progrès à quelqu'un."
+    },
+    {
+      "id": "lib-probleme",
+      "intention": "Nom du bouton : j'ai un problème."
+    },
+    {
+      "id": "lib-voir-mot",
+      "intention": "Nom du bouton : voir le mot écrit."
+    },
+    {
+      "id": "lib-oui",
+      "intention": "Nom du bouton : oui."
+    },
+    {
+      "id": "lib-pas-encore",
+      "intention": "Nom du bouton : pas encore."
+    },
+    {
+      "id": "lib-j-entends",
+      "intention": "Nom du bouton : j'entends bien."
+    },
+    {
+      "id": "lib-j-entends-pas",
+      "intention": "Nom du bouton : je n'entends pas bien."
+    },
+    {
+      "id": "lib-facile",
+      "intention": "Nom du bouton : c'était facile."
+    },
+    {
+      "id": "lib-moyen",
+      "intention": "Nom du bouton : c'était moyen."
+    },
+    {
+      "id": "lib-difficile",
+      "intention": "Nom du bouton : c'était difficile."
+    },
+    {
+      "id": "lib-commencer",
+      "intention": "Nom du bouton : commencer la séance du jour."
+    },
+    {
+      "id": "lib-non",
+      "intention": "Nom du bouton : non."
+    },
+    {
+      "id": "lib-sons",
+      "intention": "Nom du bouton : l'atelier des sons, pour écouter la différence entre des sons qui se ressemblent."
+    },
+    {
+      "id": "sons-consigne",
+      "intention": "Dire à Sondes qu'ici, on écoute des mots qui se ressemblent, et qu'elle choisit une paire d'images pour commencer."
+    }
+  ]
+}

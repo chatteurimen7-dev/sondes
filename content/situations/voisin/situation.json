@@ -1,0 +1,283 @@
+{
+  "id": "voisin",
+  "ordre": 6,
+  "type": "parcours",
+  "univers": "maison",
+  "titreInterne": "Parler avec un voisin",
+  "contexte": "une conversation légère avec un voisin dans l'immeuble",
+  "objectif": "échanger quelques phrases sur le temps, l'immeuble et la journée",
+  "mission": "Échanger quelques mots sur le temps avec un voisin ou une voisine.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "voisin-il-fait-beau",
+      "entend": "Il fait beau aujourd'hui, non ?",
+      "dit": "Oui, il fait beau",
+      "acceptees": [
+        "oui il fait beau",
+        "il fait beau",
+        "oui"
+      ],
+      "image": "voisin-il-fait-beau",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Il fait beau aujourd'hui, non ? » : le voisin parle du beau temps."
+    },
+    {
+      "id": "voisin-il-pleut",
+      "entend": "Il pleut beaucoup, hein ?",
+      "dit": "Oui, il pleut",
+      "acceptees": [
+        "oui il pleut",
+        "il pleut",
+        "oui",
+        "beaucoup"
+      ],
+      "image": "voisin-il-pleut",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Il pleut beaucoup, hein ? » : le voisin parle de la pluie."
+    },
+    {
+      "id": "voisin-il-fait-froid",
+      "entend": "Il fait froid ce matin.",
+      "dit": "Oui, il fait froid",
+      "acceptees": [
+        "oui il fait froid",
+        "il fait froid",
+        "oui",
+        "froid"
+      ],
+      "image": "voisin-il-fait-froid",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Il fait froid ce matin. » : le voisin dit qu'il fait froid."
+    },
+    {
+      "id": "voisin-vous-habitez-ici",
+      "entend": "Vous habitez ici depuis longtemps ?",
+      "dit": "J'habite ici depuis un mois",
+      "acceptees": [
+        "j habite ici depuis un mois",
+        "depuis un mois",
+        "depuis une semaine",
+        "depuis peu",
+        "j habite ici",
+        "depuis deux mois"
+      ],
+      "image": "voisin-vous-habitez-ici",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous habitez ici depuis longtemps ? » : le voisin demande depuis combien de temps vous habitez là."
+    },
+    {
+      "id": "voisin-quel-etage",
+      "entend": "Vous êtes à quel étage ?",
+      "dit": "Je suis au deuxième étage",
+      "acceptees": [
+        "je suis au deuxieme etage",
+        "au deuxieme etage",
+        "au premier etage",
+        "au troisieme etage",
+        "au deuxieme",
+        "au premier",
+        "au troisieme"
+      ],
+      "image": "voisin-quel-etage",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous êtes à quel étage ? » : le voisin demande à quel étage vous habitez."
+    },
+    {
+      "id": "voisin-ca-se-passe-bien",
+      "entend": "Ça se passe bien dans l'immeuble ?",
+      "dit": "Oui, très bien, merci",
+      "acceptees": [
+        "oui tres bien merci",
+        "oui tres bien",
+        "tres bien",
+        "oui",
+        "ca va bien"
+      ],
+      "image": "voisin-ca-se-passe-bien",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ça se passe bien dans l'immeuble ? » : le voisin demande si tout va bien dans l'immeuble."
+    },
+    {
+      "id": "voisin-ascenseur",
+      "entend": "L'ascenseur ne marche pas aujourd'hui.",
+      "dit": "Ah, d'accord, merci",
+      "acceptees": [
+        "ah d accord merci",
+        "d accord",
+        "merci",
+        "ah d accord"
+      ],
+      "image": "voisin-ascenseur",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « L'ascenseur ne marche pas aujourd'hui. » : le voisin prévient que l'ascenseur est en panne."
+    },
+    {
+      "id": "voisin-bonne-soiree",
+      "entend": "Bonne soirée !",
+      "dit": "Bonne soirée, à demain",
+      "acceptees": [
+        "bonne soiree a demain",
+        "bonne soiree",
+        "vous aussi",
+        "a demain"
+      ],
+      "image": "voisin-bonne-soiree",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Bonne soirée ! » : on se souhaite une bonne soirée en se quittant."
+    },
+    {
+      "id": "voisin-a-bientot",
+      "entend": "À bientôt !",
+      "dit": "À bientôt",
+      "acceptees": [
+        "a bientot",
+        "a bientot au revoir"
+      ],
+      "image": "voisin-a-bientot",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « À bientôt ! » : on se dit à bientôt."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "voisin-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "voisin-scene",
+      "items": [
+        "voisin-il-fait-beau",
+        "voisin-il-pleut",
+        "voisin-il-fait-froid"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une conversation légère avec un voisin dans l'immeuble : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une conversation légère avec un voisin dans l'immeuble."
+    },
+    {
+      "id": "voisin-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "voisin-scene",
+      "items": [
+        "voisin-vous-habitez-ici",
+        "voisin-quel-etage",
+        "voisin-ca-se-passe-bien"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une conversation légère avec un voisin dans l'immeuble : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une conversation légère avec un voisin dans l'immeuble."
+    },
+    {
+      "id": "voisin-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "voisin-scene",
+      "items": [
+        "voisin-ascenseur",
+        "voisin-bonne-soiree",
+        "voisin-a-bientot"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une conversation légère avec un voisin dans l'immeuble : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une conversation légère avec un voisin dans l'immeuble."
+    },
+    {
+      "id": "voisin-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "voisin-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour une conversation légère avec un voisin dans l'immeuble, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (une conversation légère avec un voisin dans l'immeuble) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "itemId": "voisin-il-fait-beau"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "voisin-il-fait-beau"
+        },
+        {
+          "qui": "autre",
+          "itemId": "voisin-vous-habitez-ici"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "voisin-vous-habitez-ici"
+        },
+        {
+          "qui": "autre",
+          "itemId": "voisin-quel-etage"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "voisin-quel-etage"
+        },
+        {
+          "qui": "autre",
+          "itemId": "voisin-bonne-soiree"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "voisin-bonne-soiree"
+        }
+      ]
+    },
+    {
+      "id": "voisin-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "voisin-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (une conversation légère avec un voisin dans l'immeuble).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : échanger quelques mots sur le temps avec un voisin ou une voisine.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "id": "voisin-ascenseur-long",
+          "texte": "Ah, vous tombez bien : l'ascenseur est en panne depuis ce matin, il faut prendre l'escalier, et il y a des travaux au deuxième."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "voisin-ascenseur"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "voisin-ascenseur"
+        },
+        {
+          "qui": "autre",
+          "itemId": "voisin-ca-se-passe-bien"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "voisin-ca-se-passe-bien"
+        },
+        {
+          "qui": "autre",
+          "itemId": "voisin-a-bientot"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "voisin-a-bientot"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "comprendre",
+  "ordre": 17,
+  "type": "parcours",
+  "univers": "echanges",
+  "titreInterne": "Expliquer qu'on ne comprend pas",
+  "contexte": "des échanges où l'on explique qu'on est en train d'apprendre le français",
+  "objectif": "dire que l'on ne comprend pas, que l'on comprend un peu, et demander une autre façon de dire",
+  "mission": "Dire à une personne « je ne comprends pas » ou « je comprends un peu » dans une vraie situation.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "comprendre-ne-comprends-pas",
+      "entend": "Vous comprenez ?",
+      "dit": "Je ne comprends pas",
+      "acceptees": [
+        "je ne comprends pas",
+        "je comprends pas"
+      ],
+      "image": "comprendre-ne-comprends-pas",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous comprenez ? » : dire à quelqu'un que vous ne comprenez pas."
+    },
+    {
+      "id": "comprendre-comprends-un-peu",
+      "entend": "Vous parlez français ?",
+      "dit": "Je comprends un peu, mais pas tout",
+      "acceptees": [
+        "je comprends un peu mais pas tout",
+        "je comprends un peu",
+        "un peu"
+      ],
+      "image": "comprendre-comprends-un-peu",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous parlez français ? » : dire que vous comprenez un peu mais pas tout."
+    },
+    {
+      "id": "comprendre-apprends-francais",
+      "entend": "Vous êtes d'ici ?",
+      "dit": "Non, j'apprends le français",
+      "acceptees": [
+        "non j apprends le francais",
+        "j apprends le francais",
+        "non",
+        "j apprends"
+      ],
+      "image": "comprendre-apprends-francais",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous êtes d'ici ? » : dire que vous n'êtes pas d'ici et que vous apprenez le français."
+    },
+    {
+      "id": "comprendre-montrer",
+      "entend": "Vous cherchez quelque chose ?",
+      "dit": "Vous pouvez me montrer, s'il vous plaît ?",
+      "acceptees": [
+        "vous pouvez me montrer s il vous plait",
+        "vous pouvez me montrer",
+        "montrer",
+        "pouvez vous me montrer"
+      ],
+      "image": "comprendre-montrer",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous cherchez quelque chose ? » : demander à la personne de montrer au lieu d'expliquer."
+    },
+    {
+      "id": "comprendre-autrement",
+      "entend": "C'est un peu compliqué, je vous explique.",
+      "dit": "Vous pouvez dire autrement ?",
+      "acceptees": [
+        "vous pouvez dire autrement",
+        "dire autrement",
+        "autrement"
+      ],
+      "image": "comprendre-autrement",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est un peu compliqué, je vous explique. » : demander une autre façon de dire la même chose."
+    },
+    {
+      "id": "comprendre-appeler",
+      "entend": "Je ne sais pas comment vous expliquer.",
+      "dit": "Je peux appeler quelqu'un ?",
+      "acceptees": [
+        "je peux appeler quelqu un",
+        "appeler quelqu un",
+        "telephone"
+      ],
+      "image": "comprendre-appeler",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je ne sais pas comment vous expliquer. » : proposer d'appeler une personne pour vous aider."
+    },
+    {
+      "id": "comprendre-pas-grave",
+      "entend": "Ce n'est pas grave, on va essayer autrement.",
+      "dit": "Merci",
+      "acceptees": [
+        "merci",
+        "merci beaucoup"
+      ],
+      "image": "comprendre-pas-grave",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ce n'est pas grave, on va essayer autrement. » : la personne dit que ce n'est pas grave et vous remercie d'avoir essayé."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "comprendre-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "comprendre-scene",
+      "items": [
+        "comprendre-ne-comprends-pas",
+        "comprendre-comprends-un-peu",
+        "comprendre-apprends-francais"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des échanges où l'on explique qu'on est en train d'apprendre le français : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des échanges où l'on explique qu'on est en train d'apprendre le français."
+    },
+    {
+      "id": "comprendre-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "comprendre-scene",
+      "items": [
+        "comprendre-montrer",
+        "comprendre-autrement"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des échanges où l'on explique qu'on est en train d'apprendre le français : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des échanges où l'on explique qu'on est en train d'apprendre le français."
+    },
+    {
+      "id": "comprendre-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "comprendre-scene",
+      "items": [
+        "comprendre-appeler",
+        "comprendre-pas-grave"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des échanges où l'on explique qu'on est en train d'apprendre le français : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des échanges où l'on explique qu'on est en train d'apprendre le français."
+    },
+    {
+      "id": "comprendre-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "comprendre-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour des échanges où l'on explique qu'on est en train d'apprendre le français, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (des échanges où l'on explique qu'on est en train d'apprendre le français) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "id": "comprendre-dialogue-vite",
+          "texte": "Vous cherchez la mairie ? Il faut aller tout droit, puis tourner au deuxième feu."
+        },
+        {
+          "qui": "soundes",
+          "itemId": "comprendre-ne-comprends-pas"
+        },
+        {
+          "qui": "autre",
+          "itemId": "comprendre-autrement"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "comprendre-autrement"
+        },
+        {
+          "qui": "autre",
+          "itemId": "comprendre-montrer"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "comprendre-montrer"
+        },
+        {
+          "qui": "autre",
+          "itemId": "comprendre-pas-grave"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "comprendre-pas-grave"
+        }
+      ]
+    },
+    {
+      "id": "comprendre-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "comprendre-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (des échanges où l'on explique qu'on est en train d'apprendre le français).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : dire à une personne « je ne comprends pas » ou « je comprends un peu » dans une vraie situation.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "itemId": "comprendre-comprends-un-peu"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "comprendre-comprends-un-peu"
+        },
+        {
+          "qui": "autre",
+          "id": "comprendre-explication-longue",
+          "texte": "D'accord, alors je vais vous dire : il faut remplir ce formulaire, le signer, et l'amener au guichet numéro deux avant midi."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "comprendre-appeler"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "comprendre-appeler"
+        },
+        {
+          "qui": "autre",
+          "itemId": "comprendre-pas-grave"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "comprendre-pas-grave"
+        }
+      ]
+    }
+  ]
+}

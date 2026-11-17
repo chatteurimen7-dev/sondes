@@ -1,0 +1,407 @@
+{
+  "id": "saluer",
+  "titreInterne": "Se présenter et saluer",
+  "items": [
+    {
+      "id": "bonjour",
+      "entend": "Bonjour !",
+      "dit": "Bonjour",
+      "acceptees": [
+        "bonjour"
+      ],
+      "image": "salut-matin",
+      "sensIntention": "Expliquer que « bonjour » se dit le matin et pendant la journée, quand on salue quelqu'un."
+    },
+    {
+      "id": "bonsoir",
+      "entend": "Bonsoir !",
+      "dit": "Bonsoir",
+      "acceptees": [
+        "bonsoir"
+      ],
+      "image": "salut-soir",
+      "sensIntention": "Expliquer que « bonsoir » se dit en fin de journée, quand la nuit tombe, à l'arrivée comme au départ."
+    },
+    {
+      "id": "au-revoir",
+      "entend": "Au revoir !",
+      "dit": "Au revoir",
+      "acceptees": [
+        "au revoir",
+        "aurevoir"
+      ],
+      "image": "au-revoir",
+      "sensIntention": "Expliquer que « au revoir » se dit quand on quitte quelqu'un."
+    },
+    {
+      "id": "merci",
+      "entend": "Merci !",
+      "dit": "Merci",
+      "acceptees": [
+        "merci"
+      ],
+      "image": "merci",
+      "sensIntention": "Expliquer que « merci » se dit pour remercier, par exemple quand quelqu'un rend un service ou donne quelque chose."
+    },
+    {
+      "id": "s-il-vous-plait",
+      "entend": "S'il vous plaît.",
+      "dit": "S'il vous plaît",
+      "acceptees": [
+        "s il vous plait",
+        "sil vous plait"
+      ],
+      "image": "s-il-vous-plait",
+      "sensIntention": "Expliquer que « s'il vous plaît » se dit en demandant poliment quelque chose."
+    },
+    {
+      "id": "je-m-appelle",
+      "entend": "Je m'appelle Sondes.",
+      "dit": "Je m'appelle Sondes",
+      "acceptees": [
+        "je m appelle sondes",
+        "je m appelle"
+      ],
+      "image": "je-m-appelle",
+      "sensIntention": "Expliquer que « je m'appelle Sondes » sert à dire son prénom, et que le prénom change selon la personne."
+    },
+    {
+      "id": "comment-vous-appelez-vous",
+      "entend": "Comment vous appelez-vous ?",
+      "dit": "Je m'appelle Sondes",
+      "acceptees": [
+        "je m appelle sondes",
+        "je m appelle"
+      ],
+      "image": "nom-question",
+      "sensIntention": "Expliquer que cette question veut dire « quel est votre prénom ? » et qu'on y répond par « je m'appelle » suivi du prénom."
+    },
+    {
+      "id": "enchantee",
+      "entend": "Enchantée !",
+      "dit": "Enchantée",
+      "acceptees": [
+        "enchantee",
+        "enchante"
+      ],
+      "image": "enchantee",
+      "sensIntention": "Expliquer que « enchantée » se dit en rencontrant quelqu'un, pour dire qu'on est contente de le connaître."
+    },
+    {
+      "id": "ca-va",
+      "entend": "Ça va ?",
+      "dit": "Ça va bien, merci",
+      "acceptees": [
+        "ca va bien merci",
+        "ca va bien",
+        "ca va"
+      ],
+      "image": "ca-va",
+      "sensIntention": "Expliquer que « ça va ? » veut dire « comment allez-vous ? » et qu'on peut répondre « ça va bien, merci »."
+    },
+    {
+      "id": "je-viens-de-tunisie",
+      "entend": "Je viens de Tunisie.",
+      "dit": "Je viens de Tunisie",
+      "acceptees": [
+        "je viens de tunisie",
+        "je viens de la tunisie"
+      ],
+      "image": "tunisie",
+      "sensIntention": "Expliquer que cette phrase sert à dire d'où l'on vient, ici la Tunisie."
+    },
+    {
+      "id": "je-ne-comprends-pas",
+      "entend": "Je ne comprends pas.",
+      "dit": "Je ne comprends pas",
+      "acceptees": [
+        "je ne comprends pas",
+        "je comprends pas"
+      ],
+      "image": "incomprehension",
+      "sensIntention": "Expliquer que cette phrase sert à dire à quelqu'un qu'on n'a pas compris, sans honte, c'est normal."
+    },
+    {
+      "id": "repetez",
+      "entend": "Répétez, s'il vous plaît.",
+      "dit": "Répétez, s'il vous plaît",
+      "acceptees": [
+        "repetez s il vous plait",
+        "repetez"
+      ],
+      "image": "repeter",
+      "sensIntention": "Expliquer que cette phrase demande à la personne de redire ce qu'elle vient de dire."
+    },
+    {
+      "id": "plus-lentement",
+      "entend": "Plus lentement, s'il vous plaît.",
+      "dit": "Plus lentement, s'il vous plaît",
+      "acceptees": [
+        "plus lentement s il vous plait",
+        "plus lentement",
+        "lentement"
+      ],
+      "image": "lentement",
+      "sensIntention": "Expliquer que cette phrase demande à la personne de parler moins vite."
+    },
+    {
+      "id": "bonne-journee",
+      "entend": "Bonne journée !",
+      "dit": "Merci, vous aussi",
+      "acceptees": [
+        "merci vous aussi",
+        "vous aussi",
+        "merci"
+      ],
+      "image": "bonne-journee",
+      "sensIntention": "Expliquer que « bonne journée » se dit en se quittant, et qu'on peut répondre « merci, vous aussi »."
+    },
+    {
+      "id": "a-bientot",
+      "entend": "À bientôt !",
+      "dit": "À bientôt",
+      "acceptees": [
+        "a bientot"
+      ],
+      "image": "a-bientot",
+      "sensIntention": "Expliquer que « à bientôt » se dit en se quittant quand on pense se revoir."
+    },
+    {
+      "id": "et-vous",
+      "entend": "Moi, ça va bien, merci.",
+      "dit": "Et vous ?",
+      "acceptees": [
+        "et vous",
+        "et vous aussi"
+      ],
+      "image": "et-vous",
+      "sensIntention": "Expliquer qu'après avoir répondu à « ça va ? », on peut demander « et vous ? » pour être polie."
+    }
+  ],
+  "distracteurs": [
+    {
+      "id": "pain",
+      "fr": "Du pain",
+      "image": "pain"
+    },
+    {
+      "id": "voiture",
+      "fr": "Une voiture",
+      "image": "voiture"
+    },
+    {
+      "id": "bus",
+      "fr": "Un bus",
+      "image": "bus"
+    },
+    {
+      "id": "pharmacie",
+      "fr": "Une pharmacie",
+      "image": "pharmacie"
+    }
+  ],
+  "seances": [
+    {
+      "id": "saluer-1",
+      "ordre": 1,
+      "titreInterne": "Saluer",
+      "scene": "rue-matin",
+      "items": [
+        "bonjour",
+        "bonsoir",
+        "au-revoir",
+        "merci",
+        "s-il-vous-plait"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va écouter deux personnes qui se croisent dans la rue le matin, et la laisser appuyer sur écouter.",
+      "bilanIntention": "Conclure la séance : elle sait maintenant saluer, remercier et demander poliment."
+    },
+    {
+      "id": "saluer-2",
+      "ordre": 2,
+      "titreInterne": "Dire son nom",
+      "scene": "palier-voisine",
+      "items": [
+        "je-m-appelle",
+        "comment-vous-appelez-vous",
+        "enchantee"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va rencontrer une voisine sur le palier, qui lui demande son prénom.",
+      "bilanIntention": "Conclure la séance : elle sait maintenant dire son prénom et comprendre qu'on le lui demande."
+    },
+    {
+      "id": "saluer-3",
+      "ordre": 3,
+      "titreInterne": "Donner des nouvelles",
+      "scene": "palier-voisine",
+      "items": [
+        "ca-va",
+        "et-vous",
+        "je-viens-de-tunisie"
+      ],
+      "consigneIntention": "Dire à Sondes que la voisine va lui demander comment elle va et d'où elle vient.",
+      "bilanIntention": "Conclure la séance : elle sait répondre aux politesses et dire d'où elle vient."
+    },
+    {
+      "id": "saluer-4",
+      "ordre": 4,
+      "titreInterne": "Politesses de départ",
+      "scene": "rue-matin",
+      "items": [
+        "bonne-journee",
+        "a-bientot"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va apprendre à se quitter poliment : souhaiter une bonne journée et dire à bientôt.",
+      "bilanIntention": "Conclure la séance : elle sait maintenant se quitter poliment."
+    },
+    {
+      "id": "saluer-5",
+      "ordre": 5,
+      "titreInterne": "Phrases de secours",
+      "scene": "rue-matin",
+      "items": [
+        "je-ne-comprends-pas",
+        "repetez",
+        "plus-lentement"
+      ],
+      "consigneIntention": "Dire à Sondes que parfois une personne parle trop vite, et qu'on va apprendre trois phrases pour demander de l'aide.",
+      "bilanIntention": "Conclure la séance : elle a maintenant trois phrases pour demander de l'aide quand elle ne suit pas."
+    },
+    {
+      "id": "saluer-6",
+      "ordre": 6,
+      "titreInterne": "Rencontre complète",
+      "scene": "palier-voisine",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va tenir une petite conversation complète avec la voisine, comme dans la vraie vie, et qu'elle peut recommencer quand elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de tenir une vraie conversation en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "sondes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "itemId": "comment-vous-appelez-vous"
+        },
+        {
+          "qui": "sondes",
+          "itemId": "comment-vous-appelez-vous"
+        },
+        {
+          "qui": "autre",
+          "itemId": "enchantee"
+        },
+        {
+          "qui": "sondes",
+          "itemId": "enchantee"
+        },
+        {
+          "qui": "autre",
+          "itemId": "ca-va"
+        },
+        {
+          "qui": "sondes",
+          "itemId": "ca-va"
+        },
+        {
+          "qui": "autre",
+          "id": "saluer-hors-niveau",
+          "texte": "Vous êtes arrivée dans le quartier depuis longtemps ?"
+        },
+        {
+          "qui": "sondes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "bonne-journee"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonne-journee"
+        },
+        {
+          "qui": "autre",
+          "itemId": "au-revoir"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "au-revoir"
+        }
+      ]
+    },
+    {
+      "id": "saluer-7",
+      "ordre": 7,
+      "titreInterne": "Variante et imprévu",
+      "scene": "palier-voisine",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la rencontre avec une surprise : le voisin est pressé et parle vite. Elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même quand quelqu'un parle vite, elle sait demander de l'aide pour continuer.",
+      "missionIntention": "Proposer, sans obligation, une petite mission : dire bonjour à un voisin, une voisine ou une commerçante, et dire « je ne comprends pas » si besoin.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "id": "saluer-pressee",
+          "texte": "Ah, bonjour ! Pardon, je suis un peu pressée, j'ai un rendez-vous dans cinq minutes, mais ça va, vous ?"
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "ca-va"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "ca-va"
+        },
+        {
+          "qui": "autre",
+          "itemId": "bonne-journee"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonne-journee"
+        },
+        {
+          "qui": "autre",
+          "itemId": "au-revoir"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "au-revoir"
+        }
+      ]
+    }
+  ],
+  "ordre": 1,
+  "type": "parcours",
+  "univers": "maison",
+  "contexte": "les rencontres de tous les jours avec un voisin ou une voisine",
+  "objectif": "saluer, se présenter, donner des nouvelles et demander de l'aide quand on ne comprend pas",
+  "mission": "Dire bonjour à un voisin, une voisine ou une commerçante, et dire « je ne comprends pas » si besoin.",
+  "dureeIndicativeMinutes": 84
+}

@@ -1,0 +1,20 @@
+{
+  "association": [
+    { "id": "bonjour", "texteFr": "Bonjour", "image": "salut-matin", "distracteurs": ["pain", "voiture"] },
+    { "id": "pain", "texteFr": "Du pain", "image": "pain", "distracteurs": ["voiture", "salut-matin"] },
+    { "id": "voiture", "texteFr": "Une voiture", "image": "voiture", "distracteurs": ["pain", "bus"] }
+  ],
+  "connait": [
+    { "id": "bonjour", "texteFr": "Bonjour", "image": "salut-matin" },
+    { "id": "merci", "texteFr": "Merci", "image": "merci" },
+    { "id": "au-revoir", "texteFr": "Au revoir", "image": "au-revoir" },
+    { "id": "bonsoir", "texteFr": "Bonsoir", "image": "salut-soir" }
+  ],
+  "situations": [
+    { "id": "boulangerie", "image": "pain" },
+    { "id": "pharmacie", "image": "pharmacie" },
+    { "id": "bus", "image": "bus" },
+    { "id": "voisins", "image": "palier-voisine" },
+    { "id": "medecin", "image": "medecin" }
+  ]
+}

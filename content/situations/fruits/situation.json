@@ -1,0 +1,291 @@
+{
+  "id": "fruits",
+  "ordre": 4,
+  "type": "parcours",
+  "univers": "courses",
+  "titreInterne": "Acheter des fruits et légumes",
+  "contexte": "l'achat de fruits et de légumes au marché",
+  "objectif": "demander des fruits et des légumes, une quantité et un prix",
+  "mission": "Acheter un fruit ou un légume au marché ou dans un magasin.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "fruits-qu-est-ce",
+      "entend": "Qu'est-ce que je vous mets ?",
+      "dit": "Je voudrais des pommes, s'il vous plaît",
+      "acceptees": [
+        "je voudrais des pommes s il vous plait",
+        "des pommes",
+        "des bananes",
+        "des tomates",
+        "des carottes",
+        "je voudrais des pommes",
+        "je voudrais des bananes"
+      ],
+      "image": "fruits-qu-est-ce",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Qu'est-ce que je vous mets ? » : la marchande demande ce que vous voulez."
+    },
+    {
+      "id": "fruits-pommes",
+      "entend": "Je voudrais des pommes, s'il vous plaît.",
+      "dit": "Je voudrais des pommes, s'il vous plaît",
+      "acceptees": [
+        "je voudrais des pommes s il vous plait",
+        "des pommes",
+        "je voudrais des pommes"
+      ],
+      "image": "fruits-pommes",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je voudrais des pommes, s'il vous plaît. » : demander des pommes."
+    },
+    {
+      "id": "fruits-bananes",
+      "entend": "Je voudrais des bananes, s'il vous plaît.",
+      "dit": "Je voudrais des bananes, s'il vous plaît",
+      "acceptees": [
+        "je voudrais des bananes s il vous plait",
+        "des bananes",
+        "je voudrais des bananes"
+      ],
+      "image": "fruits-bananes",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je voudrais des bananes, s'il vous plaît. » : demander des bananes."
+    },
+    {
+      "id": "fruits-tomates",
+      "entend": "Je voudrais des tomates, s'il vous plaît.",
+      "dit": "Je voudrais des tomates, s'il vous plaît",
+      "acceptees": [
+        "je voudrais des tomates s il vous plait",
+        "des tomates",
+        "je voudrais des tomates"
+      ],
+      "image": "fruits-tomates",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je voudrais des tomates, s'il vous plaît. » : demander des tomates."
+    },
+    {
+      "id": "fruits-carottes",
+      "entend": "Je voudrais des carottes, s'il vous plaît.",
+      "dit": "Je voudrais des carottes, s'il vous plaît",
+      "acceptees": [
+        "je voudrais des carottes s il vous plait",
+        "des carottes",
+        "je voudrais des carottes"
+      ],
+      "image": "fruits-carottes",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je voudrais des carottes, s'il vous plaît. » : demander des carottes."
+    },
+    {
+      "id": "fruits-un-kilo",
+      "entend": "Un kilo, s'il vous plaît.",
+      "dit": "Un kilo, s'il vous plaît",
+      "acceptees": [
+        "un kilo s il vous plait",
+        "un kilo",
+        "1 kilo"
+      ],
+      "image": "fruits-un-kilo",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Un kilo, s'il vous plaît. » : demander un kilo de produits."
+    },
+    {
+      "id": "fruits-demi-kilo",
+      "entend": "Un demi-kilo, s'il vous plaît.",
+      "dit": "Un demi-kilo, s'il vous plaît",
+      "acceptees": [
+        "un demi kilo s il vous plait",
+        "un demi kilo",
+        "demi kilo",
+        "500 grammes"
+      ],
+      "image": "fruits-demi-kilo",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Un demi-kilo, s'il vous plaît. » : demander un demi-kilo, c'est-à-dire cinq cents grammes."
+    },
+    {
+      "id": "fruits-combien-kilo",
+      "entend": "C'est combien le kilo ?",
+      "dit": "C'est combien le kilo ?",
+      "acceptees": [
+        "c est combien le kilo",
+        "combien le kilo"
+      ],
+      "image": "fruits-combien-kilo",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est combien le kilo ? » : demander le prix au kilo."
+    },
+    {
+      "id": "fruits-autre-chose",
+      "entend": "Il vous faut autre chose ?",
+      "dit": "Non, c'est tout, merci",
+      "acceptees": [
+        "non c est tout merci",
+        "non",
+        "c est tout",
+        "non merci",
+        "c est tout merci"
+      ],
+      "image": "fruits-autre-chose",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Il vous faut autre chose ? » : la marchande demande si vous voulez autre chose."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "fruits-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "fruits-scene",
+      "items": [
+        "fruits-qu-est-ce",
+        "fruits-pommes",
+        "fruits-bananes"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'achat de fruits et de légumes au marché : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'achat de fruits et de légumes au marché."
+    },
+    {
+      "id": "fruits-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "fruits-scene",
+      "items": [
+        "fruits-tomates",
+        "fruits-carottes",
+        "fruits-un-kilo"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'achat de fruits et de légumes au marché : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'achat de fruits et de légumes au marché."
+    },
+    {
+      "id": "fruits-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "fruits-scene",
+      "items": [
+        "fruits-demi-kilo",
+        "fruits-combien-kilo",
+        "fruits-autre-chose"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'achat de fruits et de légumes au marché : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'achat de fruits et de légumes au marché."
+    },
+    {
+      "id": "fruits-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "fruits-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour l'achat de fruits et de légumes au marché, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (l'achat de fruits et de légumes au marché) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "itemId": "fruits-qu-est-ce"
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "fruits-pommes",
+            "fruits-bananes",
+            "fruits-tomates",
+            "fruits-carottes"
+          ]
+        },
+        {
+          "qui": "autre",
+          "id": "fruits-combien-voulez",
+          "texte": "Et vous en voulez combien ?"
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "fruits-un-kilo",
+            "fruits-demi-kilo"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "fruits-autre-chose"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "fruits-autre-chose"
+        },
+        {
+          "qui": "autre",
+          "itemId": "prix-deux-euros"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "prix-deux-euros"
+        }
+      ]
+    },
+    {
+      "id": "fruits-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "fruits-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (l'achat de fruits et de légumes au marché).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : acheter un fruit ou un légume au marché ou dans un magasin.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "id": "fruits-promo-marche",
+          "texte": "Aujourd'hui, les tomates sont en promotion, deux euros le kilo, mais il n'y a plus de carottes, je suis désolée."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "id": "fruits-promo-lent",
+          "texte": "Des tomates, deux euros le kilo. Vous en voulez ?"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "fruits-tomates"
+        },
+        {
+          "qui": "autre",
+          "id": "fruits-combien-voulez",
+          "texte": "Et vous en voulez combien ?"
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "fruits-un-kilo",
+            "fruits-demi-kilo"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "fruits-autre-chose"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "fruits-autre-chose"
+        }
+      ]
+    }
+  ]
+}

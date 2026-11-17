@@ -1,0 +1,307 @@
+{
+  "id": "pharmacie",
+  "ordre": 12,
+  "type": "parcours",
+  "univers": "services",
+  "titreInterne": "Aller à la pharmacie",
+  "contexte": "une pharmacie de quartier",
+  "objectif": "dire où l'on a mal, demander un médicament et comprendre comment le prendre. L'application n'apporte aucun conseil médical : elle entraîne seulement la langue",
+  "mission": "Entrer dans une pharmacie, dire bonjour et demander un produit simple.",
+  "dureeIndicativeMinutes": 72,
+  "items": [
+    {
+      "id": "pharmacie-mal-tete",
+      "entend": "J'ai mal à la tête.",
+      "dit": "J'ai mal à la tête",
+      "acceptees": [
+        "j ai mal a la tete",
+        "mal a la tete"
+      ],
+      "image": "pharmacie-mal-tete",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « J'ai mal à la tête. » : dire que l'on a mal à la tête."
+    },
+    {
+      "id": "pharmacie-mal-ventre",
+      "entend": "J'ai mal au ventre.",
+      "dit": "J'ai mal au ventre",
+      "acceptees": [
+        "j ai mal au ventre",
+        "mal au ventre"
+      ],
+      "image": "pharmacie-mal-ventre",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « J'ai mal au ventre. » : dire que l'on a mal au ventre."
+    },
+    {
+      "id": "pharmacie-mal-gorge",
+      "entend": "J'ai mal à la gorge.",
+      "dit": "J'ai mal à la gorge",
+      "acceptees": [
+        "j ai mal a la gorge",
+        "mal a la gorge"
+      ],
+      "image": "pharmacie-mal-gorge",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « J'ai mal à la gorge. » : dire que l'on a mal à la gorge."
+    },
+    {
+      "id": "pharmacie-fievre",
+      "entend": "J'ai de la fièvre.",
+      "dit": "J'ai de la fièvre",
+      "acceptees": [
+        "j ai de la fievre",
+        "de la fievre",
+        "fievre"
+      ],
+      "image": "pharmacie-fievre",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « J'ai de la fièvre. » : dire que l'on a de la fièvre."
+    },
+    {
+      "id": "pharmacie-toux",
+      "entend": "Je tousse beaucoup.",
+      "dit": "Je tousse beaucoup",
+      "acceptees": [
+        "je tousse beaucoup",
+        "je tousse"
+      ],
+      "image": "pharmacie-toux",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je tousse beaucoup. » : dire que l'on tousse beaucoup."
+    },
+    {
+      "id": "pharmacie-depuis-quand",
+      "entend": "Vous avez mal depuis quand ?",
+      "dit": "Depuis hier",
+      "acceptees": [
+        "depuis hier",
+        "depuis ce matin",
+        "depuis deux jours",
+        "depuis aujourd hui"
+      ],
+      "image": "pharmacie-depuis-quand",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous avez mal depuis quand ? » : le pharmacien demande depuis quand vous avez mal."
+    },
+    {
+      "id": "pharmacie-medicament",
+      "entend": "Je voudrais ce médicament.",
+      "dit": "Je voudrais ce médicament",
+      "acceptees": [
+        "je voudrais ce medicament",
+        "ce medicament"
+      ],
+      "image": "pharmacie-medicament",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je voudrais ce médicament. » : demander un médicament que l'on montre."
+    },
+    {
+      "id": "pharmacie-ordonnance",
+      "entend": "Vous avez une ordonnance ?",
+      "dit": "Oui, voilà",
+      "acceptees": [
+        "oui voila",
+        "voila",
+        "non",
+        "oui"
+      ],
+      "image": "pharmacie-ordonnance",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous avez une ordonnance ? » : le pharmacien demande si vous avez une ordonnance du médecin."
+    },
+    {
+      "id": "pharmacie-trois-fois",
+      "entend": "Trois fois par jour, pendant cinq jours.",
+      "dit": "Trois fois par jour",
+      "acceptees": [
+        "trois fois par jour",
+        "3 fois par jour"
+      ],
+      "image": "pharmacie-trois-fois",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Trois fois par jour, pendant cinq jours. » : le pharmacien explique la fréquence du médicament."
+    },
+    {
+      "id": "pharmacie-avec-eau",
+      "entend": "À prendre avec un grand verre d'eau.",
+      "dit": "D'accord, merci",
+      "acceptees": [
+        "d accord merci",
+        "d accord",
+        "merci"
+      ],
+      "image": "pharmacie-avec-eau",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « À prendre avec un grand verre d'eau. » : le pharmacien dit de prendre le médicament avec de l'eau."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "pharmacie-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "pharmacie-scene",
+      "items": [
+        "pharmacie-mal-tete",
+        "pharmacie-mal-ventre",
+        "pharmacie-mal-gorge"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une pharmacie de quartier : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une pharmacie de quartier."
+    },
+    {
+      "id": "pharmacie-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "pharmacie-scene",
+      "items": [
+        "pharmacie-fievre",
+        "pharmacie-toux",
+        "pharmacie-depuis-quand"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une pharmacie de quartier : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une pharmacie de quartier."
+    },
+    {
+      "id": "pharmacie-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "pharmacie-scene",
+      "items": [
+        "pharmacie-medicament",
+        "pharmacie-ordonnance"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une pharmacie de quartier : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une pharmacie de quartier."
+    },
+    {
+      "id": "pharmacie-4",
+      "ordre": 4,
+      "titreInterne": "Écouter, comprendre et dire (4)",
+      "scene": "pharmacie-scene",
+      "items": [
+        "pharmacie-trois-fois",
+        "pharmacie-avec-eau"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une pharmacie de quartier : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une pharmacie de quartier."
+    },
+    {
+      "id": "pharmacie-5",
+      "ordre": 5,
+      "titreInterne": "Simulation orale",
+      "scene": "pharmacie-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour une pharmacie de quartier, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (une pharmacie de quartier) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "id": "pharmacie-ca-ne-va-pas",
+          "texte": "Bonjour, qu'est-ce qui ne va pas ?"
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "pharmacie-mal-tete",
+            "pharmacie-mal-gorge",
+            "pharmacie-fievre"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "pharmacie-depuis-quand"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pharmacie-depuis-quand"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pharmacie-ordonnance"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pharmacie-ordonnance"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pharmacie-trois-fois"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pharmacie-trois-fois"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pharmacie-avec-eau"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pharmacie-avec-eau"
+        }
+      ]
+    },
+    {
+      "id": "pharmacie-6",
+      "ordre": 6,
+      "titreInterne": "Variante et imprévu",
+      "scene": "pharmacie-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (une pharmacie de quartier).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : entrer dans une pharmacie, dire bonjour et demander un produit simple.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pharmacie-medicament"
+        },
+        {
+          "qui": "autre",
+          "id": "pharmacie-pharma-longue",
+          "texte": "Alors, celui-là, il faut une ordonnance pour l'avoir, mais je peux vous proposer un autre médicament, sans ordonnance, qui fait le même effet pour les maux de tête."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "pharmacie-ordonnance"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pharmacie-ordonnance"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pharmacie-trois-fois"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pharmacie-trois-fois"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pharmacie-avec-eau"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pharmacie-avec-eau"
+        }
+      ]
+    }
+  ]
+}

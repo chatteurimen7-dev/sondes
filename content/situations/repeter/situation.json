@@ -1,0 +1,228 @@
+{
+  "id": "repeter",
+  "ordre": 16,
+  "type": "parcours",
+  "univers": "echanges",
+  "titreInterne": "Faire répéter",
+  "contexte": "des échanges où l'on n'a pas bien entendu",
+  "objectif": "demander à quelqu'un de répéter, de parler plus lentement ou plus fort",
+  "mission": "Demander à une personne de répéter ou de parler plus lentement quand c'est utile.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "repeter-repetez-svp",
+      "entend": "Pour la gare, c'est la deuxième rue à droite.",
+      "dit": "Répétez, s'il vous plaît",
+      "acceptees": [
+        "repetez s il vous plait",
+        "repetez"
+      ],
+      "image": "repeter-repetez-svp",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Pour la gare, c'est la deuxième rue à droite. » : quelqu'un parle et vous demandez de répéter."
+    },
+    {
+      "id": "repeter-encore-fois",
+      "entend": "C'est au deuxième étage, la porte de gauche.",
+      "dit": "Encore une fois, s'il vous plaît",
+      "acceptees": [
+        "encore une fois s il vous plait",
+        "encore une fois"
+      ],
+      "image": "repeter-encore-fois",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est au deuxième étage, la porte de gauche. » : quelqu'un parle et vous demandez de redire encore une fois."
+    },
+    {
+      "id": "repeter-plus-lent",
+      "entend": "Alors vous prenez le bus numéro douze et vous descendez à la mairie.",
+      "dit": "Plus lentement, s'il vous plaît",
+      "acceptees": [
+        "plus lentement s il vous plait",
+        "plus lentement",
+        "lentement"
+      ],
+      "image": "repeter-plus-lent",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Alors vous prenez le bus numéro douze et vous descendez à la mairie. » : quelqu'un parle trop vite et vous demandez plus lentement."
+    },
+    {
+      "id": "repeter-plus-fort",
+      "entend": "Mmm... mmm...",
+      "dit": "Plus fort, s'il vous plaît",
+      "acceptees": [
+        "plus fort s il vous plait",
+        "plus fort",
+        "un peu plus fort"
+      ],
+      "image": "repeter-plus-fort",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Mmm... mmm... » : quelqu'un parle trop bas et vous demandez de parler plus fort."
+    },
+    {
+      "id": "repeter-pardon",
+      "entend": "Pardon ? Qu'est-ce que vous avez dit ?",
+      "dit": "Excusez-moi, je répète",
+      "acceptees": [
+        "excusez moi je repete",
+        "je repete",
+        "excusez moi"
+      ],
+      "image": "repeter-pardon",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Pardon ? Qu'est-ce que vous avez dit ? » : quelqu'un n'a pas compris ce que vous avez dit et vous le redites."
+    },
+    {
+      "id": "repeter-vous-comprenez",
+      "entend": "Vous comprenez ?",
+      "dit": "Un peu",
+      "acceptees": [
+        "un peu",
+        "oui un peu",
+        "oui"
+      ],
+      "image": "repeter-vous-comprenez",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous comprenez ? » : quelqu'un vérifie que vous avez compris."
+    },
+    {
+      "id": "repeter-merci-patience",
+      "entend": "Merci de votre patience.",
+      "dit": "Je vous en prie",
+      "acceptees": [
+        "je vous en prie",
+        "de rien"
+      ],
+      "image": "repeter-merci-patience",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Merci de votre patience. » : quelqu'un vous remercie d'avoir attendu."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "repeter-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "repeter-scene",
+      "items": [
+        "repeter-repetez-svp",
+        "repeter-encore-fois",
+        "repeter-plus-lent"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des échanges où l'on n'a pas bien entendu : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des échanges où l'on n'a pas bien entendu."
+    },
+    {
+      "id": "repeter-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "repeter-scene",
+      "items": [
+        "repeter-plus-fort",
+        "repeter-pardon"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des échanges où l'on n'a pas bien entendu : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des échanges où l'on n'a pas bien entendu."
+    },
+    {
+      "id": "repeter-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "repeter-scene",
+      "items": [
+        "repeter-vous-comprenez",
+        "repeter-merci-patience"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des échanges où l'on n'a pas bien entendu : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des échanges où l'on n'a pas bien entendu."
+    },
+    {
+      "id": "repeter-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "repeter-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour des échanges où l'on n'a pas bien entendu, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (des échanges où l'on n'a pas bien entendu) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "id": "repeter-rep-1",
+          "texte": "Excusez-moi, pour aller à la mairie, vous prenez la première à droite, puis la deuxième à gauche, après le feu."
+        },
+        {
+          "qui": "soundes",
+          "itemId": "repetez"
+        },
+        {
+          "qui": "autre",
+          "id": "repeter-rep-1b",
+          "texte": "Je dis : la première à droite, puis la deuxième à gauche."
+        },
+        {
+          "qui": "soundes",
+          "itemId": "plus-lentement"
+        },
+        {
+          "qui": "autre",
+          "itemId": "repeter-plus-lent"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "repeter-plus-lent"
+        },
+        {
+          "qui": "autre",
+          "itemId": "repeter-vous-comprenez"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "repeter-vous-comprenez"
+        }
+      ]
+    },
+    {
+      "id": "repeter-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "repeter-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (des échanges où l'on n'a pas bien entendu).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : demander à une personne de répéter ou de parler plus lentement quand c'est utile.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "id": "repeter-rep-2",
+          "texte": "Alors pour le rendez-vous, il faut venir mercredi à neuf heures trente avec votre carte d'identité."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "repeter-encore-fois"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "repeter-encore-fois"
+        },
+        {
+          "qui": "autre",
+          "itemId": "repeter-vous-comprenez"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "repeter-vous-comprenez"
+        },
+        {
+          "qui": "autre",
+          "itemId": "repeter-merci-patience"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "repeter-merci-patience"
+        }
+      ]
+    }
+  ]
+}

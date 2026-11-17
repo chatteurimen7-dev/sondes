@@ -1,0 +1,254 @@
+{
+  "id": "ticket",
+  "ordre": 9,
+  "type": "parcours",
+  "univers": "deplacements",
+  "titreInterne": "Acheter un ticket",
+  "contexte": "l'achat d'un ticket de transport au guichet ou au distributeur",
+  "objectif": "acheter un ticket, répondre aux questions et payer",
+  "mission": "Acheter un ticket de transport au guichet ou au distributeur.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "ticket-aller-simple",
+      "entend": "Un aller simple, s'il vous plaît.",
+      "dit": "Un aller simple, s'il vous plaît",
+      "acceptees": [
+        "un aller simple s il vous plait",
+        "un aller simple",
+        "aller simple"
+      ],
+      "image": "ticket-aller-simple",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Un aller simple, s'il vous plaît. » : demander un ticket pour un seul trajet."
+    },
+    {
+      "id": "ticket-aller-retour",
+      "entend": "Un aller-retour, s'il vous plaît.",
+      "dit": "Un aller-retour, s'il vous plaît",
+      "acceptees": [
+        "un aller retour s il vous plait",
+        "un aller retour",
+        "aller retour"
+      ],
+      "image": "ticket-aller-retour",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Un aller-retour, s'il vous plaît. » : demander un ticket pour aller et revenir."
+    },
+    {
+      "id": "ticket-pour-ou",
+      "entend": "Pour où ?",
+      "dit": "Pour le centre-ville",
+      "acceptees": [
+        "pour le centre ville",
+        "centre ville",
+        "la gare",
+        "pour la gare"
+      ],
+      "image": "ticket-pour-ou",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Pour où ? » : l'employée demande votre destination."
+    },
+    {
+      "id": "ticket-prix-ticket",
+      "entend": "Ça fait deux euros dix.",
+      "dit": "D'accord, voilà",
+      "acceptees": [
+        "d accord voila",
+        "d accord",
+        "voila"
+      ],
+      "image": "ticket-prix-ticket",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ça fait deux euros dix. » : l'employée annonce le prix du ticket."
+    },
+    {
+      "id": "ticket-distributeur",
+      "entend": "Vous pouvez acheter votre ticket au distributeur.",
+      "dit": "D'accord",
+      "acceptees": [
+        "d accord",
+        "oui",
+        "merci"
+      ],
+      "image": "ticket-distributeur",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous pouvez acheter votre ticket au distributeur. » : l'employée indique le distributeur automatique."
+    },
+    {
+      "id": "ticket-carte-ou-pieces",
+      "entend": "Carte ou pièces ?",
+      "dit": "Par carte",
+      "acceptees": [
+        "par carte",
+        "carte",
+        "pieces",
+        "avec des pieces"
+      ],
+      "image": "ticket-carte-ou-pieces",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Carte ou pièces ? » : l'employée demande comment vous payez."
+    },
+    {
+      "id": "ticket-ticket-sorti",
+      "entend": "N'oubliez pas votre ticket.",
+      "dit": "Merci",
+      "acceptees": [
+        "merci",
+        "merci beaucoup"
+      ],
+      "image": "ticket-ticket-sorti",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « N'oubliez pas votre ticket. » : l'employée vous rappelle de prendre le ticket."
+    },
+    {
+      "id": "ticket-tarif-reduit",
+      "entend": "Vous avez un tarif réduit ?",
+      "dit": "Non, merci",
+      "acceptees": [
+        "non merci",
+        "non"
+      ],
+      "image": "ticket-tarif-reduit",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous avez un tarif réduit ? » : l'employée demande si vous avez droit à un tarif réduit."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "ticket-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "ticket-scene",
+      "items": [
+        "ticket-aller-simple",
+        "ticket-aller-retour",
+        "ticket-pour-ou"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'achat d'un ticket de transport au guichet ou au distributeur : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'achat d'un ticket de transport au guichet ou au distributeur."
+    },
+    {
+      "id": "ticket-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "ticket-scene",
+      "items": [
+        "ticket-prix-ticket",
+        "ticket-distributeur",
+        "ticket-carte-ou-pieces"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'achat d'un ticket de transport au guichet ou au distributeur : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'achat d'un ticket de transport au guichet ou au distributeur."
+    },
+    {
+      "id": "ticket-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "ticket-scene",
+      "items": [
+        "ticket-ticket-sorti",
+        "ticket-tarif-reduit"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'achat d'un ticket de transport au guichet ou au distributeur : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'achat d'un ticket de transport au guichet ou au distributeur."
+    },
+    {
+      "id": "ticket-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "ticket-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour l'achat d'un ticket de transport au guichet ou au distributeur, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (l'achat d'un ticket de transport au guichet ou au distributeur) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "ticket-aller-simple"
+        },
+        {
+          "qui": "autre",
+          "itemId": "ticket-pour-ou"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "ticket-pour-ou"
+        },
+        {
+          "qui": "autre",
+          "itemId": "ticket-prix-ticket"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "ticket-prix-ticket"
+        },
+        {
+          "qui": "autre",
+          "itemId": "ticket-ticket-sorti"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "ticket-ticket-sorti"
+        }
+      ]
+    },
+    {
+      "id": "ticket-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "ticket-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (l'achat d'un ticket de transport au guichet ou au distributeur).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : acheter un ticket de transport au guichet ou au distributeur.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "id": "ticket-guichet-ferme",
+          "texte": "Ah, désolée, le guichet est fermé à cette heure-ci, vous pouvez acheter votre ticket au distributeur, juste là, à droite de la porte."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "ticket-distributeur"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "ticket-distributeur"
+        },
+        {
+          "qui": "autre",
+          "itemId": "ticket-carte-ou-pieces"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "ticket-carte-ou-pieces"
+        },
+        {
+          "qui": "autre",
+          "itemId": "ticket-ticket-sorti"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "ticket-ticket-sorti"
+        }
+      ]
+    }
+  ]
+}

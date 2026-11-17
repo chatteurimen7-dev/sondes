@@ -1,0 +1,273 @@
+{
+  "id": "rdv",
+  "ordre": 13,
+  "type": "parcours",
+  "univers": "services",
+  "titreInterne": "Prendre un rendez-vous",
+  "contexte": "un appel ou un passage à l'accueil pour prendre rendez-vous",
+  "objectif": "demander un rendez-vous, donner un jour et une heure, et comprendre la confirmation",
+  "mission": "Prendre un rendez-vous simple, avec de l'aide si elle le souhaite.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "rdv-voudrais-rdv",
+      "entend": "Bonjour, je vous écoute.",
+      "dit": "Je voudrais un rendez-vous, s'il vous plaît",
+      "acceptees": [
+        "je voudrais un rendez vous s il vous plait",
+        "je voudrais un rendez vous",
+        "un rendez vous",
+        "rendez vous"
+      ],
+      "image": "rdv-voudrais-rdv",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Bonjour, je vous écoute. » : l'accueil dit qu'il écoute et vous demandez un rendez-vous."
+    },
+    {
+      "id": "rdv-quel-jour",
+      "entend": "Pour quel jour ?",
+      "dit": "Lundi",
+      "acceptees": [
+        "lundi",
+        "mardi",
+        "mercredi",
+        "jeudi",
+        "vendredi",
+        "demain"
+      ],
+      "image": "rdv-quel-jour",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Pour quel jour ? » : l'accueil demande pour quel jour."
+    },
+    {
+      "id": "rdv-quelle-heure",
+      "entend": "À quelle heure ?",
+      "dit": "À dix heures",
+      "acceptees": [
+        "a dix heures",
+        "dix heures",
+        "10 heures",
+        "a 10 heures",
+        "a neuf heures",
+        "a onze heures",
+        "a quatorze heures"
+      ],
+      "image": "rdv-quelle-heure",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « À quelle heure ? » : l'accueil demande à quelle heure."
+    },
+    {
+      "id": "rdv-nom-rdv",
+      "entend": "C'est à quel nom ?",
+      "dit": "Au nom de Sondes",
+      "acceptees": [
+        "au nom de sondes",
+        "sondes",
+        "c est sondes",
+        "je m appelle sondes"
+      ],
+      "image": "rdv-nom-rdv",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est à quel nom ? » : l'accueil demande le nom pour noter le rendez-vous."
+    },
+    {
+      "id": "rdv-demain-possible",
+      "entend": "Demain, c'est possible ?",
+      "dit": "Oui, c'est possible",
+      "acceptees": [
+        "oui c est possible",
+        "c est possible",
+        "oui",
+        "non"
+      ],
+      "image": "rdv-demain-possible",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Demain, c'est possible ? » : l'accueil propose demain."
+    },
+    {
+      "id": "rdv-confirmation",
+      "entend": "C'est noté. À lundi, dix heures.",
+      "dit": "Merci, à lundi",
+      "acceptees": [
+        "merci a lundi",
+        "a lundi",
+        "merci"
+      ],
+      "image": "rdv-confirmation",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est noté. À lundi, dix heures. » : l'accueil confirme le rendez-vous."
+    },
+    {
+      "id": "rdv-changer-rdv",
+      "entend": "Vous voulez changer votre rendez-vous ?",
+      "dit": "Je voudrais changer mon rendez-vous",
+      "acceptees": [
+        "je voudrais changer mon rendez vous",
+        "changer mon rendez vous",
+        "changer"
+      ],
+      "image": "rdv-changer-rdv",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous voulez changer votre rendez-vous ? » : l'accueil demande si vous voulez déplacer un rendez-vous."
+    },
+    {
+      "id": "rdv-retard-rdv",
+      "entend": "Vous êtes là pour le rendez-vous de dix heures ?",
+      "dit": "Oui, je suis un peu en retard, désolée",
+      "acceptees": [
+        "oui je suis un peu en retard desolee",
+        "oui",
+        "je suis en retard",
+        "en retard",
+        "desolee",
+        "un peu en retard"
+      ],
+      "image": "rdv-retard-rdv",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous êtes là pour le rendez-vous de dix heures ? » : l'accueil vous attend pour un rendez-vous et vous êtes en retard."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "rdv-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "rdv-scene",
+      "items": [
+        "rdv-voudrais-rdv",
+        "rdv-quel-jour",
+        "rdv-quelle-heure"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un appel ou un passage à l'accueil pour prendre rendez-vous : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un appel ou un passage à l'accueil pour prendre rendez-vous."
+    },
+    {
+      "id": "rdv-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "rdv-scene",
+      "items": [
+        "rdv-nom-rdv",
+        "rdv-demain-possible",
+        "rdv-confirmation"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un appel ou un passage à l'accueil pour prendre rendez-vous : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un appel ou un passage à l'accueil pour prendre rendez-vous."
+    },
+    {
+      "id": "rdv-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "rdv-scene",
+      "items": [
+        "rdv-changer-rdv",
+        "rdv-retard-rdv"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un appel ou un passage à l'accueil pour prendre rendez-vous : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un appel ou un passage à l'accueil pour prendre rendez-vous."
+    },
+    {
+      "id": "rdv-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "rdv-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour un appel ou un passage à l'accueil pour prendre rendez-vous, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (un appel ou un passage à l'accueil pour prendre rendez-vous) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "id": "rdv-rdv-ecoute",
+          "texte": "Cabinet du docteur, bonjour, je vous écoute."
+        },
+        {
+          "qui": "soundes",
+          "itemId": "rdv-voudrais-rdv"
+        },
+        {
+          "qui": "autre",
+          "itemId": "rdv-quel-jour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "rdv-quel-jour"
+        },
+        {
+          "qui": "autre",
+          "itemId": "rdv-quelle-heure"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "rdv-quelle-heure"
+        },
+        {
+          "qui": "autre",
+          "itemId": "rdv-nom-rdv"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "rdv-nom-rdv"
+        },
+        {
+          "qui": "autre",
+          "itemId": "rdv-confirmation"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "rdv-confirmation"
+        }
+      ]
+    },
+    {
+      "id": "rdv-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "rdv-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (un appel ou un passage à l'accueil pour prendre rendez-vous).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : prendre un rendez-vous simple, avec de l'aide si elle le souhaite.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "id": "rdv-rdv-ecoute",
+          "texte": "Cabinet du docteur, bonjour, je vous écoute."
+        },
+        {
+          "qui": "soundes",
+          "itemId": "rdv-voudrais-rdv"
+        },
+        {
+          "qui": "autre",
+          "itemId": "rdv-quel-jour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "rdv-quel-jour"
+        },
+        {
+          "qui": "autre",
+          "id": "rdv-rdv-complet",
+          "texte": "Ah, lundi, c'est complet. Je peux vous proposer mardi à huit heures trente, ou jeudi en fin d'après-midi, vers dix-sept heures."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "rdv-demain-possible"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "rdv-demain-possible"
+        },
+        {
+          "qui": "autre",
+          "itemId": "rdv-confirmation"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "rdv-confirmation"
+        }
+      ]
+    }
+  ]
+}

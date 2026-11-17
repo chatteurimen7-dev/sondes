@@ -1,0 +1,300 @@
+{
+  "id": "pain",
+  "ordre": 2,
+  "type": "parcours",
+  "univers": "courses",
+  "titreInterne": "Acheter du pain",
+  "contexte": "l'achat du pain à la boulangerie",
+  "objectif": "demander du pain, répondre aux questions de la boulangère et payer poliment",
+  "mission": "Acheter du pain dans une boulangerie, accompagnée si elle le souhaite, ou seule si elle se sent prête.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "pain-baguette",
+      "entend": "Une baguette, s'il vous plaît.",
+      "dit": "Une baguette, s'il vous plaît",
+      "acceptees": [
+        "une baguette s il vous plait",
+        "une baguette",
+        "baguette"
+      ],
+      "image": "pain-baguette",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Une baguette, s'il vous plaît. » : demander une baguette."
+    },
+    {
+      "id": "pain-croissant",
+      "entend": "Un croissant, s'il vous plaît.",
+      "dit": "Un croissant, s'il vous plaît",
+      "acceptees": [
+        "un croissant s il vous plait",
+        "un croissant",
+        "croissant"
+      ],
+      "image": "pain-croissant",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Un croissant, s'il vous plaît. » : demander un croissant."
+    },
+    {
+      "id": "pain-pain-rond",
+      "entend": "Un pain aux céréales, s'il vous plaît.",
+      "dit": "Un pain aux céréales, s'il vous plaît",
+      "acceptees": [
+        "un pain aux cereales s il vous plait",
+        "un pain",
+        "pain aux cereales",
+        "un pain aux cereales"
+      ],
+      "image": "pain-pain-rond",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Un pain aux céréales, s'il vous plaît. » : demander un pain rond aux céréales."
+    },
+    {
+      "id": "pain-vous-desirez",
+      "entend": "Vous désirez ?",
+      "dit": "Une baguette, s'il vous plaît",
+      "acceptees": [
+        "une baguette s il vous plait",
+        "une baguette",
+        "un croissant",
+        "un pain",
+        "baguette",
+        "croissant"
+      ],
+      "image": "pain-vous-desirez",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous désirez ? » : la boulangère demande ce que vous voulez acheter."
+    },
+    {
+      "id": "pain-et-avec-ceci",
+      "entend": "Et avec ceci ?",
+      "dit": "C'est tout, merci",
+      "acceptees": [
+        "c est tout merci",
+        "c est tout",
+        "non merci",
+        "un croissant",
+        "ce sera tout"
+      ],
+      "image": "pain-et-avec-ceci",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Et avec ceci ? » : la boulangère demande si vous voulez autre chose."
+    },
+    {
+      "id": "pain-sac",
+      "entend": "Vous voulez un sac ?",
+      "dit": "Non, merci",
+      "acceptees": [
+        "non merci",
+        "oui merci",
+        "oui",
+        "non"
+      ],
+      "image": "pain-sac",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous voulez un sac ? » : la boulangère propose un sac pour le pain."
+    },
+    {
+      "id": "pain-coupee",
+      "entend": "Je vous la coupe ?",
+      "dit": "Oui, s'il vous plaît",
+      "acceptees": [
+        "oui s il vous plait",
+        "oui",
+        "non merci",
+        "non",
+        "oui merci"
+      ],
+      "image": "pain-coupee",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je vous la coupe ? » : la boulangère propose de couper la baguette en deux."
+    },
+    {
+      "id": "pain-voila",
+      "entend": "Voilà !",
+      "dit": "Merci",
+      "acceptees": [
+        "merci",
+        "merci beaucoup"
+      ],
+      "image": "pain-voila",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Voilà ! » : la boulangère vous donne le pain."
+    },
+    {
+      "id": "pain-bonne-journee",
+      "entend": "Bonne journée !",
+      "dit": "Merci, vous aussi",
+      "acceptees": [
+        "merci vous aussi",
+        "vous aussi",
+        "merci"
+      ],
+      "image": "pain-bonne-journee",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Bonne journée ! » : on se souhaite une bonne journée en partant."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "pain-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "pain-scene",
+      "items": [
+        "pain-baguette",
+        "pain-croissant",
+        "pain-pain-rond"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'achat du pain à la boulangerie : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'achat du pain à la boulangerie."
+    },
+    {
+      "id": "pain-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "pain-scene",
+      "items": [
+        "pain-vous-desirez",
+        "pain-et-avec-ceci",
+        "pain-sac"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'achat du pain à la boulangerie : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'achat du pain à la boulangerie."
+    },
+    {
+      "id": "pain-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "pain-scene",
+      "items": [
+        "pain-coupee",
+        "pain-voila",
+        "pain-bonne-journee"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'achat du pain à la boulangerie : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'achat du pain à la boulangerie."
+    },
+    {
+      "id": "pain-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "pain-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour l'achat du pain à la boulangerie, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (l'achat du pain à la boulangerie) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pain-vous-desirez"
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "pain-baguette",
+            "pain-croissant",
+            "pain-pain-rond"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "pain-et-avec-ceci"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pain-et-avec-ceci"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pain-sac"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pain-sac"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pain-voila"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pain-voila"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pain-bonne-journee"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pain-bonne-journee"
+        }
+      ]
+    },
+    {
+      "id": "pain-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "pain-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (l'achat du pain à la boulangerie).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : acheter du pain dans une boulangerie, accompagnée si elle le souhaite, ou seule si elle se sent prête.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "id": "pain-rupture",
+          "texte": "Bonjour ! Alors, je n'ai plus de baguette tradition ce matin, mais j'ai des baguettes classiques, elles sont toutes chaudes."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "id": "pain-rupture-lent",
+          "texte": "Il n'y a plus de tradition. Une baguette classique ?"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pain-coupee"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pain-et-avec-ceci"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pain-et-avec-ceci"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pain-voila"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pain-voila"
+        },
+        {
+          "qui": "autre",
+          "itemId": "pain-bonne-journee"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "pain-bonne-journee"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "id": "prix",
+  "ordre": 3,
+  "type": "parcours",
+  "univers": "courses",
+  "titreInterne": "Demander un prix",
+  "contexte": "les prix dans un magasin",
+  "objectif": "demander un prix et comprendre un prix annoncé, en euros et en centimes",
+  "mission": "Demander le prix d'un article dans un magasin ou au marché.",
+  "dureeIndicativeMinutes": 72,
+  "items": [
+    {
+      "id": "prix-combien",
+      "entend": "Combien ça coûte ?",
+      "dit": "Combien ça coûte ?",
+      "acceptees": [
+        "combien ca coute",
+        "combien ca fait",
+        "c est combien",
+        "combien"
+      ],
+      "image": "prix-combien",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Combien ça coûte ? » : demander le prix d'un article."
+    },
+    {
+      "id": "prix-un-euro",
+      "entend": "Ça coûte un euro.",
+      "dit": "Un euro",
+      "acceptees": [
+        "un euro",
+        "1 euro",
+        "1"
+      ],
+      "image": "prix-un-euro",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ça coûte un euro. » : le vendeur annonce un prix : un euro."
+    },
+    {
+      "id": "prix-deux-euros",
+      "entend": "Ça fait deux euros.",
+      "dit": "Deux euros",
+      "acceptees": [
+        "deux euros",
+        "2 euros",
+        "2"
+      ],
+      "image": "prix-deux-euros",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ça fait deux euros. » : le vendeur annonce un prix : deux euros."
+    },
+    {
+      "id": "prix-trois-euros",
+      "entend": "Ça fait trois euros.",
+      "dit": "Trois euros",
+      "acceptees": [
+        "trois euros",
+        "3 euros",
+        "3"
+      ],
+      "image": "prix-trois-euros",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ça fait trois euros. » : le vendeur annonce un prix : trois euros."
+    },
+    {
+      "id": "prix-cinq-euros",
+      "entend": "Ça fait cinq euros.",
+      "dit": "Cinq euros",
+      "acceptees": [
+        "cinq euros",
+        "5 euros",
+        "5"
+      ],
+      "image": "prix-cinq-euros",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ça fait cinq euros. » : le vendeur annonce un prix : cinq euros."
+    },
+    {
+      "id": "prix-dix-euros",
+      "entend": "Ça fait dix euros.",
+      "dit": "Dix euros",
+      "acceptees": [
+        "dix euros",
+        "10 euros",
+        "10"
+      ],
+      "image": "prix-dix-euros",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ça fait dix euros. » : le vendeur annonce un prix : dix euros."
+    },
+    {
+      "id": "prix-un-cinquante",
+      "entend": "Ça fait un euro cinquante.",
+      "dit": "Un euro cinquante",
+      "acceptees": [
+        "un euro cinquante",
+        "1 euro 50",
+        "1 50",
+        "un euro 50",
+        "un cinquante"
+      ],
+      "image": "prix-un-cinquante",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ça fait un euro cinquante. » : le vendeur annonce un prix avec des centimes : un euro cinquante."
+    },
+    {
+      "id": "prix-trop-cher",
+      "entend": "C'est trop cher.",
+      "dit": "C'est trop cher",
+      "acceptees": [
+        "c est trop cher",
+        "trop cher",
+        "c est cher"
+      ],
+      "image": "prix-trop-cher",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est trop cher. » : dire que le prix est trop élevé pour soi."
+    },
+    {
+      "id": "prix-promo",
+      "entend": "C'est en promotion aujourd'hui.",
+      "dit": "D'accord, merci",
+      "acceptees": [
+        "d accord merci",
+        "d accord",
+        "merci",
+        "ah d accord"
+      ],
+      "image": "prix-promo",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est en promotion aujourd'hui. » : le vendeur dit que l'article est moins cher aujourd'hui."
+    },
+    {
+      "id": "prix-je-le-prends",
+      "entend": "Vous le prenez ?",
+      "dit": "Oui, je le prends",
+      "acceptees": [
+        "oui je le prends",
+        "oui",
+        "je le prends",
+        "non merci",
+        "non"
+      ],
+      "image": "prix-je-le-prends",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous le prenez ? » : le vendeur demande si vous achetez l'article."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "prix-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "prix-scene",
+      "items": [
+        "prix-combien",
+        "prix-un-euro",
+        "prix-deux-euros"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour les prix dans un magasin : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour les prix dans un magasin."
+    },
+    {
+      "id": "prix-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "prix-scene",
+      "items": [
+        "prix-trois-euros",
+        "prix-cinq-euros",
+        "prix-dix-euros"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour les prix dans un magasin : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour les prix dans un magasin."
+    },
+    {
+      "id": "prix-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "prix-scene",
+      "items": [
+        "prix-un-cinquante",
+        "prix-trop-cher"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour les prix dans un magasin : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour les prix dans un magasin."
+    },
+    {
+      "id": "prix-4",
+      "ordre": 4,
+      "titreInterne": "Écouter, comprendre et dire (4)",
+      "scene": "prix-scene",
+      "items": [
+        "prix-promo",
+        "prix-je-le-prends"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour les prix dans un magasin : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour les prix dans un magasin."
+    },
+    {
+      "id": "prix-5",
+      "ordre": 5,
+      "titreInterne": "Simulation orale",
+      "scene": "prix-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour les prix dans un magasin, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (les prix dans un magasin) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "id": "prix-aider",
+          "texte": "Bonjour, je peux vous aider ?"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "prix-combien"
+        },
+        {
+          "qui": "autre",
+          "itemId": "prix-trois-euros"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "prix-trois-euros"
+        },
+        {
+          "qui": "autre",
+          "itemId": "prix-je-le-prends"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "prix-je-le-prends"
+        },
+        {
+          "qui": "autre",
+          "itemId": "au-revoir"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "au-revoir"
+        }
+      ]
+    },
+    {
+      "id": "prix-6",
+      "ordre": 6,
+      "titreInterne": "Variante et imprévu",
+      "scene": "prix-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (les prix dans un magasin).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : demander le prix d'un article dans un magasin ou au marché.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "prix-combien"
+        },
+        {
+          "qui": "autre",
+          "id": "prix-centimes",
+          "texte": "Alors, ça, c'est trois euros quatre-vingt-dix, mais si vous en prenez deux, je vous fais un prix : cinq euros."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "prix-cinq-euros"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "prix-cinq-euros"
+        },
+        {
+          "qui": "autre",
+          "itemId": "prix-je-le-prends"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "prix-je-le-prends"
+        },
+        {
+          "qui": "autre",
+          "itemId": "merci"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "merci"
+        }
+      ]
+    }
+  ]
+}

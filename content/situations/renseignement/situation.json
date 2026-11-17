@@ -1,0 +1,243 @@
+{
+  "id": "renseignement",
+  "ordre": 14,
+  "type": "parcours",
+  "univers": "services",
+  "titreInterne": "Demander un renseignement",
+  "contexte": "l'accueil d'un lieu public (mairie, magasin, service)",
+  "objectif": "demander où aller, les horaires et une explication",
+  "mission": "Demander un renseignement simple à l'accueil d'un lieu public.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "renseignement-ou-accueil",
+      "entend": "Excusez-moi, où est l'accueil ?",
+      "dit": "Excusez-moi, où est l'accueil ?",
+      "acceptees": [
+        "excusez moi ou est l accueil",
+        "ou est l accueil"
+      ],
+      "image": "renseignement-ou-accueil",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Excusez-moi, où est l'accueil ? » : demander où se trouve l'accueil."
+    },
+    {
+      "id": "renseignement-heure-ouvre",
+      "entend": "À quelle heure ça ouvre ?",
+      "dit": "À quelle heure ça ouvre ?",
+      "acceptees": [
+        "a quelle heure ca ouvre",
+        "quelle heure ca ouvre"
+      ],
+      "image": "renseignement-heure-ouvre",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « À quelle heure ça ouvre ? » : demander l'heure d'ouverture."
+    },
+    {
+      "id": "renseignement-heure-ferme",
+      "entend": "À quelle heure ça ferme ?",
+      "dit": "À quelle heure ça ferme ?",
+      "acceptees": [
+        "a quelle heure ca ferme",
+        "quelle heure ca ferme"
+      ],
+      "image": "renseignement-heure-ferme",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « À quelle heure ça ferme ? » : demander l'heure de fermeture."
+    },
+    {
+      "id": "renseignement-ouvert-samedi",
+      "entend": "C'est ouvert le samedi ?",
+      "dit": "C'est ouvert le samedi ?",
+      "acceptees": [
+        "c est ouvert le samedi",
+        "ouvert le samedi"
+      ],
+      "image": "renseignement-ouvert-samedi",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est ouvert le samedi ? » : demander si c'est ouvert le samedi."
+    },
+    {
+      "id": "renseignement-rdv-necessaire",
+      "entend": "Il faut prendre un rendez-vous ?",
+      "dit": "Il faut prendre un rendez-vous ?",
+      "acceptees": [
+        "il faut prendre un rendez vous",
+        "faut un rendez vous"
+      ],
+      "image": "renseignement-rdv-necessaire",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Il faut prendre un rendez-vous ? » : demander s'il faut un rendez-vous."
+    },
+    {
+      "id": "renseignement-expliquer",
+      "entend": "Vous pouvez m'expliquer, s'il vous plaît ?",
+      "dit": "Vous pouvez m'expliquer, s'il vous plaît ?",
+      "acceptees": [
+        "vous pouvez m expliquer s il vous plait",
+        "vous pouvez m expliquer",
+        "pouvez vous m expliquer",
+        "expliquer"
+      ],
+      "image": "renseignement-expliquer",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous pouvez m'expliquer, s'il vous plaît ? » : demander à la personne d'expliquer."
+    },
+    {
+      "id": "renseignement-au-guichet",
+      "entend": "C'est au guichet trois.",
+      "dit": "Merci beaucoup",
+      "acceptees": [
+        "merci beaucoup",
+        "merci"
+      ],
+      "image": "renseignement-au-guichet",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est au guichet trois. » : la personne indique le guichet trois."
+    },
+    {
+      "id": "renseignement-patienter",
+      "entend": "Vous pouvez patienter, s'il vous plaît.",
+      "dit": "D'accord, merci",
+      "acceptees": [
+        "d accord merci",
+        "d accord",
+        "merci"
+      ],
+      "image": "renseignement-patienter",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous pouvez patienter, s'il vous plaît. » : la personne demande d'attendre un moment."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "renseignement-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "renseignement-scene",
+      "items": [
+        "renseignement-ou-accueil",
+        "renseignement-heure-ouvre",
+        "renseignement-heure-ferme"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'accueil d'un lieu public (mairie, magasin, service) : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'accueil d'un lieu public (mairie, magasin, service)."
+    },
+    {
+      "id": "renseignement-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "renseignement-scene",
+      "items": [
+        "renseignement-ouvert-samedi",
+        "renseignement-rdv-necessaire",
+        "renseignement-expliquer"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'accueil d'un lieu public (mairie, magasin, service) : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'accueil d'un lieu public (mairie, magasin, service)."
+    },
+    {
+      "id": "renseignement-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "renseignement-scene",
+      "items": [
+        "renseignement-au-guichet",
+        "renseignement-patienter"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour l'accueil d'un lieu public (mairie, magasin, service) : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour l'accueil d'un lieu public (mairie, magasin, service)."
+    },
+    {
+      "id": "renseignement-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "renseignement-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour l'accueil d'un lieu public (mairie, magasin, service), comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (l'accueil d'un lieu public (mairie, magasin, service)) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "id": "renseignement-renseignement-aider",
+          "texte": "Bonjour, je peux vous renseigner ?"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "renseignement-ou-accueil"
+        },
+        {
+          "qui": "autre",
+          "itemId": "renseignement-au-guichet"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "renseignement-au-guichet"
+        },
+        {
+          "qui": "autre",
+          "itemId": "renseignement-patienter"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "renseignement-patienter"
+        }
+      ]
+    },
+    {
+      "id": "renseignement-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "renseignement-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (l'accueil d'un lieu public (mairie, magasin, service)).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : demander un renseignement simple à l'accueil d'un lieu public.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "renseignement-heure-ouvre"
+        },
+        {
+          "qui": "autre",
+          "id": "renseignement-horaires-longs",
+          "texte": "Alors, le lundi, nous ouvrons à neuf heures, mais le mercredi, c'est à dix heures, et le samedi, nous sommes ouverts uniquement le matin, jusqu'à midi."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "id": "renseignement-horaires-lents",
+          "texte": "Lundi, neuf heures. Mercredi, dix heures. Samedi, le matin seulement."
+        },
+        {
+          "qui": "soundes",
+          "itemId": "renseignement-ouvert-samedi"
+        },
+        {
+          "qui": "autre",
+          "itemId": "renseignement-patienter"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "renseignement-patienter"
+        }
+      ]
+    }
+  ]
+}

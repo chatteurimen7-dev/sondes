@@ -1,0 +1,248 @@
+{
+  "id": "chemin",
+  "ordre": 10,
+  "type": "parcours",
+  "univers": "deplacements",
+  "titreInterne": "Demander son chemin",
+  "contexte": "une rue en ville où l'on cherche une adresse",
+  "objectif": "demander où est un lieu et comprendre les directions",
+  "mission": "Demander son chemin à une personne dans la rue, pour un endroit proche.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "chemin-excusez-ou",
+      "entend": "Excusez-moi, où est la gare ?",
+      "dit": "Excusez-moi, où est la gare ?",
+      "acceptees": [
+        "excusez moi ou est la gare",
+        "ou est la gare"
+      ],
+      "image": "chemin-excusez-ou",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Excusez-moi, où est la gare ? » : demander poliment où se trouve la gare."
+    },
+    {
+      "id": "chemin-tout-droit",
+      "entend": "Tout droit.",
+      "dit": "Tout droit",
+      "acceptees": [
+        "tout droit"
+      ],
+      "image": "chemin-tout-droit",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Tout droit. » : aller tout droit."
+    },
+    {
+      "id": "chemin-a-gauche",
+      "entend": "À gauche.",
+      "dit": "À gauche",
+      "acceptees": [
+        "a gauche",
+        "gauche"
+      ],
+      "image": "chemin-a-gauche",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « À gauche. » : tourner à gauche."
+    },
+    {
+      "id": "chemin-a-droite",
+      "entend": "À droite.",
+      "dit": "À droite",
+      "acceptees": [
+        "a droite",
+        "droite"
+      ],
+      "image": "chemin-a-droite",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « À droite. » : tourner à droite."
+    },
+    {
+      "id": "chemin-premiere-rue",
+      "entend": "Prenez la première rue à gauche.",
+      "dit": "La première à gauche",
+      "acceptees": [
+        "la premiere a gauche",
+        "premiere a gauche",
+        "premiere rue a gauche",
+        "la premiere rue"
+      ],
+      "image": "chemin-premiere-rue",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Prenez la première rue à gauche. » : prendre la première rue à gauche."
+    },
+    {
+      "id": "chemin-traversez",
+      "entend": "Traversez la rue.",
+      "dit": "D'accord",
+      "acceptees": [
+        "d accord",
+        "oui",
+        "ok"
+      ],
+      "image": "chemin-traversez",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Traversez la rue. » : traverser la rue."
+    },
+    {
+      "id": "chemin-loin",
+      "entend": "C'est loin ?",
+      "dit": "C'est loin ?",
+      "acceptees": [
+        "c est loin",
+        "loin"
+      ],
+      "image": "chemin-loin",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est loin ? » : demander si c'est loin."
+    },
+    {
+      "id": "chemin-cinq-minutes",
+      "entend": "C'est à cinq minutes à pied.",
+      "dit": "Merci beaucoup",
+      "acceptees": [
+        "merci beaucoup",
+        "merci"
+      ],
+      "image": "chemin-cinq-minutes",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est à cinq minutes à pied. » : la personne dit que c'est à cinq minutes à pied."
+    },
+    {
+      "id": "chemin-en-face",
+      "entend": "C'est là-bas, en face.",
+      "dit": "Merci beaucoup",
+      "acceptees": [
+        "merci beaucoup",
+        "merci"
+      ],
+      "image": "chemin-en-face",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est là-bas, en face. » : la personne montre l'endroit juste en face."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "chemin-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "chemin-scene",
+      "items": [
+        "chemin-excusez-ou",
+        "chemin-tout-droit",
+        "chemin-a-gauche"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une rue en ville où l'on cherche une adresse : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une rue en ville où l'on cherche une adresse."
+    },
+    {
+      "id": "chemin-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "chemin-scene",
+      "items": [
+        "chemin-a-droite",
+        "chemin-premiere-rue",
+        "chemin-traversez"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une rue en ville où l'on cherche une adresse : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une rue en ville où l'on cherche une adresse."
+    },
+    {
+      "id": "chemin-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "chemin-scene",
+      "items": [
+        "chemin-loin",
+        "chemin-cinq-minutes",
+        "chemin-en-face"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une rue en ville où l'on cherche une adresse : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une rue en ville où l'on cherche une adresse."
+    },
+    {
+      "id": "chemin-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "chemin-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour une rue en ville où l'on cherche une adresse, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (une rue en ville où l'on cherche une adresse) en français.",
+      "dialogue": [
+        {
+          "qui": "soundes",
+          "itemId": "chemin-excusez-ou"
+        },
+        {
+          "qui": "autre",
+          "itemId": "chemin-tout-droit"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "chemin-tout-droit"
+        },
+        {
+          "qui": "autre",
+          "itemId": "chemin-a-gauche"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "chemin-a-gauche"
+        },
+        {
+          "qui": "autre",
+          "itemId": "chemin-cinq-minutes"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "chemin-cinq-minutes"
+        }
+      ]
+    },
+    {
+      "id": "chemin-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "chemin-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (une rue en ville où l'on cherche une adresse).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : demander son chemin à une personne dans la rue, pour un endroit proche.",
+      "dialogue": [
+        {
+          "qui": "soundes",
+          "itemId": "chemin-excusez-ou"
+        },
+        {
+          "qui": "autre",
+          "id": "chemin-directions-longues",
+          "texte": "Alors, vous allez tout droit jusqu'au feu, vous tournez à droite, puis vous prenez la deuxième rue à gauche, et la gare est juste après la pharmacie."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "chemin-tout-droit"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "chemin-tout-droit"
+        },
+        {
+          "qui": "autre",
+          "itemId": "chemin-a-droite"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "chemin-a-droite"
+        },
+        {
+          "qui": "autre",
+          "itemId": "chemin-en-face"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "chemin-en-face"
+        }
+      ]
+    }
+  ]
+}

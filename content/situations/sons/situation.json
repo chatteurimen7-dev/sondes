@@ -1,0 +1,195 @@
+{
+  "id": "sons",
+  "ordre": 99,
+  "type": "sons",
+  "univers": "sons",
+  "titreInterne": "Atelier des sons",
+  "contexte": "des paires de mots qui se ressemblent",
+  "objectif": "entendre et dire la différence entre des sons proches",
+  "mission": "",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "son-pain",
+      "entend": "Pain",
+      "dit": "Pain",
+      "acceptees": [
+        "pain",
+        "pin",
+        "peint"
+      ],
+      "image": "pain",
+      "sensIntention": "Dire simplement que le mot est « pain » et montrer l'image."
+    },
+    {
+      "id": "son-bain",
+      "entend": "Bain",
+      "dit": "Bain",
+      "acceptees": [
+        "bain",
+        "bin"
+      ],
+      "image": "bain",
+      "sensIntention": "Dire simplement que le mot est « bain » et montrer l'image."
+    },
+    {
+      "id": "son-poule",
+      "entend": "Poule",
+      "dit": "Poule",
+      "acceptees": [
+        "poule",
+        "pool"
+      ],
+      "image": "poule",
+      "sensIntention": "Dire simplement que le mot est « poule » et montrer l'image."
+    },
+    {
+      "id": "son-boule",
+      "entend": "Boule",
+      "dit": "Boule",
+      "acceptees": [
+        "boule",
+        "boul",
+        "bool"
+      ],
+      "image": "boule",
+      "sensIntention": "Dire simplement que le mot est « boule » et montrer l'image."
+    },
+    {
+      "id": "son-roue",
+      "entend": "Roue",
+      "dit": "Roue",
+      "acceptees": [
+        "roue",
+        "rou",
+        "roux"
+      ],
+      "image": "roue",
+      "sensIntention": "Dire simplement que le mot est « roue » et montrer l'image."
+    },
+    {
+      "id": "son-rue",
+      "entend": "Rue",
+      "dit": "Rue",
+      "acceptees": [
+        "rue",
+        "ru"
+      ],
+      "image": "rue-mot",
+      "sensIntention": "Dire simplement que le mot est « rue » et montrer l'image."
+    },
+    {
+      "id": "son-bon",
+      "entend": "Bon",
+      "dit": "Bon",
+      "acceptees": [
+        "bon",
+        "bond",
+        "bonne"
+      ],
+      "image": "bon",
+      "sensIntention": "Dire simplement que le mot est « bon » et montrer l'image."
+    },
+    {
+      "id": "son-banc",
+      "entend": "Banc",
+      "dit": "Banc",
+      "acceptees": [
+        "banc",
+        "ban",
+        "bang"
+      ],
+      "image": "banc",
+      "sensIntention": "Dire simplement que le mot est « banc » et montrer l'image."
+    },
+    {
+      "id": "son-riz",
+      "entend": "Riz",
+      "dit": "Riz",
+      "acceptees": [
+        "riz",
+        "ri",
+        "ris",
+        "rit"
+      ],
+      "image": "riz",
+      "sensIntention": "Dire simplement que le mot est « riz » et montrer l'image."
+    },
+    {
+      "id": "son-lit",
+      "entend": "Lit",
+      "dit": "Lit",
+      "acceptees": [
+        "lit",
+        "li",
+        "lie",
+        "lis"
+      ],
+      "image": "lit",
+      "sensIntention": "Dire simplement que le mot est « lit » et montrer l'image."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "sons-p-b-1",
+      "ordre": 1,
+      "titreInterne": "Les sons « p » et « b »",
+      "scene": "bouche-fermee",
+      "items": [
+        "son-pain",
+        "son-bain"
+      ],
+      "consigneIntention": "Expliquer que les mots « pain » et « bain » se ressemblent : au début, les lèvres se ferment, mais avec « b » la voix vibre dans la gorge. Montrer la bouche.",
+      "bilanIntention": "Conclure : elle entend maintenant la différence entre les deux sons de la séance « Les sons « p » et « b » »."
+    },
+    {
+      "id": "sons-p-b-2",
+      "ordre": 2,
+      "titreInterne": "Les sons « p » et « b » (suite)",
+      "scene": "bouche-fermee",
+      "items": [
+        "son-poule",
+        "son-boule"
+      ],
+      "consigneIntention": "Rappeler la différence entre « p » et « b » avec « poule » et « boule » : pour « p », on souffle ; pour « b », la voix vibre.",
+      "bilanIntention": "Conclure : elle entend maintenant la différence entre les deux sons de la séance « Les sons « p » et « b » (suite) »."
+    },
+    {
+      "id": "sons-ou-u",
+      "ordre": 3,
+      "titreInterne": "Les sons « ou » et « u »",
+      "scene": "bouche-u",
+      "items": [
+        "son-roue",
+        "son-rue"
+      ],
+      "consigneIntention": "Expliquer que « roue » et « rue » diffèrent par la bouche : pour « ou », les lèvres sont rondes ; pour « u », elles sont encore plus avancées et serrées, avec la langue en avant.",
+      "bilanIntention": "Conclure : elle entend maintenant la différence entre les deux sons de la séance « Les sons « ou » et « u » »."
+    },
+    {
+      "id": "sons-on-an",
+      "ordre": 4,
+      "titreInterne": "Les sons « on » et « an »",
+      "scene": "bouche-ouverte",
+      "items": [
+        "son-bon",
+        "son-banc"
+      ],
+      "consigneIntention": "Expliquer que « bon » et « banc » sont deux sons nasaux : l'air passe par le nez, et la bouche est plus ronde pour « on » et plus ouverte pour « an ».",
+      "bilanIntention": "Conclure : elle entend maintenant la différence entre les deux sons de la séance « Les sons « on » et « an » »."
+    },
+    {
+      "id": "sons-r-l",
+      "ordre": 5,
+      "titreInterne": "Les sons « r » et « l »",
+      "scene": "bouche-ouverte",
+      "items": [
+        "son-riz",
+        "son-lit"
+      ],
+      "consigneIntention": "Expliquer que « riz » et « lit » diffèrent au début : pour « l », la langue touche le haut de la bouche ; pour « r », le son vient du fond de la gorge.",
+      "bilanIntention": "Conclure : elle entend maintenant la différence entre les deux sons de la séance « Les sons « r » et « l » »."
+    }
+  ]
+}

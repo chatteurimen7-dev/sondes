@@ -1,0 +1,315 @@
+{
+  "id": "caisse",
+  "ordre": 5,
+  "type": "parcours",
+  "univers": "courses",
+  "titreInterne": "Payer à la caisse",
+  "contexte": "le passage à la caisse d'un magasin",
+  "objectif": "payer, répondre sur le sac, la carte ou les espèces, et prendre le ticket",
+  "mission": "Passer à la caisse d'un magasin et dire bonjour, merci et au revoir.",
+  "dureeIndicativeMinutes": 72,
+  "items": [
+    {
+      "id": "caisse-total",
+      "entend": "Ça fait sept euros cinquante.",
+      "dit": "D'accord",
+      "acceptees": [
+        "d accord",
+        "ok",
+        "oui",
+        "daccord"
+      ],
+      "image": "caisse-total",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ça fait sept euros cinquante. » : la caissière annonce le total à payer."
+    },
+    {
+      "id": "caisse-carte-especes",
+      "entend": "Vous payez par carte ou en espèces ?",
+      "dit": "Par carte",
+      "acceptees": [
+        "par carte",
+        "en especes",
+        "carte",
+        "especes"
+      ],
+      "image": "caisse-carte-especes",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous payez par carte ou en espèces ? » : la caissière demande comment vous payez."
+    },
+    {
+      "id": "caisse-sans-contact",
+      "entend": "Vous pouvez passer votre carte.",
+      "dit": "D'accord, merci",
+      "acceptees": [
+        "d accord merci",
+        "d accord",
+        "merci"
+      ],
+      "image": "caisse-sans-contact",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous pouvez passer votre carte. » : la caissière explique comment poser la carte sur l'appareil."
+    },
+    {
+      "id": "caisse-code",
+      "entend": "Tapez votre code, s'il vous plaît.",
+      "dit": "D'accord",
+      "acceptees": [
+        "d accord",
+        "oui",
+        "ok"
+      ],
+      "image": "caisse-code",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Tapez votre code, s'il vous plaît. » : la caissière demande de taper le code secret de la carte."
+    },
+    {
+      "id": "caisse-sac-caisse",
+      "entend": "Vous voulez un sac ?",
+      "dit": "Oui, s'il vous plaît",
+      "acceptees": [
+        "oui s il vous plait",
+        "oui",
+        "non merci",
+        "non",
+        "oui merci"
+      ],
+      "image": "caisse-sac-caisse",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous voulez un sac ? » : la caissière propose un sac."
+    },
+    {
+      "id": "caisse-ticket",
+      "entend": "Vous voulez le ticket ?",
+      "dit": "Oui, merci",
+      "acceptees": [
+        "oui merci",
+        "non merci",
+        "non",
+        "oui"
+      ],
+      "image": "caisse-ticket",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous voulez le ticket ? » : la caissière propose le ticket de caisse."
+    },
+    {
+      "id": "caisse-monnaie",
+      "entend": "Voici votre monnaie.",
+      "dit": "Merci",
+      "acceptees": [
+        "merci",
+        "merci beaucoup"
+      ],
+      "image": "caisse-monnaie",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Voici votre monnaie. » : la caissière rend la monnaie."
+    },
+    {
+      "id": "caisse-carte-magasin",
+      "entend": "Vous avez la carte du magasin ?",
+      "dit": "Non, merci",
+      "acceptees": [
+        "non merci",
+        "non",
+        "oui"
+      ],
+      "image": "caisse-carte-magasin",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous avez la carte du magasin ? » : la caissière demande si vous avez la carte de fidélité."
+    },
+    {
+      "id": "caisse-en-especes",
+      "entend": "En espèces ?",
+      "dit": "Oui, en espèces",
+      "acceptees": [
+        "oui en especes",
+        "en especes",
+        "oui",
+        "especes"
+      ],
+      "image": "caisse-en-especes",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « En espèces ? » : la caissière confirme un paiement en espèces."
+    },
+    {
+      "id": "caisse-au-revoir-caisse",
+      "entend": "Merci, bonne journée !",
+      "dit": "Merci, au revoir",
+      "acceptees": [
+        "merci au revoir",
+        "au revoir",
+        "merci"
+      ],
+      "image": "caisse-au-revoir-caisse",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Merci, bonne journée ! » : on se dit au revoir après avoir payé."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "caisse-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "caisse-scene",
+      "items": [
+        "caisse-total",
+        "caisse-carte-especes",
+        "caisse-sans-contact"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour le passage à la caisse d'un magasin : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour le passage à la caisse d'un magasin."
+    },
+    {
+      "id": "caisse-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "caisse-scene",
+      "items": [
+        "caisse-code",
+        "caisse-sac-caisse",
+        "caisse-ticket"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour le passage à la caisse d'un magasin : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour le passage à la caisse d'un magasin."
+    },
+    {
+      "id": "caisse-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "caisse-scene",
+      "items": [
+        "caisse-monnaie",
+        "caisse-carte-magasin"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour le passage à la caisse d'un magasin : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour le passage à la caisse d'un magasin."
+    },
+    {
+      "id": "caisse-4",
+      "ordre": 4,
+      "titreInterne": "Écouter, comprendre et dire (4)",
+      "scene": "caisse-scene",
+      "items": [
+        "caisse-en-especes",
+        "caisse-au-revoir-caisse"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour le passage à la caisse d'un magasin : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour le passage à la caisse d'un magasin."
+    },
+    {
+      "id": "caisse-5",
+      "ordre": 5,
+      "titreInterne": "Simulation orale",
+      "scene": "caisse-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour le passage à la caisse d'un magasin, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (le passage à la caisse d'un magasin) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "itemId": "caisse-carte-magasin"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "caisse-carte-magasin"
+        },
+        {
+          "qui": "autre",
+          "itemId": "caisse-total"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "caisse-total"
+        },
+        {
+          "qui": "autre",
+          "itemId": "caisse-carte-especes"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "caisse-carte-especes"
+        },
+        {
+          "qui": "autre",
+          "itemId": "caisse-ticket"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "caisse-ticket"
+        },
+        {
+          "qui": "autre",
+          "itemId": "caisse-au-revoir-caisse"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "caisse-au-revoir-caisse"
+        }
+      ]
+    },
+    {
+      "id": "caisse-6",
+      "ordre": 6,
+      "titreInterne": "Variante et imprévu",
+      "scene": "caisse-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (le passage à la caisse d'un magasin).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : passer à la caisse d'un magasin et dire bonjour, merci et au revoir.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "itemId": "caisse-total"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "caisse-total"
+        },
+        {
+          "qui": "autre",
+          "id": "caisse-carte-refusee",
+          "texte": "Alors, votre carte ne passe pas, il y a un problème avec le terminal. Vous avez un autre moyen de paiement, peut-être des espèces ?"
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "caisse-en-especes"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "caisse-en-especes"
+        },
+        {
+          "qui": "autre",
+          "itemId": "caisse-monnaie"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "caisse-monnaie"
+        },
+        {
+          "qui": "autre",
+          "itemId": "caisse-au-revoir-caisse"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "caisse-au-revoir-caisse"
+        }
+      ]
+    }
+  ]
+}

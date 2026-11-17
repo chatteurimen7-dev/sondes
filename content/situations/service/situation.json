@@ -1,0 +1,258 @@
+{
+  "id": "service",
+  "ordre": 7,
+  "type": "parcours",
+  "univers": "maison",
+  "titreInterne": "Demander un petit service",
+  "contexte": "un petit service entre voisins",
+  "objectif": "demander de l'aide, répondre à une demande et remercier",
+  "mission": "Demander ou rendre un petit service simple à un voisin ou à une voisine.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "service-demander-aide",
+      "entend": "Bonjour, vous avez un problème ?",
+      "dit": "Oui, vous pouvez m'aider, s'il vous plaît ?",
+      "acceptees": [
+        "oui vous pouvez m aider s il vous plait",
+        "vous pouvez m aider",
+        "pouvez vous m aider",
+        "oui",
+        "aidez moi"
+      ],
+      "image": "service-demander-aide",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Bonjour, vous avez un problème ? » : un voisin voit que vous avez besoin d'aide et vous le demande."
+    },
+    {
+      "id": "service-que-faire",
+      "entend": "Qu'est-ce que je peux faire pour vous ?",
+      "dit": "Pouvez-vous porter ce sac, s'il vous plaît ?",
+      "acceptees": [
+        "pouvez vous porter ce sac s il vous plait",
+        "porter ce sac",
+        "ce sac",
+        "pouvez vous porter ce sac",
+        "vous pouvez porter ce sac"
+      ],
+      "image": "service-que-faire",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Qu'est-ce que je peux faire pour vous ? » : le voisin demande ce dont vous avez besoin."
+    },
+    {
+      "id": "service-merci-recu",
+      "entend": "Voilà, c'est fait !",
+      "dit": "Merci beaucoup",
+      "acceptees": [
+        "merci beaucoup",
+        "merci"
+      ],
+      "image": "service-merci-recu",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Voilà, c'est fait ! » : le voisin vous a aidée, vous pouvez le remercier."
+    },
+    {
+      "id": "service-porte",
+      "entend": "Vous pouvez tenir la porte, s'il vous plaît ?",
+      "dit": "Oui, bien sûr",
+      "acceptees": [
+        "oui bien sur",
+        "bien sur",
+        "oui"
+      ],
+      "image": "service-porte",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous pouvez tenir la porte, s'il vous plaît ? » : un voisin vous demande de tenir la porte."
+    },
+    {
+      "id": "service-sac-lourd",
+      "entend": "Vous pouvez m'aider avec ce sac ?",
+      "dit": "Oui, bien sûr",
+      "acceptees": [
+        "oui bien sur",
+        "bien sur",
+        "oui"
+      ],
+      "image": "service-sac-lourd",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous pouvez m'aider avec ce sac ? » : un voisin vous demande de l'aider avec un sac lourd."
+    },
+    {
+      "id": "service-stylo",
+      "entend": "Vous avez un stylo ?",
+      "dit": "Oui, voilà",
+      "acceptees": [
+        "oui voila",
+        "voila",
+        "non desolee",
+        "non"
+      ],
+      "image": "service-stylo",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous avez un stylo ? » : un voisin vous demande un stylo."
+    },
+    {
+      "id": "service-pas-le-temps",
+      "entend": "Désolée, je n'ai pas le temps.",
+      "dit": "Ce n'est pas grave, merci",
+      "acceptees": [
+        "ce n est pas grave merci",
+        "pas grave",
+        "ce n est pas grave",
+        "merci"
+      ],
+      "image": "service-pas-le-temps",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Désolée, je n'ai pas le temps. » : un voisin dit qu'il ne peut pas vous aider maintenant."
+    },
+    {
+      "id": "service-desole",
+      "entend": "Excusez-moi, je suis désolée.",
+      "dit": "Ce n'est pas grave",
+      "acceptees": [
+        "ce n est pas grave",
+        "pas grave"
+      ],
+      "image": "service-desole",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Excusez-moi, je suis désolée. » : quelqu'un s'excuse et vous répondez que ce n'est pas grave."
+    },
+    {
+      "id": "service-je-vous-en-prie",
+      "entend": "Merci beaucoup !",
+      "dit": "Je vous en prie",
+      "acceptees": [
+        "je vous en prie",
+        "de rien"
+      ],
+      "image": "service-je-vous-en-prie",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Merci beaucoup ! » : quelqu'un vous remercie et vous répondez poliment."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "service-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "service-scene",
+      "items": [
+        "service-demander-aide",
+        "service-que-faire",
+        "service-merci-recu"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un petit service entre voisins : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un petit service entre voisins."
+    },
+    {
+      "id": "service-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "service-scene",
+      "items": [
+        "service-porte",
+        "service-sac-lourd",
+        "service-stylo"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un petit service entre voisins : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un petit service entre voisins."
+    },
+    {
+      "id": "service-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "service-scene",
+      "items": [
+        "service-pas-le-temps",
+        "service-desole",
+        "service-je-vous-en-prie"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un petit service entre voisins : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un petit service entre voisins."
+    },
+    {
+      "id": "service-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "service-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour un petit service entre voisins, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (un petit service entre voisins) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "service-demander-aide"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "service-demander-aide"
+        },
+        {
+          "qui": "autre",
+          "itemId": "service-que-faire"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "service-que-faire"
+        },
+        {
+          "qui": "autre",
+          "itemId": "service-merci-recu"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "service-merci-recu"
+        }
+      ]
+    },
+    {
+      "id": "service-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "service-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (un petit service entre voisins).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : demander ou rendre un petit service simple à un voisin ou à une voisine.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "service-porte"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "service-porte"
+        },
+        {
+          "qui": "autre",
+          "itemId": "service-je-vous-en-prie"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "service-je-vous-en-prie"
+        },
+        {
+          "qui": "autre",
+          "id": "service-attendez",
+          "texte": "Ah, attendez, vous pouvez aussi m'aider à monter ce carton au deuxième étage ? Je n'arrive pas à le porter toute seule."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "service-sac-lourd"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "service-sac-lourd"
+        },
+        {
+          "qui": "autre",
+          "itemId": "service-merci-recu"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "service-merci-recu"
+        }
+      ]
+    }
+  ]
+}

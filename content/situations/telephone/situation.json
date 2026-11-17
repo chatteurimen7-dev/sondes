@@ -1,0 +1,245 @@
+{
+  "id": "telephone",
+  "ordre": 19,
+  "type": "parcours",
+  "univers": "echanges",
+  "titreInterne": "Répondre au téléphone",
+  "contexte": "des appels téléphoniques courts à la maison",
+  "objectif": "répondre à un appel, demander qui appelle et gérer un appel qu'on ne comprend pas",
+  "mission": "Répondre à un appel court avec « allô » puis demander à la personne de répéter si besoin.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "telephone-allo",
+      "entend": "Allô ? Bonjour !",
+      "dit": "Allô, bonjour",
+      "acceptees": [
+        "allo bonjour",
+        "allo",
+        "bonjour"
+      ],
+      "image": "telephone-allo",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Allô ? Bonjour ! » : répondre au téléphone en disant allô puis bonjour."
+    },
+    {
+      "id": "telephone-de-la-part",
+      "entend": "Bonjour, c'est de la part de qui ?",
+      "dit": "C'est Sondes",
+      "acceptees": [
+        "c est sondes",
+        "sondes",
+        "je suis sondes",
+        "c est sondes qui parle"
+      ],
+      "image": "telephone-de-la-part",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Bonjour, c'est de la part de qui ? » : on demande qui vous êtes au téléphone."
+    },
+    {
+      "id": "telephone-ne-quittez-pas",
+      "entend": "Ne quittez pas, s'il vous plaît.",
+      "dit": "D'accord",
+      "acceptees": [
+        "d accord",
+        "oui",
+        "merci"
+      ],
+      "image": "telephone-ne-quittez-pas",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ne quittez pas, s'il vous plaît. » : la personne dit d'attendre au téléphone."
+    },
+    {
+      "id": "telephone-mauvais-numero",
+      "entend": "Vous avez fait un mauvais numéro.",
+      "dit": "Excusez-moi",
+      "acceptees": [
+        "excusez moi",
+        "pardon",
+        "desolee"
+      ],
+      "image": "telephone-mauvais-numero",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous avez fait un mauvais numéro. » : la personne dit que vous vous êtes trompée de numéro."
+    },
+    {
+      "id": "telephone-rappeler",
+      "entend": "Vous pouvez rappeler plus tard ?",
+      "dit": "Oui, je rappelle",
+      "acceptees": [
+        "oui je rappelle",
+        "oui",
+        "je rappelle plus tard",
+        "d accord"
+      ],
+      "image": "telephone-rappeler",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous pouvez rappeler plus tard ? » : la personne demande de rappeler plus tard."
+    },
+    {
+      "id": "telephone-repeter-tel",
+      "entend": "Mmm, la ligne est mauvaise, je ne sais pas si vous m'entendez.",
+      "dit": "Répétez, s'il vous plaît",
+      "acceptees": [
+        "repetez s il vous plait",
+        "repetez",
+        "plus fort"
+      ],
+      "image": "telephone-repeter-tel",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Mmm, la ligne est mauvaise, je ne sais pas si vous m'entendez. » : la ligne est mauvaise, vous demandez de répéter."
+    },
+    {
+      "id": "telephone-message",
+      "entend": "Je peux prendre un message ?",
+      "dit": "Oui, rappelez demain, s'il vous plaît",
+      "acceptees": [
+        "oui rappelez demain s il vous plait",
+        "oui rappelez demain",
+        "rappelez demain",
+        "oui",
+        "non merci"
+      ],
+      "image": "telephone-message",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je peux prendre un message ? » : la personne propose de prendre un message."
+    },
+    {
+      "id": "telephone-au-revoir-tel",
+      "entend": "Merci, au revoir, bonne journée !",
+      "dit": "Au revoir",
+      "acceptees": [
+        "au revoir",
+        "merci au revoir"
+      ],
+      "image": "telephone-au-revoir-tel",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Merci, au revoir, bonne journée ! » : on se dit au revoir au téléphone."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "telephone-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "telephone-scene",
+      "items": [
+        "telephone-allo",
+        "telephone-de-la-part",
+        "telephone-ne-quittez-pas"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des appels téléphoniques courts à la maison : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des appels téléphoniques courts à la maison."
+    },
+    {
+      "id": "telephone-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "telephone-scene",
+      "items": [
+        "telephone-mauvais-numero",
+        "telephone-rappeler",
+        "telephone-repeter-tel"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des appels téléphoniques courts à la maison : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des appels téléphoniques courts à la maison."
+    },
+    {
+      "id": "telephone-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "telephone-scene",
+      "items": [
+        "telephone-message",
+        "telephone-au-revoir-tel"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des appels téléphoniques courts à la maison : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des appels téléphoniques courts à la maison."
+    },
+    {
+      "id": "telephone-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "telephone-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour des appels téléphoniques courts à la maison, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (des appels téléphoniques courts à la maison) en français.",
+      "dialogue": [
+        {
+          "qui": "soundes",
+          "itemId": "telephone-allo"
+        },
+        {
+          "qui": "autre",
+          "itemId": "telephone-de-la-part"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "telephone-de-la-part"
+        },
+        {
+          "qui": "autre",
+          "itemId": "telephone-ne-quittez-pas"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "telephone-ne-quittez-pas"
+        },
+        {
+          "qui": "autre",
+          "itemId": "telephone-au-revoir-tel"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "telephone-au-revoir-tel"
+        }
+      ]
+    },
+    {
+      "id": "telephone-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "telephone-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (des appels téléphoniques courts à la maison).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : répondre à un appel court avec « allô » puis demander à la personne de répéter si besoin.",
+      "dialogue": [
+        {
+          "qui": "soundes",
+          "itemId": "telephone-allo"
+        },
+        {
+          "qui": "autre",
+          "id": "telephone-tel-vite",
+          "texte": "Bonjour, c'est la mairie, je vous appelle pour le dossier que vous avez déposé, il manque un document, vous pouvez le rapporter avant vendredi ?"
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "telephone-repeter-tel"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "telephone-repeter-tel"
+        },
+        {
+          "qui": "autre",
+          "itemId": "telephone-rappeler"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "telephone-rappeler"
+        },
+        {
+          "qui": "autre",
+          "itemId": "telephone-au-revoir-tel"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "telephone-au-revoir-tel"
+        }
+      ]
+    }
+  ]
+}

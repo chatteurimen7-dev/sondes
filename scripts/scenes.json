@@ -1,0 +1,1749 @@
+[
+ {
+  "id": "pain-baguette",
+  "bg": "boulangerie",
+  "layout": "solo",
+  "props": [
+   "baguette"
+  ],
+  "seed": "pain-baguette"
+ },
+ {
+  "id": "pain-croissant",
+  "bg": "boulangerie",
+  "layout": "solo",
+  "props": [
+   "croissant"
+  ],
+  "seed": "pain-croissant"
+ },
+ {
+  "id": "pain-pain-rond",
+  "bg": "boulangerie",
+  "layout": "solo",
+  "props": [
+   "pain-rond"
+  ],
+  "seed": "pain-pain-rond"
+ },
+ {
+  "id": "pain-vous-desirez",
+  "bg": "boulangerie",
+  "layout": "duo",
+  "props": [
+   "question"
+  ],
+  "seed": "pain-vous-desirez"
+ },
+ {
+  "id": "pain-et-avec-ceci",
+  "bg": "boulangerie",
+  "layout": "duo",
+  "props": [
+   "question",
+   "croissant"
+  ],
+  "seed": "pain-et-avec-ceci"
+ },
+ {
+  "id": "pain-sac",
+  "bg": "boulangerie",
+  "layout": "duo",
+  "props": [
+   "sac"
+  ],
+  "seed": "pain-sac"
+ },
+ {
+  "id": "pain-coupee",
+  "bg": "boulangerie",
+  "layout": "duo",
+  "props": [
+   "baguette",
+   "question"
+  ],
+  "seed": "pain-coupee"
+ },
+ {
+  "id": "pain-voila",
+  "bg": "boulangerie",
+  "layout": "duo",
+  "props": [
+   "main-offre",
+   "baguette"
+  ],
+  "seed": "pain-voila"
+ },
+ {
+  "id": "pain-bonne-journee",
+  "bg": "boulangerie",
+  "layout": "duo",
+  "props": [
+   "soleil"
+  ],
+  "seed": "pain-bonne-journee"
+ },
+ {
+  "id": "pain-scene",
+  "bg": "boulangerie",
+  "layout": "duo",
+  "props": [],
+  "seed": "pain-scene"
+ },
+ {
+  "id": "prix-combien",
+  "bg": "caisse",
+  "layout": "solo",
+  "props": [
+   "question",
+   "pieces"
+  ],
+  "seed": "prix-combien"
+ },
+ {
+  "id": "prix-un-euro",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "pieces1"
+  ],
+  "seed": "prix-un-euro"
+ },
+ {
+  "id": "prix-deux-euros",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "pieces2"
+  ],
+  "seed": "prix-deux-euros"
+ },
+ {
+  "id": "prix-trois-euros",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "pieces3"
+  ],
+  "seed": "prix-trois-euros"
+ },
+ {
+  "id": "prix-cinq-euros",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "billet5"
+  ],
+  "seed": "prix-cinq-euros"
+ },
+ {
+  "id": "prix-dix-euros",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "billet10"
+  ],
+  "seed": "prix-dix-euros"
+ },
+ {
+  "id": "prix-un-cinquante",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "pieces1",
+   "piece50"
+  ],
+  "seed": "prix-un-cinquante"
+ },
+ {
+  "id": "prix-trop-cher",
+  "bg": "caisse",
+  "layout": "solo",
+  "props": [
+   "etiquette",
+   "fleche-haut"
+  ],
+  "seed": "prix-trop-cher"
+ },
+ {
+  "id": "prix-promo",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "etiquette-promo"
+  ],
+  "seed": "prix-promo"
+ },
+ {
+  "id": "prix-je-le-prends",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "question",
+   "sac"
+  ],
+  "seed": "prix-je-le-prends"
+ },
+ {
+  "id": "prix-scene",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [],
+  "seed": "prix-scene"
+ },
+ {
+  "id": "fruits-qu-est-ce",
+  "bg": "marche",
+  "layout": "duo",
+  "props": [
+   "question",
+   "panier"
+  ],
+  "seed": "fruits-qu-est-ce"
+ },
+ {
+  "id": "fruits-pommes",
+  "bg": "marche",
+  "layout": "solo",
+  "props": [
+   "pomme"
+  ],
+  "seed": "fruits-pommes"
+ },
+ {
+  "id": "fruits-bananes",
+  "bg": "marche",
+  "layout": "solo",
+  "props": [
+   "banane"
+  ],
+  "seed": "fruits-bananes"
+ },
+ {
+  "id": "fruits-tomates",
+  "bg": "marche",
+  "layout": "solo",
+  "props": [
+   "tomate"
+  ],
+  "seed": "fruits-tomates"
+ },
+ {
+  "id": "fruits-carottes",
+  "bg": "marche",
+  "layout": "solo",
+  "props": [
+   "carotte"
+  ],
+  "seed": "fruits-carottes"
+ },
+ {
+  "id": "fruits-un-kilo",
+  "bg": "marche",
+  "layout": "solo",
+  "props": [
+   "balance"
+  ],
+  "seed": "fruits-un-kilo"
+ },
+ {
+  "id": "fruits-demi-kilo",
+  "bg": "marche",
+  "layout": "solo",
+  "props": [
+   "balance-demi"
+  ],
+  "seed": "fruits-demi-kilo"
+ },
+ {
+  "id": "fruits-combien-kilo",
+  "bg": "marche",
+  "layout": "solo",
+  "props": [
+   "etiquette",
+   "balance"
+  ],
+  "seed": "fruits-combien-kilo"
+ },
+ {
+  "id": "fruits-autre-chose",
+  "bg": "marche",
+  "layout": "duo",
+  "props": [
+   "question",
+   "panier"
+  ],
+  "seed": "fruits-autre-chose"
+ },
+ {
+  "id": "fruits-scene",
+  "bg": "marche",
+  "layout": "duo",
+  "props": [],
+  "seed": "fruits-scene"
+ },
+ {
+  "id": "caisse-total",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "caisse",
+   "pieces"
+  ],
+  "seed": "caisse-total"
+ },
+ {
+  "id": "caisse-carte-especes",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "carte",
+   "billets"
+  ],
+  "seed": "caisse-carte-especes"
+ },
+ {
+  "id": "caisse-sans-contact",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "carte"
+  ],
+  "seed": "caisse-sans-contact"
+ },
+ {
+  "id": "caisse-code",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "carte",
+   "caisse"
+  ],
+  "seed": "caisse-code"
+ },
+ {
+  "id": "caisse-sac-caisse",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "sac"
+  ],
+  "seed": "caisse-sac-caisse"
+ },
+ {
+  "id": "caisse-ticket",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "ticket-caisse"
+  ],
+  "seed": "caisse-ticket"
+ },
+ {
+  "id": "caisse-monnaie",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "pieces",
+   "main-offre"
+  ],
+  "seed": "caisse-monnaie"
+ },
+ {
+  "id": "caisse-carte-magasin",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "carte-magasin"
+  ],
+  "seed": "caisse-carte-magasin"
+ },
+ {
+  "id": "caisse-en-especes",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "billets",
+   "question"
+  ],
+  "seed": "caisse-en-especes"
+ },
+ {
+  "id": "caisse-au-revoir-caisse",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [
+   "soleil"
+  ],
+  "seed": "caisse-au-revoir-caisse"
+ },
+ {
+  "id": "caisse-scene",
+  "bg": "caisse",
+  "layout": "duo",
+  "props": [],
+  "seed": "caisse-scene"
+ },
+ {
+  "id": "voisin-il-fait-beau",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "soleil"
+  ],
+  "seed": "voisin-il-fait-beau"
+ },
+ {
+  "id": "voisin-il-pleut",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "pluie"
+  ],
+  "seed": "voisin-il-pleut"
+ },
+ {
+  "id": "voisin-il-fait-froid",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "flocon"
+  ],
+  "seed": "voisin-il-fait-froid"
+ },
+ {
+  "id": "voisin-vous-habitez-ici",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "maison",
+   "calendrier"
+  ],
+  "seed": "voisin-vous-habitez-ici"
+ },
+ {
+  "id": "voisin-quel-etage",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "escalier",
+   "question"
+  ],
+  "seed": "voisin-quel-etage"
+ },
+ {
+  "id": "voisin-ca-se-passe-bien",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "maison",
+   "sourire"
+  ],
+  "seed": "voisin-ca-se-passe-bien"
+ },
+ {
+  "id": "voisin-ascenseur",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "ascenseur-panne"
+  ],
+  "seed": "voisin-ascenseur"
+ },
+ {
+  "id": "voisin-bonne-soiree",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "lune"
+  ],
+  "seed": "voisin-bonne-soiree"
+ },
+ {
+  "id": "voisin-a-bientot",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "calendrier",
+   "main-salut"
+  ],
+  "seed": "voisin-a-bientot"
+ },
+ {
+  "id": "voisin-scene",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [],
+  "seed": "voisin-scene"
+ },
+ {
+  "id": "service-demander-aide",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "question",
+   "main-offre"
+  ],
+  "seed": "service-demander-aide"
+ },
+ {
+  "id": "service-que-faire",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "sac",
+   "question"
+  ],
+  "seed": "service-que-faire"
+ },
+ {
+  "id": "service-merci-recu",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "coeur"
+  ],
+  "seed": "service-merci-recu"
+ },
+ {
+  "id": "service-porte",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "porte"
+  ],
+  "seed": "service-porte"
+ },
+ {
+  "id": "service-sac-lourd",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "sac"
+  ],
+  "seed": "service-sac-lourd"
+ },
+ {
+  "id": "service-stylo",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "stylo"
+  ],
+  "seed": "service-stylo"
+ },
+ {
+  "id": "service-pas-le-temps",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "horloge"
+  ],
+  "seed": "service-pas-le-temps"
+ },
+ {
+  "id": "service-desole",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "sourire"
+  ],
+  "seed": "service-desole"
+ },
+ {
+  "id": "service-je-vous-en-prie",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "coeur"
+  ],
+  "seed": "service-je-vous-en-prie"
+ },
+ {
+  "id": "service-scene",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [],
+  "seed": "service-scene"
+ },
+ {
+  "id": "bus-ticket-svp",
+  "bg": "arret",
+  "layout": "solo",
+  "props": [
+   "ticket"
+  ],
+  "seed": "bus-ticket-svp"
+ },
+ {
+  "id": "bus-arret-ou",
+  "bg": "arret",
+  "layout": "solo",
+  "props": [
+   "arret",
+   "question"
+  ],
+  "seed": "bus-arret-ou"
+ },
+ {
+  "id": "bus-va-gare",
+  "bg": "arret",
+  "layout": "solo",
+  "props": [
+   "bus",
+   "question"
+  ],
+  "seed": "bus-va-gare"
+ },
+ {
+  "id": "bus-oui-montez",
+  "bg": "arret",
+  "layout": "duo",
+  "props": [
+   "bus",
+   "fleche-droit"
+  ],
+  "seed": "bus-oui-montez"
+ },
+ {
+  "id": "bus-valider",
+  "bg": "arret",
+  "layout": "duo",
+  "props": [
+   "valideur",
+   "ticket"
+  ],
+  "seed": "bus-valider"
+ },
+ {
+  "id": "bus-quel-arret",
+  "bg": "arret",
+  "layout": "solo",
+  "props": [
+   "arret",
+   "question"
+  ],
+  "seed": "bus-quel-arret"
+ },
+ {
+  "id": "bus-prochain-arret",
+  "bg": "arret",
+  "layout": "duo",
+  "props": [
+   "arret",
+   "fleche-droit"
+  ],
+  "seed": "bus-prochain-arret"
+ },
+ {
+  "id": "bus-descends-ici",
+  "bg": "arret",
+  "layout": "solo",
+  "props": [
+   "arret",
+   "main-salut"
+  ],
+  "seed": "bus-descends-ici"
+ },
+ {
+  "id": "bus-place-assise",
+  "bg": "arret",
+  "layout": "duo",
+  "props": [
+   "siege"
+  ],
+  "seed": "bus-place-assise"
+ },
+ {
+  "id": "bus-scene",
+  "bg": "arret",
+  "layout": "duo",
+  "props": [],
+  "seed": "bus-scene"
+ },
+ {
+  "id": "ticket-aller-simple",
+  "bg": "guichet",
+  "layout": "solo",
+  "props": [
+   "ticket",
+   "fleche-droit"
+  ],
+  "seed": "ticket-aller-simple"
+ },
+ {
+  "id": "ticket-aller-retour",
+  "bg": "guichet",
+  "layout": "solo",
+  "props": [
+   "ticket",
+   "fleche-retour"
+  ],
+  "seed": "ticket-aller-retour"
+ },
+ {
+  "id": "ticket-pour-ou",
+  "bg": "guichet",
+  "layout": "duo",
+  "props": [
+   "plan",
+   "question"
+  ],
+  "seed": "ticket-pour-ou"
+ },
+ {
+  "id": "ticket-prix-ticket",
+  "bg": "guichet",
+  "layout": "duo",
+  "props": [
+   "pieces",
+   "ticket"
+  ],
+  "seed": "ticket-prix-ticket"
+ },
+ {
+  "id": "ticket-distributeur",
+  "bg": "guichet",
+  "layout": "duo",
+  "props": [
+   "distributeur"
+  ],
+  "seed": "ticket-distributeur"
+ },
+ {
+  "id": "ticket-carte-ou-pieces",
+  "bg": "guichet",
+  "layout": "duo",
+  "props": [
+   "carte",
+   "pieces"
+  ],
+  "seed": "ticket-carte-ou-pieces"
+ },
+ {
+  "id": "ticket-ticket-sorti",
+  "bg": "guichet",
+  "layout": "duo",
+  "props": [
+   "ticket-sortant"
+  ],
+  "seed": "ticket-ticket-sorti"
+ },
+ {
+  "id": "ticket-tarif-reduit",
+  "bg": "guichet",
+  "layout": "duo",
+  "props": [
+   "etiquette",
+   "question"
+  ],
+  "seed": "ticket-tarif-reduit"
+ },
+ {
+  "id": "ticket-scene",
+  "bg": "guichet",
+  "layout": "duo",
+  "props": [],
+  "seed": "ticket-scene"
+ },
+ {
+  "id": "chemin-excusez-ou",
+  "bg": "rue",
+  "layout": "solo",
+  "props": [
+   "plan",
+   "question"
+  ],
+  "seed": "chemin-excusez-ou"
+ },
+ {
+  "id": "chemin-tout-droit",
+  "bg": "rue",
+  "layout": "objet",
+  "props": [
+   "fleche-droit"
+  ],
+  "seed": "chemin-tout-droit"
+ },
+ {
+  "id": "chemin-a-gauche",
+  "bg": "rue",
+  "layout": "objet",
+  "props": [
+   "fleche-gauche"
+  ],
+  "seed": "chemin-a-gauche"
+ },
+ {
+  "id": "chemin-a-droite",
+  "bg": "rue",
+  "layout": "objet",
+  "props": [
+   "fleche-droite"
+  ],
+  "seed": "chemin-a-droite"
+ },
+ {
+  "id": "chemin-premiere-rue",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "fleche-gauche",
+   "rue-p"
+  ],
+  "seed": "chemin-premiere-rue"
+ },
+ {
+  "id": "chemin-traversez",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "passage"
+  ],
+  "seed": "chemin-traversez"
+ },
+ {
+  "id": "chemin-loin",
+  "bg": "rue",
+  "layout": "solo",
+  "props": [
+   "plan",
+   "question",
+   "fleche-droit"
+  ],
+  "seed": "chemin-loin"
+ },
+ {
+  "id": "chemin-cinq-minutes",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "horloge",
+   "marche"
+  ],
+  "seed": "chemin-cinq-minutes"
+ },
+ {
+  "id": "chemin-en-face",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "fleche-droit",
+   "maison"
+  ],
+  "seed": "chemin-en-face"
+ },
+ {
+  "id": "chemin-scene",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [],
+  "seed": "chemin-scene"
+ },
+ {
+  "id": "gare-ou-voie",
+  "bg": "gare",
+  "layout": "duo",
+  "props": [
+   "panneau-voie",
+   "question"
+  ],
+  "seed": "gare-ou-voie"
+ },
+ {
+  "id": "gare-voie-quatre",
+  "bg": "gare",
+  "layout": "duo",
+  "props": [
+   "panneau-voie",
+   "train"
+  ],
+  "seed": "gare-voie-quatre"
+ },
+ {
+  "id": "gare-prochain-train",
+  "bg": "gare",
+  "layout": "duo",
+  "props": [
+   "train",
+   "horloge"
+  ],
+  "seed": "gare-prochain-train"
+ },
+ {
+  "id": "gare-retard",
+  "bg": "gare",
+  "layout": "duo",
+  "props": [
+   "train",
+   "horloge",
+   "point-exclam"
+  ],
+  "seed": "gare-retard"
+ },
+ {
+  "id": "gare-annonce",
+  "bg": "gare",
+  "layout": "objet",
+  "props": [
+   "hautparleur",
+   "train"
+  ],
+  "seed": "gare-annonce"
+ },
+ {
+  "id": "gare-valider-billet",
+  "bg": "gare",
+  "layout": "duo",
+  "props": [
+   "valideur",
+   "ticket"
+  ],
+  "seed": "gare-valider-billet"
+ },
+ {
+  "id": "gare-horaire",
+  "bg": "gare",
+  "layout": "solo",
+  "props": [
+   "train",
+   "horloge",
+   "question"
+  ],
+  "seed": "gare-horaire"
+ },
+ {
+  "id": "gare-sortie",
+  "bg": "gare",
+  "layout": "duo",
+  "props": [
+   "fleche-droit",
+   "porte"
+  ],
+  "seed": "gare-sortie"
+ },
+ {
+  "id": "gare-scene",
+  "bg": "gare",
+  "layout": "duo",
+  "props": [],
+  "seed": "gare-scene"
+ },
+ {
+  "id": "pharmacie-mal-tete",
+  "bg": "pharmacie",
+  "layout": "solo",
+  "props": [
+   "mal-tete"
+  ],
+  "seed": "pharmacie-mal-tete"
+ },
+ {
+  "id": "pharmacie-mal-ventre",
+  "bg": "pharmacie",
+  "layout": "solo",
+  "props": [
+   "mal-ventre"
+  ],
+  "seed": "pharmacie-mal-ventre"
+ },
+ {
+  "id": "pharmacie-mal-gorge",
+  "bg": "pharmacie",
+  "layout": "solo",
+  "props": [
+   "mal-gorge"
+  ],
+  "seed": "pharmacie-mal-gorge"
+ },
+ {
+  "id": "pharmacie-fievre",
+  "bg": "pharmacie",
+  "layout": "solo",
+  "props": [
+   "thermometre"
+  ],
+  "seed": "pharmacie-fievre"
+ },
+ {
+  "id": "pharmacie-toux",
+  "bg": "pharmacie",
+  "layout": "solo",
+  "props": [
+   "toux"
+  ],
+  "seed": "pharmacie-toux"
+ },
+ {
+  "id": "pharmacie-depuis-quand",
+  "bg": "pharmacie",
+  "layout": "duo",
+  "props": [
+   "calendrier",
+   "question"
+  ],
+  "seed": "pharmacie-depuis-quand"
+ },
+ {
+  "id": "pharmacie-medicament",
+  "bg": "pharmacie",
+  "layout": "solo",
+  "props": [
+   "medicaments"
+  ],
+  "seed": "pharmacie-medicament"
+ },
+ {
+  "id": "pharmacie-ordonnance",
+  "bg": "pharmacie",
+  "layout": "duo",
+  "props": [
+   "ordonnance",
+   "question"
+  ],
+  "seed": "pharmacie-ordonnance"
+ },
+ {
+  "id": "pharmacie-trois-fois",
+  "bg": "pharmacie",
+  "layout": "duo",
+  "props": [
+   "medicaments",
+   "soleil"
+  ],
+  "seed": "pharmacie-trois-fois"
+ },
+ {
+  "id": "pharmacie-avec-eau",
+  "bg": "pharmacie",
+  "layout": "duo",
+  "props": [
+   "verre-eau",
+   "medicaments"
+  ],
+  "seed": "pharmacie-avec-eau"
+ },
+ {
+  "id": "pharmacie-scene",
+  "bg": "pharmacie",
+  "layout": "duo",
+  "props": [],
+  "seed": "pharmacie-scene"
+ },
+ {
+  "id": "rdv-voudrais-rdv",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [
+   "calendrier",
+   "question"
+  ],
+  "seed": "rdv-voudrais-rdv"
+ },
+ {
+  "id": "rdv-quel-jour",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [
+   "calendrier",
+   "question"
+  ],
+  "seed": "rdv-quel-jour"
+ },
+ {
+  "id": "rdv-quelle-heure",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [
+   "horloge",
+   "question"
+  ],
+  "seed": "rdv-quelle-heure"
+ },
+ {
+  "id": "rdv-nom-rdv",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [
+   "bulle-nom",
+   "question"
+  ],
+  "seed": "rdv-nom-rdv"
+ },
+ {
+  "id": "rdv-demain-possible",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [
+   "calendrier"
+  ],
+  "seed": "rdv-demain-possible"
+ },
+ {
+  "id": "rdv-confirmation",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [
+   "calendrier",
+   "check"
+  ],
+  "seed": "rdv-confirmation"
+ },
+ {
+  "id": "rdv-changer-rdv",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [
+   "calendrier",
+   "repeter"
+  ],
+  "seed": "rdv-changer-rdv"
+ },
+ {
+  "id": "rdv-retard-rdv",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [
+   "horloge",
+   "point-exclam"
+  ],
+  "seed": "rdv-retard-rdv"
+ },
+ {
+  "id": "rdv-scene",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [],
+  "seed": "rdv-scene"
+ },
+ {
+  "id": "renseignement-ou-accueil",
+  "bg": "bureau",
+  "layout": "solo",
+  "props": [
+   "plan",
+   "question"
+  ],
+  "seed": "renseignement-ou-accueil"
+ },
+ {
+  "id": "renseignement-heure-ouvre",
+  "bg": "bureau",
+  "layout": "solo",
+  "props": [
+   "horloge",
+   "porte",
+   "question"
+  ],
+  "seed": "renseignement-heure-ouvre"
+ },
+ {
+  "id": "renseignement-heure-ferme",
+  "bg": "bureau",
+  "layout": "solo",
+  "props": [
+   "horloge",
+   "lune",
+   "question"
+  ],
+  "seed": "renseignement-heure-ferme"
+ },
+ {
+  "id": "renseignement-ouvert-samedi",
+  "bg": "bureau",
+  "layout": "solo",
+  "props": [
+   "calendrier",
+   "question"
+  ],
+  "seed": "renseignement-ouvert-samedi"
+ },
+ {
+  "id": "renseignement-rdv-necessaire",
+  "bg": "bureau",
+  "layout": "solo",
+  "props": [
+   "calendrier",
+   "question"
+  ],
+  "seed": "renseignement-rdv-necessaire"
+ },
+ {
+  "id": "renseignement-expliquer",
+  "bg": "bureau",
+  "layout": "solo",
+  "props": [
+   "bulle-sons",
+   "question"
+  ],
+  "seed": "renseignement-expliquer"
+ },
+ {
+  "id": "renseignement-au-guichet",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [
+   "guichet",
+   "fleche-droit"
+  ],
+  "seed": "renseignement-au-guichet"
+ },
+ {
+  "id": "renseignement-patienter",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [
+   "horloge",
+   "siege"
+  ],
+  "seed": "renseignement-patienter"
+ },
+ {
+  "id": "renseignement-scene",
+  "bg": "bureau",
+  "layout": "duo",
+  "props": [],
+  "seed": "renseignement-scene"
+ },
+ {
+  "id": "poste-timbre",
+  "bg": "poste",
+  "layout": "solo",
+  "props": [
+   "timbre"
+  ],
+  "seed": "poste-timbre"
+ },
+ {
+  "id": "poste-lettre",
+  "bg": "poste",
+  "layout": "solo",
+  "props": [
+   "enveloppe"
+  ],
+  "seed": "poste-lettre"
+ },
+ {
+  "id": "poste-colis",
+  "bg": "poste",
+  "layout": "solo",
+  "props": [
+   "colis"
+  ],
+  "seed": "poste-colis"
+ },
+ {
+  "id": "poste-pour-quel-pays",
+  "bg": "poste",
+  "layout": "duo",
+  "props": [
+   "colis",
+   "question"
+  ],
+  "seed": "poste-pour-quel-pays"
+ },
+ {
+  "id": "poste-balance",
+  "bg": "poste",
+  "layout": "duo",
+  "props": [
+   "balance",
+   "colis"
+  ],
+  "seed": "poste-balance"
+ },
+ {
+  "id": "poste-combien-colis",
+  "bg": "poste",
+  "layout": "duo",
+  "props": [
+   "pieces",
+   "colis"
+  ],
+  "seed": "poste-combien-colis"
+ },
+ {
+  "id": "poste-suivi",
+  "bg": "poste",
+  "layout": "duo",
+  "props": [
+   "colis",
+   "question"
+  ],
+  "seed": "poste-suivi"
+ },
+ {
+  "id": "poste-ticket-attente",
+  "bg": "poste",
+  "layout": "duo",
+  "props": [
+   "ticket",
+   "horloge"
+  ],
+  "seed": "poste-ticket-attente"
+ },
+ {
+  "id": "poste-scene",
+  "bg": "poste",
+  "layout": "duo",
+  "props": [],
+  "seed": "poste-scene"
+ },
+ {
+  "id": "repeter-repetez-svp",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "repeter",
+   "hautparleur"
+  ],
+  "seed": "repeter-repetez-svp"
+ },
+ {
+  "id": "repeter-encore-fois",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "repeter"
+  ],
+  "seed": "repeter-encore-fois"
+ },
+ {
+  "id": "repeter-plus-lent",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "sablier",
+   "hautparleur"
+  ],
+  "seed": "repeter-plus-lent"
+ },
+ {
+  "id": "repeter-plus-fort",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "hautparleur-fort"
+  ],
+  "seed": "repeter-plus-fort"
+ },
+ {
+  "id": "repeter-pardon",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "question",
+   "bulle-sons"
+  ],
+  "seed": "repeter-pardon"
+ },
+ {
+  "id": "repeter-vous-comprenez",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "question",
+   "oreille"
+  ],
+  "seed": "repeter-vous-comprenez"
+ },
+ {
+  "id": "repeter-merci-patience",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "coeur"
+  ],
+  "seed": "repeter-merci-patience"
+ },
+ {
+  "id": "repeter-scene",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [],
+  "seed": "repeter-scene"
+ },
+ {
+  "id": "comprendre-ne-comprends-pas",
+  "bg": "rue",
+  "layout": "solo",
+  "props": [
+   "question"
+  ],
+  "seed": "comprendre-ne-comprends-pas"
+ },
+ {
+  "id": "comprendre-comprends-un-peu",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "question",
+   "oreille"
+  ],
+  "seed": "comprendre-comprends-un-peu"
+ },
+ {
+  "id": "comprendre-apprends-francais",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "bulle-sons",
+   "ampoule"
+  ],
+  "seed": "comprendre-apprends-francais"
+ },
+ {
+  "id": "comprendre-montrer",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "main-offre",
+   "question"
+  ],
+  "seed": "comprendre-montrer"
+ },
+ {
+  "id": "comprendre-autrement",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "bulle-sons",
+   "repeter"
+  ],
+  "seed": "comprendre-autrement"
+ },
+ {
+  "id": "comprendre-appeler",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "telephone"
+  ],
+  "seed": "comprendre-appeler"
+ },
+ {
+  "id": "comprendre-pas-grave",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "coeur"
+  ],
+  "seed": "comprendre-pas-grave"
+ },
+ {
+  "id": "comprendre-scene",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [],
+  "seed": "comprendre-scene"
+ },
+ {
+  "id": "conversation-pluie-demain",
+  "bg": "rue",
+  "layout": "objet",
+  "props": [
+   "pluie",
+   "calendrier"
+  ],
+  "seed": "conversation-pluie-demain"
+ },
+ {
+  "id": "conversation-bus-dix",
+  "bg": "rue",
+  "layout": "objet",
+  "props": [
+   "bus",
+   "horloge"
+  ],
+  "seed": "conversation-bus-dix"
+ },
+ {
+  "id": "conversation-boulangerie-sept",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "pain-rond",
+   "horloge"
+  ],
+  "seed": "conversation-boulangerie-sept"
+ },
+ {
+  "id": "conversation-reunion-mardi",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "calendrier",
+   "horloge"
+  ],
+  "seed": "conversation-reunion-mardi"
+ },
+ {
+  "id": "conversation-medecin-absent",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "croix",
+   "calendrier"
+  ],
+  "seed": "conversation-medecin-absent"
+ },
+ {
+  "id": "conversation-ferme-dimanche",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "porte",
+   "calendrier"
+  ],
+  "seed": "conversation-ferme-dimanche"
+ },
+ {
+  "id": "conversation-colis-arrive",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "colis",
+   "calendrier"
+  ],
+  "seed": "conversation-colis-arrive"
+ },
+ {
+  "id": "conversation-scene",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [],
+  "seed": "conversation-scene"
+ },
+ {
+  "id": "telephone-allo",
+  "bg": "maison",
+  "layout": "solo",
+  "props": [
+   "telephone"
+  ],
+  "seed": "telephone-allo"
+ },
+ {
+  "id": "telephone-de-la-part",
+  "bg": "maison",
+  "layout": "solo",
+  "props": [
+   "telephone",
+   "question"
+  ],
+  "seed": "telephone-de-la-part"
+ },
+ {
+  "id": "telephone-ne-quittez-pas",
+  "bg": "maison",
+  "layout": "solo",
+  "props": [
+   "telephone",
+   "horloge"
+  ],
+  "seed": "telephone-ne-quittez-pas"
+ },
+ {
+  "id": "telephone-mauvais-numero",
+  "bg": "maison",
+  "layout": "solo",
+  "props": [
+   "telephone",
+   "point-exclam"
+  ],
+  "seed": "telephone-mauvais-numero"
+ },
+ {
+  "id": "telephone-rappeler",
+  "bg": "maison",
+  "layout": "solo",
+  "props": [
+   "telephone",
+   "repeter"
+  ],
+  "seed": "telephone-rappeler"
+ },
+ {
+  "id": "telephone-repeter-tel",
+  "bg": "maison",
+  "layout": "solo",
+  "props": [
+   "telephone",
+   "repeter"
+  ],
+  "seed": "telephone-repeter-tel"
+ },
+ {
+  "id": "telephone-message",
+  "bg": "maison",
+  "layout": "solo",
+  "props": [
+   "telephone",
+   "calendrier"
+  ],
+  "seed": "telephone-message"
+ },
+ {
+  "id": "telephone-au-revoir-tel",
+  "bg": "maison",
+  "layout": "solo",
+  "props": [
+   "telephone",
+   "soleil"
+  ],
+  "seed": "telephone-au-revoir-tel"
+ },
+ {
+  "id": "telephone-scene",
+  "bg": "maison",
+  "layout": "duo",
+  "props": [],
+  "seed": "telephone-scene"
+ },
+ {
+  "id": "bain",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "bain"
+  ],
+  "seed": "bain"
+ },
+ {
+  "id": "poule",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "poule"
+  ],
+  "seed": "poule"
+ },
+ {
+  "id": "boule",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "boule"
+  ],
+  "seed": "boule"
+ },
+ {
+  "id": "roue",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "roue"
+  ],
+  "seed": "roue"
+ },
+ {
+  "id": "rue-mot",
+  "bg": "rue",
+  "layout": "objet",
+  "props": [
+   "rue-p"
+  ],
+  "seed": "rue-mot"
+ },
+ {
+  "id": "bon",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "pouce"
+  ],
+  "seed": "bon"
+ },
+ {
+  "id": "banc",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "banc"
+  ],
+  "seed": "banc"
+ },
+ {
+  "id": "riz",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "riz"
+  ],
+  "seed": "riz"
+ },
+ {
+  "id": "lit",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "lit"
+  ],
+  "seed": "lit"
+ },
+ {
+  "id": "bouche-fermee",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "bouche-fermee"
+  ],
+  "seed": "bouche-fermee"
+ },
+ {
+  "id": "bouche-ou",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "bouche-ou"
+  ],
+  "seed": "bouche-ou"
+ },
+ {
+  "id": "bouche-u",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "bouche-u"
+  ],
+  "seed": "bouche-u"
+ },
+ {
+  "id": "bouche-ouverte",
+  "bg": "neutre",
+  "layout": "objet",
+  "props": [
+   "bouche-ouverte"
+  ],
+  "seed": "bouche-ouverte"
+ },
+ {
+  "id": "bonne-journee",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "soleil"
+  ],
+  "seed": "bonne-journee"
+ },
+ {
+  "id": "a-bientot",
+  "bg": "rue",
+  "layout": "duo",
+  "props": [
+   "calendrier",
+   "main-salut"
+  ],
+  "seed": "a-bientot"
+ },
+ {
+  "id": "et-vous",
+  "bg": "palier",
+  "layout": "duo",
+  "props": [
+   "question",
+   "sourire"
+  ],
+  "seed": "et-vous"
+ }
+]

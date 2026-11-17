@@ -1,0 +1,236 @@
+{
+  "id": "conversation",
+  "ordre": 18,
+  "type": "parcours",
+  "univers": "echanges",
+  "titreInterne": "Comprendre une conversation",
+  "contexte": "des annonces et des échanges courts que l'on entend autour de soi",
+  "objectif": "saisir l'essentiel d'une annonce ou d'une conversation courte et dire l'information principale",
+  "mission": "Écouter une annonce ou une conversation du quotidien et repérer une information (heure, jour, lieu).",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "conversation-pluie-demain",
+      "entend": "Demain, il va pleuvoir toute la journée.",
+      "dit": "Demain, il va pleuvoir",
+      "acceptees": [
+        "demain il va pleuvoir",
+        "il va pleuvoir",
+        "pluie",
+        "demain pluie"
+      ],
+      "image": "conversation-pluie-demain",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Demain, il va pleuvoir toute la journée. » : une annonce météo dit qu'il pleuvra demain."
+    },
+    {
+      "id": "conversation-bus-dix",
+      "entend": "Le bus passe toutes les dix minutes.",
+      "dit": "Toutes les dix minutes",
+      "acceptees": [
+        "toutes les dix minutes",
+        "dix minutes",
+        "toutes les 10 minutes"
+      ],
+      "image": "conversation-bus-dix",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Le bus passe toutes les dix minutes. » : une annonce dit que le bus passe toutes les dix minutes."
+    },
+    {
+      "id": "conversation-boulangerie-sept",
+      "entend": "La boulangerie ferme à sept heures.",
+      "dit": "À sept heures",
+      "acceptees": [
+        "a sept heures",
+        "sept heures",
+        "a 7 heures"
+      ],
+      "image": "conversation-boulangerie-sept",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « La boulangerie ferme à sept heures. » : une personne dit que la boulangerie ferme à sept heures."
+    },
+    {
+      "id": "conversation-reunion-mardi",
+      "entend": "Il y a une réunion mardi à dix-huit heures.",
+      "dit": "Mardi, dix-huit heures",
+      "acceptees": [
+        "mardi dix huit heures",
+        "mardi 18 heures",
+        "mardi",
+        "dix huit heures"
+      ],
+      "image": "conversation-reunion-mardi",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Il y a une réunion mardi à dix-huit heures. » : une personne annonce une réunion mardi à dix-huit heures."
+    },
+    {
+      "id": "conversation-medecin-absent",
+      "entend": "Le médecin est absent cette semaine.",
+      "dit": "Le médecin est absent",
+      "acceptees": [
+        "le medecin est absent",
+        "absent",
+        "medecin absent"
+      ],
+      "image": "conversation-medecin-absent",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Le médecin est absent cette semaine. » : une personne dit que le médecin est absent cette semaine."
+    },
+    {
+      "id": "conversation-ferme-dimanche",
+      "entend": "Le magasin est fermé le dimanche.",
+      "dit": "Fermé le dimanche",
+      "acceptees": [
+        "ferme le dimanche",
+        "le dimanche",
+        "dimanche",
+        "ferme"
+      ],
+      "image": "conversation-ferme-dimanche",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Le magasin est fermé le dimanche. » : une personne dit que le magasin est fermé le dimanche."
+    },
+    {
+      "id": "conversation-colis-arrive",
+      "entend": "Votre colis arrive jeudi, avant midi.",
+      "dit": "Jeudi, avant midi",
+      "acceptees": [
+        "jeudi avant midi",
+        "jeudi",
+        "avant midi"
+      ],
+      "image": "conversation-colis-arrive",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Votre colis arrive jeudi, avant midi. » : un livreur annonce l'arrivée du colis jeudi avant midi."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "conversation-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "conversation-scene",
+      "items": [
+        "conversation-pluie-demain",
+        "conversation-bus-dix",
+        "conversation-boulangerie-sept"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des annonces et des échanges courts que l'on entend autour de soi : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des annonces et des échanges courts que l'on entend autour de soi."
+    },
+    {
+      "id": "conversation-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "conversation-scene",
+      "items": [
+        "conversation-reunion-mardi",
+        "conversation-medecin-absent"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des annonces et des échanges courts que l'on entend autour de soi : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des annonces et des échanges courts que l'on entend autour de soi."
+    },
+    {
+      "id": "conversation-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "conversation-scene",
+      "items": [
+        "conversation-ferme-dimanche",
+        "conversation-colis-arrive"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour des annonces et des échanges courts que l'on entend autour de soi : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour des annonces et des échanges courts que l'on entend autour de soi."
+    },
+    {
+      "id": "conversation-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "conversation-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour des annonces et des échanges courts que l'on entend autour de soi, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (des annonces et des échanges courts que l'on entend autour de soi) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "id": "conversation-conv-bus",
+          "texte": "Excusez-moi, le bus pour le centre-ville ? Il passe toutes les dix minutes, mais le dimanche, il passe seulement toutes les vingt minutes."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "conversation-bus-dix"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "conversation-bus-dix"
+        },
+        {
+          "qui": "autre",
+          "itemId": "conversation-boulangerie-sept"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "conversation-boulangerie-sept"
+        },
+        {
+          "qui": "autre",
+          "itemId": "conversation-ferme-dimanche"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "conversation-ferme-dimanche"
+        }
+      ]
+    },
+    {
+      "id": "conversation-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "conversation-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (des annonces et des échanges courts que l'on entend autour de soi).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : écouter une annonce ou une conversation du quotidien et repérer une information (heure, jour, lieu).",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "id": "conversation-conv-medecin",
+          "texte": "Allô ? Oui, le docteur n'est pas là cette semaine, mais le docteur Martin le remplace, du lundi au jeudi, de neuf heures à midi."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "conversation-medecin-absent"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "conversation-medecin-absent"
+        },
+        {
+          "qui": "autre",
+          "itemId": "conversation-reunion-mardi"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "conversation-reunion-mardi"
+        },
+        {
+          "qui": "autre",
+          "itemId": "conversation-colis-arrive"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "conversation-colis-arrive"
+        }
+      ]
+    }
+  ]
+}

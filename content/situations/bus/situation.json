@@ -1,0 +1,267 @@
+{
+  "id": "bus",
+  "ordre": 8,
+  "type": "parcours",
+  "univers": "deplacements",
+  "titreInterne": "Prendre le bus",
+  "contexte": "un trajet en bus en ville",
+  "objectif": "demander son arrêt, monter, valider son ticket et descendre au bon endroit",
+  "mission": "Prendre un bus pour un trajet court, accompagnée ou non.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "bus-ticket-svp",
+      "entend": "Un ticket, s'il vous plaît.",
+      "dit": "Un ticket, s'il vous plaît",
+      "acceptees": [
+        "un ticket s il vous plait",
+        "un ticket",
+        "ticket"
+      ],
+      "image": "bus-ticket-svp",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Un ticket, s'il vous plaît. » : demander un ticket au chauffeur."
+    },
+    {
+      "id": "bus-arret-ou",
+      "entend": "Où est l'arrêt de bus ?",
+      "dit": "Où est l'arrêt de bus ?",
+      "acceptees": [
+        "ou est l arret de bus",
+        "ou est l arret",
+        "arret de bus"
+      ],
+      "image": "bus-arret-ou",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Où est l'arrêt de bus ? » : demander où se trouve l'arrêt de bus."
+    },
+    {
+      "id": "bus-va-gare",
+      "entend": "Ce bus va à la gare ?",
+      "dit": "Ce bus va à la gare ?",
+      "acceptees": [
+        "ce bus va a la gare",
+        "bus va a la gare",
+        "va a la gare"
+      ],
+      "image": "bus-va-gare",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Ce bus va à la gare ? » : demander si le bus va à la gare."
+    },
+    {
+      "id": "bus-oui-montez",
+      "entend": "Oui, montez.",
+      "dit": "Merci",
+      "acceptees": [
+        "merci",
+        "merci beaucoup"
+      ],
+      "image": "bus-oui-montez",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Oui, montez. » : le chauffeur dit oui et vous invite à monter."
+    },
+    {
+      "id": "bus-valider",
+      "entend": "Validez votre ticket, s'il vous plaît.",
+      "dit": "D'accord",
+      "acceptees": [
+        "d accord",
+        "oui",
+        "ok"
+      ],
+      "image": "bus-valider",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Validez votre ticket, s'il vous plaît. » : le chauffeur demande de valider le ticket dans l'appareil."
+    },
+    {
+      "id": "bus-quel-arret",
+      "entend": "C'est quel arrêt ?",
+      "dit": "C'est quel arrêt ?",
+      "acceptees": [
+        "c est quel arret",
+        "quel arret"
+      ],
+      "image": "bus-quel-arret",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est quel arrêt ? » : demander le nom de l'arrêt."
+    },
+    {
+      "id": "bus-prochain-arret",
+      "entend": "C'est le prochain arrêt.",
+      "dit": "Merci beaucoup",
+      "acceptees": [
+        "merci beaucoup",
+        "merci"
+      ],
+      "image": "bus-prochain-arret",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « C'est le prochain arrêt. » : le chauffeur dit que votre arrêt est le prochain."
+    },
+    {
+      "id": "bus-descends-ici",
+      "entend": "Je descends ici, s'il vous plaît.",
+      "dit": "Je descends ici, s'il vous plaît",
+      "acceptees": [
+        "je descends ici s il vous plait",
+        "je descends ici",
+        "je descends"
+      ],
+      "image": "bus-descends-ici",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je descends ici, s'il vous plaît. » : dire que vous descendez à cet arrêt."
+    },
+    {
+      "id": "bus-place-assise",
+      "entend": "Vous voulez vous asseoir ?",
+      "dit": "Non, merci, ça va",
+      "acceptees": [
+        "non merci ca va",
+        "non merci",
+        "non",
+        "oui merci"
+      ],
+      "image": "bus-place-assise",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Vous voulez vous asseoir ? » : un passager vous propose sa place assise."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "bus-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "bus-scene",
+      "items": [
+        "bus-ticket-svp",
+        "bus-arret-ou",
+        "bus-va-gare"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un trajet en bus en ville : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un trajet en bus en ville."
+    },
+    {
+      "id": "bus-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "bus-scene",
+      "items": [
+        "bus-oui-montez",
+        "bus-valider",
+        "bus-quel-arret"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un trajet en bus en ville : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un trajet en bus en ville."
+    },
+    {
+      "id": "bus-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "bus-scene",
+      "items": [
+        "bus-prochain-arret",
+        "bus-descends-ici",
+        "bus-place-assise"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour un trajet en bus en ville : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour un trajet en bus en ville."
+    },
+    {
+      "id": "bus-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "bus-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour un trajet en bus en ville, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (un trajet en bus en ville) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "id": "bus-vous-allez-ou",
+          "texte": "Bonjour. Vous allez où ?"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bus-va-gare"
+        },
+        {
+          "qui": "autre",
+          "itemId": "bus-oui-montez"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bus-oui-montez"
+        },
+        {
+          "qui": "autre",
+          "itemId": "bus-valider"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bus-valider"
+        },
+        {
+          "qui": "autre",
+          "itemId": "bus-prochain-arret"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bus-prochain-arret"
+        }
+      ]
+    },
+    {
+      "id": "bus-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "bus-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (un trajet en bus en ville).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : prendre un bus pour un trajet court, accompagnée ou non.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bus-va-gare"
+        },
+        {
+          "qui": "autre",
+          "id": "bus-autre-bus",
+          "texte": "Non, pas celui-là : pour la gare, il vous faut le numéro douze, il s'arrête à l'arrêt juste en face, de l'autre côté de la rue."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "id": "bus-autre-bus-lent",
+          "texte": "Pas ce bus. Le bus douze, en face."
+        },
+        {
+          "qui": "soundes",
+          "itemId": "merci"
+        },
+        {
+          "qui": "autre",
+          "itemId": "bus-prochain-arret"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bus-prochain-arret"
+        }
+      ]
+    }
+  ]
+}

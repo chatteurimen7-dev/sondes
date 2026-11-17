@@ -1,0 +1,251 @@
+{
+  "id": "gare",
+  "ordre": 11,
+  "type": "parcours",
+  "univers": "deplacements",
+  "titreInterne": "Se repérer à la gare",
+  "contexte": "une gare avec des quais, des annonces et des horaires",
+  "objectif": "trouver son quai, comprendre une annonce et demander un horaire",
+  "mission": "Se rendre dans une gare et repérer les panneaux et l'écran des départs.",
+  "dureeIndicativeMinutes": 60,
+  "items": [
+    {
+      "id": "gare-ou-voie",
+      "entend": "Je peux vous aider ?",
+      "dit": "Où est la voie trois, s'il vous plaît ?",
+      "acceptees": [
+        "ou est la voie trois s il vous plait",
+        "la voie trois",
+        "voie trois",
+        "voie 3",
+        "ou est la voie 3",
+        "ou est la voie trois"
+      ],
+      "image": "gare-ou-voie",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Je peux vous aider ? » : un agent de la gare propose son aide, vous demandez où est la voie trois."
+    },
+    {
+      "id": "gare-voie-quatre",
+      "entend": "Le train part de la voie quatre.",
+      "dit": "Voie quatre, merci",
+      "acceptees": [
+        "voie quatre merci",
+        "voie quatre",
+        "voie 4",
+        "merci"
+      ],
+      "image": "gare-voie-quatre",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Le train part de la voie quatre. » : l'agent dit de quelle voie part le train."
+    },
+    {
+      "id": "gare-prochain-train",
+      "entend": "Le prochain train est dans dix minutes.",
+      "dit": "Merci beaucoup",
+      "acceptees": [
+        "merci beaucoup",
+        "merci"
+      ],
+      "image": "gare-prochain-train",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Le prochain train est dans dix minutes. » : l'agent annonce que le prochain train arrive dans dix minutes."
+    },
+    {
+      "id": "gare-retard",
+      "entend": "Le train a dix minutes de retard.",
+      "dit": "D'accord, merci",
+      "acceptees": [
+        "d accord merci",
+        "d accord",
+        "merci"
+      ],
+      "image": "gare-retard",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Le train a dix minutes de retard. » : l'agent dit que le train est en retard."
+    },
+    {
+      "id": "gare-annonce",
+      "entend": "Le train pour Lyon part voie quatre.",
+      "dit": "Voie quatre",
+      "acceptees": [
+        "voie quatre",
+        "voie 4"
+      ],
+      "image": "gare-annonce",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « Le train pour Lyon part voie quatre. » : une annonce dans la gare dit de quelle voie part le train."
+    },
+    {
+      "id": "gare-valider-billet",
+      "entend": "N'oubliez pas de valider votre billet.",
+      "dit": "D'accord, merci",
+      "acceptees": [
+        "d accord merci",
+        "d accord",
+        "merci"
+      ],
+      "image": "gare-valider-billet",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « N'oubliez pas de valider votre billet. » : l'agent rappelle de valider le billet avant de monter."
+    },
+    {
+      "id": "gare-horaire",
+      "entend": "À quelle heure part le train pour Lyon ?",
+      "dit": "À quelle heure part le train pour Lyon ?",
+      "acceptees": [
+        "a quelle heure part le train pour lyon",
+        "a quelle heure part le train",
+        "quelle heure part le train"
+      ],
+      "image": "gare-horaire",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « À quelle heure part le train pour Lyon ? » : demander l'heure de départ d'un train."
+    },
+    {
+      "id": "gare-sortie",
+      "entend": "La sortie est par là.",
+      "dit": "Merci",
+      "acceptees": [
+        "merci",
+        "merci beaucoup"
+      ],
+      "image": "gare-sortie",
+      "sensIntention": "Expliquer en quelques mots ce que veut dire « La sortie est par là. » : l'agent montre la sortie."
+    }
+  ],
+  "distracteurs": [],
+  "seances": [
+    {
+      "id": "gare-1",
+      "ordre": 1,
+      "titreInterne": "Écouter, comprendre et dire (1)",
+      "scene": "gare-scene",
+      "items": [
+        "gare-ou-voie",
+        "gare-voie-quatre",
+        "gare-prochain-train"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une gare avec des quais, des annonces et des horaires : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une gare avec des quais, des annonces et des horaires."
+    },
+    {
+      "id": "gare-2",
+      "ordre": 2,
+      "titreInterne": "Écouter, comprendre et dire (2)",
+      "scene": "gare-scene",
+      "items": [
+        "gare-retard",
+        "gare-annonce",
+        "gare-valider-billet"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une gare avec des quais, des annonces et des horaires : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une gare avec des quais, des annonces et des horaires."
+    },
+    {
+      "id": "gare-3",
+      "ordre": 3,
+      "titreInterne": "Écouter, comprendre et dire (3)",
+      "scene": "gare-scene",
+      "items": [
+        "gare-horaire",
+        "gare-sortie"
+      ],
+      "consigneIntention": "Dire à Sondes qu'elle va découvrir quelques phrases pour une gare avec des quais, des annonces et des horaires : les écouter, comprendre ce qu'elles veulent dire, puis les répéter à son rythme.",
+      "bilanIntention": "Conclure la séance : elle a appris de nouvelles phrases utiles pour une gare avec des quais, des annonces et des horaires."
+    },
+    {
+      "id": "gare-4",
+      "ordre": 4,
+      "titreInterne": "Simulation orale",
+      "scene": "gare-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va jouer la scène complète pour une gare avec des quais, des annonces et des horaires, comme dans la vraie vie, et qu'elle a le droit de recommencer autant de fois qu'elle veut.",
+      "bilanIntention": "Conclure la séance : elle vient de jouer toute la scène (une gare avec des quais, des annonces et des horaires) en français.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "itemId": "gare-ou-voie"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "gare-ou-voie"
+        },
+        {
+          "qui": "autre",
+          "itemId": "gare-voie-quatre"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "gare-voie-quatre"
+        },
+        {
+          "qui": "autre",
+          "itemId": "gare-prochain-train"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "gare-prochain-train"
+        }
+      ]
+    },
+    {
+      "id": "gare-5",
+      "ordre": 5,
+      "titreInterne": "Variante et imprévu",
+      "scene": "gare-scene",
+      "items": [],
+      "consigneIntention": "Dire à Sondes qu'elle va rejouer la scène avec une surprise : la personne dit quelque chose d'inattendu ou de rapide, et elle peut demander de répéter ou de parler plus lentement.",
+      "bilanIntention": "Conclure la séance : même avec une surprise, elle sait demander de l'aide pour continuer (une gare avec des quais, des annonces et des horaires).",
+      "missionIntention": "Proposer, sans obligation, une petite mission : se rendre dans une gare et repérer les panneaux et l'écran des départs.",
+      "dialogue": [
+        {
+          "qui": "autre",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "bonjour"
+        },
+        {
+          "qui": "autre",
+          "itemId": "gare-ou-voie"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "gare-ou-voie"
+        },
+        {
+          "qui": "autre",
+          "id": "gare-changement-voie",
+          "texte": "Il y a eu un changement : le train de dix heures quinze ne part plus de la voie trois, il part de la voie cinq, et il a vingt minutes de retard."
+        },
+        {
+          "qui": "soundes",
+          "choix": [
+            "repetez",
+            "plus-lentement",
+            "je-ne-comprends-pas"
+          ]
+        },
+        {
+          "qui": "autre",
+          "itemId": "gare-retard"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "gare-retard"
+        },
+        {
+          "qui": "autre",
+          "itemId": "gare-valider-billet"
+        },
+        {
+          "qui": "soundes",
+          "itemId": "gare-valider-billet"
+        }
+      ]
+    }
+  ]
+}

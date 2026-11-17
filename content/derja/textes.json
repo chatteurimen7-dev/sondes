@@ -1,0 +1,22 @@
+{
+  "_note": "Textes en derja tunisien (écriture arabe) donnés à la voix. Premier lot pilote, rédigé en brouillon : à faire écouter par une personne qui parle tunisien avant de passer au reste. Statut : brouillon, valide ou a_refaire.",
+  "aeb/bienvenue": { "statut": "brouillon", "texte": "عسلامة! مرحبا بيك. هاذا التطبيق يحكي معاك وينصت ليك، باش تتعلمي الفرنسي شوية شوية، كيما تحبي." },
+  "aeb/rien-n-est-note": { "statut": "brouillon", "texte": "ما فمّاش نقاط ولا امتحان. ما حدّ يسمع تسجيلاتك، وتنجّمي تعاودي قدّاش ما تحبّي." },
+  "aeb/test-son": { "statut": "brouillon", "texte": "باش تسمعي كلمة بالفرنسي. كان سمعتها مليح، المسي على الصورة اللي فيها الودن. وإلا المسي على الصورة الأخرى." },
+  "aeb/micro-explication": { "statut": "brouillon", "texte": "الميكرو يتحلّ كان تضغطي على الزر. التسجيل ما يتخزّنش، وتنجّمي تعدّي هالمرحلة كان تحبّي." },
+  "aeb/bravo-1": { "statut": "brouillon", "texte": "باهي برشا، كمّلي هكا." },
+  "aeb/bravo-2": { "statut": "brouillon", "texte": "صحّيتي! هكا بالضبط." },
+  "aeb/bravo-3": { "statut": "brouillon", "texte": "ممتاز! تو تحسّنتي." },
+  "aeb/presque": { "statut": "brouillon", "texte": "قريب برشا! عاودي مرة أخرى." },
+  "aeb/ecoute-encore": { "statut": "brouillon", "texte": "نسمعوها مرة أخرى مع بعضنا، ما فمّاش مشكل." },
+  "aeb/recommence": { "statut": "brouillon", "texte": "تنجّمي تعاودي قدّاش ما تحبّي، ما فمّاش مشكل." },
+  "aeb/suite": { "statut": "brouillon", "texte": "يلاه، نكمّلو." },
+  "aeb/probleme-micro": { "statut": "brouillon", "texte": "الميكرو ما يخدمش، وهاذا مش ذنبك. نكمّلو من غيرو." },
+  "aeb/fin-seance-1": { "statut": "brouillon", "texte": "كمّلنا الحصة، برافو عليك. تو تعرفي كلمات جديدة." },
+  "aeb/consigne-saluer-1": { "statut": "brouillon", "texte": "اليوم باش تسمعي زوز نساء يتقابلو في الشارع في الصباح. المسي على الزر باش تسمعي." },
+  "aeb/sens-bonjour": { "statut": "brouillon", "texte": "الكلمة هاذي تعني صباح الخير. نقولوها في الصباح وفي النهار كي نسلّمو على واحد." },
+  "aeb/sens-bonsoir": { "statut": "brouillon", "texte": "الكلمة هاذي تعني مساء الخير. نقولوها في العشية وفي الليل كي نسلّمو على واحد." },
+  "aeb/lib-ecouter": { "statut": "brouillon", "texte": "نسمع" },
+  "aeb/lib-micro": { "statut": "brouillon", "texte": "نحكي" },
+  "aeb/lib-suivant": { "statut": "brouillon", "texte": "نكمّلو" }
+}
