@@ -181,7 +181,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -189,7 +189,7 @@
           "itemId": "pain-vous-desirez"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "pain-baguette",
             "pain-croissant",
@@ -201,7 +201,7 @@
           "itemId": "pain-et-avec-ceci"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pain-et-avec-ceci"
         },
         {
@@ -209,7 +209,7 @@
           "itemId": "pain-sac"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pain-sac"
         },
         {
@@ -217,7 +217,7 @@
           "itemId": "pain-voila"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pain-voila"
         },
         {
@@ -225,7 +225,7 @@
           "itemId": "pain-bonne-journee"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pain-bonne-journee"
         }
       ]
@@ -245,7 +245,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -254,7 +254,7 @@
           "texte": "Bonjour ! Alors, je n'ai plus de baguette tradition ce matin, mais j'ai des baguettes classiques, elles sont toutes chaudes."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -267,7 +267,7 @@
           "texte": "Il n'y a plus de tradition. Une baguette classique ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pain-coupee"
         },
         {
@@ -275,7 +275,7 @@
           "itemId": "pain-et-avec-ceci"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pain-et-avec-ceci"
         },
         {
@@ -283,7 +283,7 @@
           "itemId": "pain-voila"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pain-voila"
         },
         {
@@ -291,7 +291,7 @@
           "itemId": "pain-bonne-journee"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pain-bonne-journee"
         }
       ]

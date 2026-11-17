@@ -52,6 +52,14 @@ describe('bibliothèque de situations', () => {
         }
       });
 
+      it('utilise uniquement les identifiants de locuteur attendus dans les dialogues', () => {
+        for (const s of sit.seances) {
+          for (const t of s.dialogue ?? []) {
+            expect(['autre', 'sondes'], `${s.id}:${t.qui}`).toContain(t.qui);
+          }
+        }
+      });
+
       it('propose, avec un tour de parole de Sondes, chaque phrase de la situation', () => {
         for (const it of sit.items) {
           expect(it.acceptees.length, it.id).toBeGreaterThan(0);

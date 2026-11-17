@@ -185,7 +185,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -193,7 +193,7 @@
           "itemId": "voisin-il-fait-beau"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "voisin-il-fait-beau"
         },
         {
@@ -201,7 +201,7 @@
           "itemId": "voisin-vous-habitez-ici"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "voisin-vous-habitez-ici"
         },
         {
@@ -209,7 +209,7 @@
           "itemId": "voisin-quel-etage"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "voisin-quel-etage"
         },
         {
@@ -217,7 +217,7 @@
           "itemId": "voisin-bonne-soiree"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "voisin-bonne-soiree"
         }
       ]
@@ -237,7 +237,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -246,7 +246,7 @@
           "texte": "Ah, vous tombez bien : l'ascenseur est en panne depuis ce matin, il faut prendre l'escalier, et il y a des travaux au deuxième."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -258,7 +258,7 @@
           "itemId": "voisin-ascenseur"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "voisin-ascenseur"
         },
         {
@@ -266,7 +266,7 @@
           "itemId": "voisin-ca-se-passe-bien"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "voisin-ca-se-passe-bien"
         },
         {
@@ -274,7 +274,7 @@
           "itemId": "voisin-a-bientot"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "voisin-a-bientot"
         }
       ]

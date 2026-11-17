@@ -326,7 +326,7 @@
           "itemId": "bonne-journee"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonne-journee"
         },
         {
@@ -334,7 +334,7 @@
           "itemId": "au-revoir"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "au-revoir"
         }
       ]
@@ -354,7 +354,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -363,7 +363,7 @@
           "texte": "Ah, bonjour ! Pardon, je suis un peu pressée, j'ai un rendez-vous dans cinq minutes, mais ça va, vous ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -375,7 +375,7 @@
           "itemId": "ca-va"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "ca-va"
         },
         {
@@ -383,7 +383,7 @@
           "itemId": "bonne-journee"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonne-journee"
         },
         {
@@ -391,7 +391,7 @@
           "itemId": "au-revoir"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "au-revoir"
         }
       ]

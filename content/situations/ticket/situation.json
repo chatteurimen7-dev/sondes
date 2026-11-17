@@ -160,11 +160,11 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "ticket-aller-simple"
         },
         {
@@ -172,7 +172,7 @@
           "itemId": "ticket-pour-ou"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "ticket-pour-ou"
         },
         {
@@ -180,7 +180,7 @@
           "itemId": "ticket-prix-ticket"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "ticket-prix-ticket"
         },
         {
@@ -188,7 +188,7 @@
           "itemId": "ticket-ticket-sorti"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "ticket-ticket-sorti"
         }
       ]
@@ -208,7 +208,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -217,7 +217,7 @@
           "texte": "Ah, désolée, le guichet est fermé à cette heure-ci, vous pouvez acheter votre ticket au distributeur, juste là, à droite de la porte."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -229,7 +229,7 @@
           "itemId": "ticket-distributeur"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "ticket-distributeur"
         },
         {
@@ -237,7 +237,7 @@
           "itemId": "ticket-carte-ou-pieces"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "ticket-carte-ou-pieces"
         },
         {
@@ -245,7 +245,7 @@
           "itemId": "ticket-ticket-sorti"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "ticket-ticket-sorti"
         }
       ]

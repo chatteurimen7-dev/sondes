@@ -161,7 +161,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -169,7 +169,7 @@
           "itemId": "gare-ou-voie"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "gare-ou-voie"
         },
         {
@@ -177,7 +177,7 @@
           "itemId": "gare-voie-quatre"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "gare-voie-quatre"
         },
         {
@@ -185,7 +185,7 @@
           "itemId": "gare-prochain-train"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "gare-prochain-train"
         }
       ]
@@ -205,7 +205,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -213,7 +213,7 @@
           "itemId": "gare-ou-voie"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "gare-ou-voie"
         },
         {
@@ -222,7 +222,7 @@
           "texte": "Il y a eu un changement : le train de dix heures quinze ne part plus de la voie trois, il part de la voie cinq, et il a vingt minutes de retard."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -234,7 +234,7 @@
           "itemId": "gare-retard"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "gare-retard"
         },
         {
@@ -242,7 +242,7 @@
           "itemId": "gare-valider-billet"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "gare-valider-billet"
         }
       ]

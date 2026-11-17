@@ -202,7 +202,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -211,7 +211,7 @@
           "texte": "Bonjour, je peux vous aider ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "prix-combien"
         },
         {
@@ -219,7 +219,7 @@
           "itemId": "prix-trois-euros"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "prix-trois-euros"
         },
         {
@@ -227,7 +227,7 @@
           "itemId": "prix-je-le-prends"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "prix-je-le-prends"
         },
         {
@@ -235,7 +235,7 @@
           "itemId": "au-revoir"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "au-revoir"
         }
       ]
@@ -255,11 +255,11 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "prix-combien"
         },
         {
@@ -268,7 +268,7 @@
           "texte": "Alors, ça, c'est trois euros quatre-vingt-dix, mais si vous en prenez deux, je vous fais un prix : cinq euros."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -280,7 +280,7 @@
           "itemId": "prix-cinq-euros"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "prix-cinq-euros"
         },
         {
@@ -288,7 +288,7 @@
           "itemId": "prix-je-le-prends"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "prix-je-le-prends"
         },
         {
@@ -296,7 +296,7 @@
           "itemId": "merci"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "merci"
         }
       ]

@@ -201,7 +201,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -209,7 +209,7 @@
           "itemId": "caisse-carte-magasin"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "caisse-carte-magasin"
         },
         {
@@ -217,7 +217,7 @@
           "itemId": "caisse-total"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "caisse-total"
         },
         {
@@ -225,7 +225,7 @@
           "itemId": "caisse-carte-especes"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "caisse-carte-especes"
         },
         {
@@ -233,7 +233,7 @@
           "itemId": "caisse-ticket"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "caisse-ticket"
         },
         {
@@ -241,7 +241,7 @@
           "itemId": "caisse-au-revoir-caisse"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "caisse-au-revoir-caisse"
         }
       ]
@@ -261,7 +261,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -269,7 +269,7 @@
           "itemId": "caisse-total"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "caisse-total"
         },
         {
@@ -278,7 +278,7 @@
           "texte": "Alors, votre carte ne passe pas, il y a un problème avec le terminal. Vous avez un autre moyen de paiement, peut-être des espèces ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -290,7 +290,7 @@
           "itemId": "caisse-en-especes"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "caisse-en-especes"
         },
         {
@@ -298,7 +298,7 @@
           "itemId": "caisse-monnaie"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "caisse-monnaie"
         },
         {
@@ -306,7 +306,7 @@
           "itemId": "caisse-au-revoir-caisse"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "caisse-au-revoir-caisse"
         }
       ]

@@ -186,7 +186,7 @@ function EtapeRepeter({ item, onSuivant }: { item: Item; onSuivant: () => void }
       rec.current = await demarrerEnregistrement(6000, (u) => {
         setUrl(u);
         setPhase('fini');
-        resultat(item.id, 'repetition', true);
+        resultat(item.id, 'repetition', false);
       });
       setPhase('enregistre');
     } catch {
@@ -199,7 +199,7 @@ function EtapeRepeter({ item, onSuivant }: { item: Item; onSuivant: () => void }
     const u = await rec.current?.arreter();
     setUrl(u);
     setPhase('fini');
-    resultat(item.id, 'repetition', true);
+    resultat(item.id, 'repetition', false);
   };
   const ecouterMaVoix = () => {
     if (!url) return;

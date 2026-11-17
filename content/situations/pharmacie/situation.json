@@ -192,7 +192,7 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
@@ -201,7 +201,7 @@
           "texte": "Bonjour, qu'est-ce qui ne va pas ?"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "pharmacie-mal-tete",
             "pharmacie-mal-gorge",
@@ -213,7 +213,7 @@
           "itemId": "pharmacie-depuis-quand"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pharmacie-depuis-quand"
         },
         {
@@ -221,7 +221,7 @@
           "itemId": "pharmacie-ordonnance"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pharmacie-ordonnance"
         },
         {
@@ -229,7 +229,7 @@
           "itemId": "pharmacie-trois-fois"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pharmacie-trois-fois"
         },
         {
@@ -237,7 +237,7 @@
           "itemId": "pharmacie-avec-eau"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pharmacie-avec-eau"
         }
       ]
@@ -257,11 +257,11 @@
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "bonjour"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pharmacie-medicament"
         },
         {
@@ -270,7 +270,7 @@
           "texte": "Alors, celui-là, il faut une ordonnance pour l'avoir, mais je peux vous proposer un autre médicament, sans ordonnance, qui fait le même effet pour les maux de tête."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -282,7 +282,7 @@
           "itemId": "pharmacie-ordonnance"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pharmacie-ordonnance"
         },
         {
@@ -290,7 +290,7 @@
           "itemId": "pharmacie-trois-fois"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pharmacie-trois-fois"
         },
         {
@@ -298,7 +298,7 @@
           "itemId": "pharmacie-avec-eau"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "pharmacie-avec-eau"
         }
       ]

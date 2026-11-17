@@ -176,7 +176,7 @@
           "itemId": "service-demander-aide"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "service-demander-aide"
         },
         {
@@ -184,7 +184,7 @@
           "itemId": "service-que-faire"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "service-que-faire"
         },
         {
@@ -192,7 +192,7 @@
           "itemId": "service-merci-recu"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "service-merci-recu"
         }
       ]
@@ -212,7 +212,7 @@
           "itemId": "service-porte"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "service-porte"
         },
         {
@@ -220,7 +220,7 @@
           "itemId": "service-je-vous-en-prie"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "service-je-vous-en-prie"
         },
         {
@@ -229,7 +229,7 @@
           "texte": "Ah, attendez, vous pouvez aussi m'aider à monter ce carton au deuxième étage ? Je n'arrive pas à le porter toute seule."
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "choix": [
             "repetez",
             "plus-lentement",
@@ -241,7 +241,7 @@
           "itemId": "service-sac-lourd"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "service-sac-lourd"
         },
         {
@@ -249,7 +249,7 @@
           "itemId": "service-merci-recu"
         },
         {
-          "qui": "soundes",
+          "qui": "sondes",
           "itemId": "service-merci-recu"
         }
       ]
