@@ -37,10 +37,8 @@ export type ResultatLecture = 'fichier' | 'synthese' | 'manquant';
 
 let courant: HTMLAudioElement | undefined;
 let finirCourant: (() => void) | undefined;
-let generationLecture = 0;
 
 export function arreter(): void {
-  generationLecture += 1;
   courant?.pause();
   courant = undefined;
   if ('speechSynthesis' in window) window.speechSynthesis.cancel();
@@ -50,20 +48,14 @@ export function arreter(): void {
 }
 
 export function jouer(id: string, options: OptionsLecture = {}): Promise<ResultatLecture> {
-  // Une nouvelle lecture interrompt proprement toute lecture précédente.
-  arreter();
-  const generation = generationLecture;
   const chemin = fichiers[id];
   if (chemin) {
     return new Promise((resolve) => {
       const a = new Audio(`${base}${chemin}`);
       courant = a;
-      let termine = false;
       const fin = (r: ResultatLecture) => () => {
-        if (termine) return;
-        termine = true;
         if (courant === a) courant = undefined;
-        if (generation === generationLecture) finirCourant = undefined;
+        finirCourant = undefined;
         resolve(r);
       };
       finirCourant = fin('fichier');
@@ -77,11 +69,8 @@ export function jouer(id: string, options: OptionsLecture = {}): Promise<Resulta
       const u = new SpeechSynthesisUtterance(options.texteFr);
       u.lang = 'fr-FR';
       u.rate = options.lent ? 0.6 : 0.95;
-      let termine = false;
       const fin = () => {
-        if (termine) return;
-        termine = true;
-        if (generation === generationLecture) finirCourant = undefined;
+        finirCourant = undefined;
         resolve('synthese');
       };
       finirCourant = fin;
